@@ -10,6 +10,27 @@
     border: 1px solid black;
 }
 
+#color-sample-1 {
+    background-color: palegoldenrod;
+}
+
+#color-sample-2 {
+    background-color: paleturquoise;
+}
+
+#color-sample-3 {
+    background-color: peachpuff;
+}
+
+#color-sample-4 {
+    background-color: palevioletred;
+}
+
+#color-sample-background {
+    background-color: black;
+    padding: 20px;
+}
+
 /* --------------------------------- Swatches */
 #swatch-container {
     display: flex;
