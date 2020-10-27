@@ -1,3 +1,9 @@
+/* --------------------------------- Nav */
+.menu-item span {
+    display: block;
+    width: 100%;
+}
+
 /* --------------------------------- Headings */
 #main-heading {
     text-align: center;
