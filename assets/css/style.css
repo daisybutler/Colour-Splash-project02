@@ -1,3 +1,8 @@
 .color-sample {
     border: 1px solid black;
 }
+
+#swatch-container {
+    display: flex;
+    justify-content: center;
+}
