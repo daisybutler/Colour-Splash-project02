@@ -7,10 +7,18 @@
     color: lightgrey;
 }
 
+#main-heading-section {
+    padding: 40px 10px 40px 10px;
+    background-color: #F8F9FA;
+}
+
+
 
 /* --------------------------------- Color sampling area */
 
-
+.color-sample-three {
+    margin-left: 5px;
+}
 
 .color-one {
     background-color: pink;
