@@ -1,8 +1,5 @@
 /* --------------------------------- Nav */
-.menu-item span {
-    display: block;
-    width: 100%;
-}
+
 
 /* --------------------------------- Headings */
 #main-heading {
@@ -13,8 +10,10 @@
 
 /* --------------------------------- Color sampling area */
 
+
+
 .color-one {
-    background-color: palegoldenrod;
+    background-color: pink;
 }
 
 .color-two{
