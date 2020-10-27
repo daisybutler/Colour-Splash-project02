@@ -6,28 +6,25 @@
 
 
 /* --------------------------------- Color sampling area */
-.color-sample {
-    border: 1px solid black;
-}
 
-#color-sample-1 {
+.color-one {
     background-color: palegoldenrod;
 }
 
-#color-sample-2 {
+.color-two{
     background-color: paleturquoise;
 }
 
-#color-sample-3 {
+.color-three {
     background-color: peachpuff;
 }
 
-#color-sample-4 {
+.color-four {
     background-color: palevioletred;
 }
 
-#color-sample-background {
-    background-color: black;
+.color-five {
+    background-color: grey;
     padding: 20px;
 }
 
