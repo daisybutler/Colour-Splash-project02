@@ -27,18 +27,18 @@
 
 .color-two{
     background-color: #a882c1;
-    margin: 20px 0 20px 0;
-    display: inline-block;
-   
 }
-#color-gap {
-    display: inline-block;
+
+.color-sample color-two {
+    margin: 20px 0 20px 0;
 }
 
 .color-three {
     background-color: #b9c406;
+    
+}
+.color-sample color-three {
     margin: 20px 0 20px 0;
-    display: inline-block;
 }
 
 .color-four {
@@ -47,16 +47,23 @@
 
 .color-five {
     background-color: #f4f3f4;
+    
+}
+.color-sample color-five {
     padding: 30px 45px 30px 45px;
 }
 
 .color-sample {
     height: 100px;
-   
+   display: inline-block;
 }
 
 /* --------------------------------- Swatches */
 #swatch-container {
     display: flex;
     justify-content: center;
+}
+
+.swatch {
+   margin-left: 10px;
 }
