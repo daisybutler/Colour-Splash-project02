@@ -19,13 +19,12 @@
 #colour-sampling-area {
     margin-left: 40px;
     margin-top: 50px;
-
 }
 
 #color-sample-background {
-    padding: 30px 50px 30px 50px;
+    padding: 20px 50px 20px 50px;
     border: 1px solid transparent;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .color-one {
@@ -37,11 +36,7 @@
 }
 
 .color-three {
-    background-color: #b9c406;
-    
-}
-.color-sample color-three {
-    margin: 20px 0 20px 0;
+    background-color: #b9c406; 
 }
 
 .color-four {
@@ -49,13 +44,12 @@
 }
 
 .color-sample {
-    height: 100px;
+   height: 100px;
    display: inline-block;
    margin-top: 10px;
    margin-bottom: 10px;
    border: 1px solid transparent;
-   border-radius: 10px;
-   
+   border-radius: 5px; 
 }
 
 /* --------------------------------- Swatches */
@@ -71,5 +65,5 @@
 }
 
 #swatches .color-one {
-    margin-top: 50px;
+    margin-top: 40px;
 }
