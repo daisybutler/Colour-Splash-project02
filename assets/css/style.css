@@ -17,8 +17,13 @@
 /* --------------------------------- Color sampling area */
 
 #colour-sampling-area {
-    padding: 30px 70px 30px 70px;
+    margin-left: 40px;
+    margin-top: 50px;
 
+}
+
+#color-sample-background {
+    padding: 30px 50px 30px 50px;
 }
 
 .color-one {
@@ -29,10 +34,6 @@
     background-color: #a882c1;
 }
 
-.color-sample color-two {
-    margin: 20px 0 20px 0;
-}
-
 .color-three {
     background-color: #b9c406;
     
@@ -41,25 +42,25 @@
     margin: 20px 0 20px 0;
 }
 
-
 .color-four {
     background-color: #f4f3f4;
-    
 }
+
 .color-sample color-four {
-    padding: 30px 45px 30px 45px;
+    margin: 30px 45px 30px 45px;
 }
 
 .color-sample {
     height: 100px;
    display: inline-block;
+   
 }
 
 /* --------------------------------- Swatches */
 
 .swatch {
     display: block;
-   margin-left: 50px;
+   margin-left: 20px;
    margin-top: 20px;
    height: 50px;
    width: 50px;
