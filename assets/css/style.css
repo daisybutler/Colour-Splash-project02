@@ -59,7 +59,10 @@
 
 .swatch {
     display: block;
-   margin-left: 10px;
+   margin-left: 50px;
+   margin-top: 20px;
    height: 50px;
    width: 50px;
+   border: 1px solid transparent;
+   border-radius: 10px;
 }
