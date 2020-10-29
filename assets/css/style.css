@@ -16,16 +16,29 @@
 
 /* --------------------------------- Color sampling area */
 
+#colour-sampling-area {
+    padding: 30px 70px 30px 70px;
+
+}
+
 .color-one {
     background-color: #824ca7;
 }
 
 .color-two{
     background-color: #a882c1;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+   
+}
+#color-gap {
+    display: inline-block;
 }
 
 .color-three {
     background-color: #b9c406;
+    margin: 20px 0 20px 0;
+    display: inline-block;
 }
 
 .color-four {
@@ -38,7 +51,8 @@
 }
 
 .color-sample {
-    height: 150px;
+    height: 100px;
+   
 }
 
 /* --------------------------------- Swatches */
