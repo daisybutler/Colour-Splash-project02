@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
+
 /* --------------------------------- Nav */
 
 
@@ -70,6 +73,10 @@
 
 #labels {
     margin-left: 5px;
+}
+
+#labels p {
+    font-weight: bold;
 }
 
 #hex-one {
