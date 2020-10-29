@@ -41,15 +41,12 @@
     margin: 20px 0 20px 0;
 }
 
-.color-four {
-    background-color: #824ca7;
-}
 
-.color-five {
+.color-four {
     background-color: #f4f3f4;
     
 }
-.color-sample color-five {
+.color-sample color-four {
     padding: 30px 45px 30px 45px;
 }
 
@@ -59,11 +56,10 @@
 }
 
 /* --------------------------------- Swatches */
-#swatch-container {
-    display: flex;
-    justify-content: center;
-}
 
 .swatch {
+    display: block;
    margin-left: 10px;
+   height: 50px;
+   width: 50px;
 }
