@@ -1,5 +1,7 @@
+/* --------------------------------- Sitewide */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
+
 
 /* --------------------------------- Nav */
 
@@ -107,4 +109,11 @@
 
 #hex-four {
     margin-top: 65px;
+}
+
+#color-picker {
+    height: 400px;
+    width: 200px;
+    background-color: grey;
+    margin-left: 40px;
 }
