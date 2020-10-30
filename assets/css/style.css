@@ -37,6 +37,7 @@
 #main-heading-section {
     padding: 40px 10px 40px 10px;
     background-color: #F8F9FA;
+    border-bottom: 10px solid #dddddd;
 }
 
 
@@ -46,6 +47,7 @@
 #colour-sampling-area {
     margin-left: 40px;
     margin-top: 50px;
+    
 }
 
 #color-sample-background {
