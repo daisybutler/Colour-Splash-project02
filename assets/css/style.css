@@ -5,6 +5,11 @@
 
 /* --------------------------------- Nav */
 
+.nav-item a {
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    
+}
 
 /* --------------------------------- Headings */
 #main-heading {
