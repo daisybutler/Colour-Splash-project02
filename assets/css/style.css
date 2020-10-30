@@ -5,6 +5,9 @@
 
 /* --------------------------------- Nav */
 
+.navbar navbar-dark {
+    background-color: grey;
+}
 .nav-item a {
     font-family: "Heebo", sans-serif;
     font-size: 20px;
