@@ -95,20 +95,26 @@
     font-weight: bold;
 }
 
-#hex-one {
+#labels .hex-one {
     margin-top: 50px;
 }
 
-#hex-two {
+#labels .hex-two {
     margin-top: 70px;
 }
 
-#hex-three {
+#labels .hex-three {
     margin-top: 65px;
 }
 
-#hex-four {
+#labels .hex-four {
     margin-top: 65px;
+}
+
+#swatches p {
+    margin-left: 14px;
+    margin-top: 3px;
+    font-weight: bold;
 }
 
 #color-picker {
