@@ -14,7 +14,8 @@
 }
 
 .navbar-brand img {
-    background-color: rgba(0,0,0,0);
+    border: 2px solid rgb(172, 168, 168);
+    border-radius: 8px;
 }
 
 /* --------------------------------- Headings */
@@ -150,4 +151,9 @@ footer {
 .footer-contents {
     float: none;
     margin: 0 auto;
+}
+
+.footer-contents img {
+    border: 2px solid rgb(172, 168, 168);
+    border-radius: 8px;
 }
