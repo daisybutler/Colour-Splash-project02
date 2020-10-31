@@ -133,3 +133,13 @@
     background-color: grey;
     margin-left: 40px;
 }
+
+/* --------------------------------- Footer */
+
+footer {
+    background-color: #DDDDDD;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    height: 100px;
+}
