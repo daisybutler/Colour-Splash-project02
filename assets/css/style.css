@@ -5,6 +5,9 @@
 
 /* --------------------------------- Nav */
 
+.navbar{
+    height: 100px;
+}
 .nav-item a {
     font-family: "Heebo", sans-serif;
     font-size: 20px;
@@ -137,7 +140,7 @@
 /* --------------------------------- Footer */
 
 footer {
-    background-color: #DDDDDD;
+    background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
     align-content: center;
     margin-top: 100px;
     margin-bottom: 0;
