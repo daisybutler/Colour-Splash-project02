@@ -5,6 +5,11 @@
 
 /* --------------------------------- Nav */
 
+header {
+padding-left: 0;
+padding-right: 0;
+}
+
 .navbar{
     height: 100px;
 }
@@ -133,7 +138,7 @@
 
 #color-picker {
     height: 400px;
-    width: 200px;
+    width: 150px;
     background-color: grey;
     margin-left: 40px;
 }
