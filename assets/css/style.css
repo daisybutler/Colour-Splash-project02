@@ -14,7 +14,7 @@
 }
 
 .navbar-brand img {
-    border: 2px solid rgb(172, 168, 168);
+    border: 2px solid rgb(202, 198, 198);;
     border-radius: 8px;
 }
 
@@ -156,6 +156,6 @@ footer {
 }
 
 .footer-contents img {
-    border: 2px solid rgb(172, 168, 168);
+    border: 2px solid rgb(202, 198, 198);
     border-radius: 8px;
 }
