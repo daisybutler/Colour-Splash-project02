@@ -151,6 +151,8 @@ footer {
 .footer-contents {
     float: none;
     margin: 0 auto;
+    margin-top: 25px;
+   
 }
 
 .footer-contents img {
