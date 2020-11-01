@@ -11,6 +11,7 @@ html, body {
 .navbar{
     height: 100px;
 }
+
 .nav-item a {
     font-family: "Heebo", sans-serif;
     font-size: 20px;
