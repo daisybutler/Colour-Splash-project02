@@ -2,13 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
 
-
-/* --------------------------------- Nav */
-
-header {
-padding-left: 0;
-padding-right: 0;
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
+/* --------------------------------- Nav */
 
 .navbar{
     height: 100px;
@@ -18,9 +16,10 @@ padding-right: 0;
     font-size: 20px;
 }
 
-.navbar-brand img {
-    border: 2px outset rgb(255, 255, 255);
-    border-radius: 8px;
+.navbar-brand i {
+    font-size: 55px;
+    color: grey;
+    padding-left: 10px;
 }
 
 /* --------------------------------- Headings */
@@ -47,6 +46,7 @@ padding-right: 0;
     padding: 40px 10px 40px 10px;
     background-color: #F8F9FA;
     border-bottom: 10px solid #dddddd;
+    margin-left: 0;
 }
 
 
@@ -56,7 +56,6 @@ padding-right: 0;
 #colour-sampling-area {
     margin-left: 40px;
     margin-top: 50px;
-    
 }
 
 #color-sample-background {
@@ -151,16 +150,16 @@ footer {
     margin-top: 100px;
     margin-bottom: 0;
     height: 100px;
+    
 }
 
 .footer-contents {
     float: none;
     margin: 0 auto;
     margin-top: 25px;
-   
 }
 
-.footer-contents img {
-    border: 2px outset rgb(255, 255, 255);
-    border-radius: 8px;
+.footer-contents i {
+    font-size: 55px;
+    color: grey;
 }
