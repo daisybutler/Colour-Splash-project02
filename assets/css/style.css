@@ -8,7 +8,6 @@ html, body {
 }
 /* --------------------------------- Nav */
 
-
 .navbar{
     height: 100px;
 }
@@ -23,6 +22,7 @@ html, body {
     color: grey;
     padding-left: 10px;
 }
+
 
 /* --------------------------------- Headings */
 #main-heading {
