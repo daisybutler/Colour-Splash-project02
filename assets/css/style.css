@@ -107,6 +107,11 @@ footer {
     text-align: center;
 }
 
+#three-steps img {
+   width: 100%;
+   height: auto;
+}
+
 #call-to-action {
     display: flex;
     justify-content: center;
@@ -123,8 +128,6 @@ footer {
 #call-to-action-button:hover {
     font-size: 25px;
 }
-
-
 
 /* -------------------------------------------------------------------------- tester.html */
 
