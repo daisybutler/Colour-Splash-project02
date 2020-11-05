@@ -235,6 +235,18 @@ footer {
     text-align: right;
 }
 
+.contact-text h3 {
+    font-family: "Heebo", sans-serif;
+    font-size: 50px;
+    color: #bab0a4;
+}
+
+.contact-text p {
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    color: #bab0a4;
+}
+
 /* -------------------------------------------------------------------------- tester.html */
 
 /* --------------------------------- Controls */
