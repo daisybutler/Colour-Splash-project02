@@ -83,13 +83,12 @@ footer {
     background-size: cover;
     min-height: 500px;
     padding-top: 50px;
- 
 }
 
  .jumbotron {
     margin: 0 300px 0 300px;
     padding-top: 30px;
-    background-color: rgba(221, 221, 221, 0.8)
+    background-color: rgba(221, 221, 221, 0.8);
 }
 
 .jumbotron h2 {
@@ -106,7 +105,21 @@ footer {
     text-align: center;
 }
 
+#call-to-action {
+    justify-content: center;
+}
 
+#call-to-action-button {
+    color: #ffffff;
+    font-size: 20px;
+    -webkit-transition: .15s ease-out;
+-moz-transition: .15s ease-out;
+transition: .15s ease-out;
+}
+
+#call-to-action-button:hover {
+    font-size: 25px;
+}
 
 
 
