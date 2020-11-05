@@ -88,6 +88,16 @@ footer {
 
 .testing-controls {
     display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+.control-link a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: grey;
+    font-family: "Heebo", sans-serif;
 }
 
 
