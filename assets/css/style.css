@@ -172,8 +172,27 @@ footer {
     display: inline-block;
     width: 150px;
     height: 150px;
-    background-color: grey;
     margin-right:5px;
+}
+
+#review-one {
+    background-color: #EF7566;
+}
+
+#review-two {
+    background-color: #E4CA7C;
+}
+
+#review-three {
+    background-color: #46D9BD;
+}
+
+#review-four {
+    background-color: #00C2DE;
+}
+
+#review-five {
+    background-color: #BD60CE;
 }
 
 /* -------------------------------------------------------------------------- tester.html */
