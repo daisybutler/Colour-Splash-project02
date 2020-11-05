@@ -136,6 +136,30 @@ footer {
     #three-steps img {display: none}
 }
 
+#smaller-screen-steps .step {
+    width: 100%;
+    height: 400px;
+} 
+
+
+#smaller-screen-steps .step h4 {
+    color: #fff;
+    font-size: 60px;
+}
+
+
+#smaller-screen-steps .step-one {
+    background-color: #EF7566;
+}
+
+#smaller-screen-steps .step-two {
+    background-color: #46D9BD;
+}
+
+#smaller-screen-steps .step-three {
+    background-color: #BD60CE;
+}
+
 /* --------------------------------- CTA Button */
 
 #call-to-action {
