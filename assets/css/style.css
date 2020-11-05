@@ -46,7 +46,6 @@ html, body {
     letter-spacing: 1px;
     padding-top: 0;
     color: #ffffff;
-
 }
 
 #main-heading-section {
@@ -64,7 +63,6 @@ footer {
     margin-top: 100px;
     margin-bottom: 0;
     height: 100px;
-    
 }
 
 .footer-contents {
@@ -110,6 +108,7 @@ footer {
 }
 
 #call-to-action {
+    display: flex;
     justify-content: center;
 }
 
