@@ -203,6 +203,18 @@ footer {
     font-weight: bold;
 }
 
+/*---- Couldn't get swatches to respond to a tighter layout on small screen sizes.
+@media only screen and (max-width: 576px){
+    #labels .hex-one {margin-top: 0;}
+    #labels .hex-two {margin-top: 0;}
+    #labels .hex-three {margin-top: 0;}
+    #labels .hex-four {margin-top: 0;}
+}
+*/
+
+
+/* --------------------------------- Colour Picker */
+
 #color-picker {
     height: 400px;
     width: 150px;
