@@ -224,6 +224,17 @@ footer {
     background-color: #BD60CE;
 }
 
+/* --------------------------------- Contact */
+
+#contact-section {
+    margin-top: 80px;
+    
+}
+
+.contact-text {
+    text-align: right;
+}
+
 /* -------------------------------------------------------------------------- tester.html */
 
 /* --------------------------------- Controls */
