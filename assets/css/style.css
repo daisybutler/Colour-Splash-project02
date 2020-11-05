@@ -1,4 +1,4 @@
-/* --------------------------------- Sitewide */
+/* ----------------------------------------------------------------- Sitewide */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
 
@@ -65,8 +65,37 @@ html, body {
     margin-left: 0;
 }
 
+/* --------------------------------- Footer */
+
+footer {
+    background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    height: 100px;
+    
+}
+
+.footer-contents {
+    float: none;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.footer-contents i {
+    font-size: 55px;
+    color: #bab0a4;
+}
+
+/* -------------------------------------------------------------------------- index.html */
 
 
+
+
+
+
+
+/* -------------------------------------------------------------------------- tester.html */
 /* --------------------------------- Color sampling area */
 
 #colour-sampling-area {
@@ -158,24 +187,3 @@ html, body {
     margin-left: 40px;
 }
 
-/* --------------------------------- Footer */
-
-footer {
-    background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
-    align-content: center;
-    margin-top: 100px;
-    margin-bottom: 0;
-    height: 100px;
-    
-}
-
-.footer-contents {
-    float: none;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-.footer-contents i {
-    font-size: 55px;
-    color: #bab0a4;
-}
