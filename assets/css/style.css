@@ -76,7 +76,13 @@ footer {
 
 /* -------------------------------------------------------------------------- index.html */
 
-
+#colour-splash-intro {
+    background: url("../images/colour-splash-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
 
 
 
@@ -101,7 +107,6 @@ footer {
     color: grey;
     font-family: "Heebo", sans-serif;
 }
-
 
 /* --------------------------------- Help Modal */
 
