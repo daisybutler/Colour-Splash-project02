@@ -90,6 +90,8 @@ footer {
  .jumbotron {
     padding-top: 30px;
     background-color: rgba(221, 221, 221, 0.8);
+    border: 1px solid transparent;
+    border-radius: 30px;
 }
 
 .jumbotron h2 {
