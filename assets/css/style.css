@@ -176,6 +176,15 @@ footer {
     border: 1px solid transparent;
     border-radius: 20px;
 }
+
+.review p {
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
 @media (min-width: 576px) {
     .review {width: 180px; height: 180px}
 }
