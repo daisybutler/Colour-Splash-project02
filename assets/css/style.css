@@ -104,6 +104,7 @@ footer {
     border: 1px solid transparent;
     border-radius: 30px;
     margin-bottom: 50px;
+    box-shadow: 1px 2px 5px rgb(172, 171, 171);
 }
 
 .jumbotron h2 {
@@ -159,9 +160,7 @@ footer {
     color: #fff;
     font-size: 40px;
     font-family: "Heebo", sans-serif;
-
 }
-
 
 #smaller-screen-steps .step-one {
     background-color: #EF7566;
