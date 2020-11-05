@@ -79,6 +79,8 @@ footer {
 
 /* -------------------------------------------------------------------------- index.html */
 
+/* --------------------------------- Homepage Intro */
+
 #colour-splash-intro {
     background: url("../images/colour-splash-background.jpg");
     background-position: center;
@@ -88,6 +90,8 @@ footer {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+/* --------------------------------- Jumbotron */
 
  .jumbotron {
     padding-top: 30px;
@@ -118,6 +122,7 @@ footer {
     .jumbotron p {font-size: 30px}
 }
 
+/* --------------------------------- Three Steps Image */
 
 #three-steps img {
     display: flex;
@@ -125,6 +130,8 @@ footer {
    height: auto;
    padding-bottom: 40px;
 }
+
+/* --------------------------------- CTA Button */
 
 #call-to-action {
     display: flex;
@@ -153,7 +160,6 @@ footer {
     #call-to-action-button:hover {font-size: 35px}
 
 }
-
 
 /* -------------------------------------------------------------------------- tester.html */
 
