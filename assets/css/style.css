@@ -192,6 +192,10 @@ footer {
     transform: translate(-50%, -50%)
 }
 
+@media only screen and (max-width: 576px){
+    #reviews-section {display: none}
+}
+
 @media (min-width: 576px) {
     .review {width: 180px; height: 180px}
 }
@@ -253,7 +257,6 @@ footer {
     .contact-text h3 {font-size: 50px}
     .contact-text p {font-size: 25px}
     #small-question-mark {display: none}
-
 }
 
 @media (min-width: 768px) {
