@@ -167,6 +167,7 @@ footer {
 #reviews-section {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .review {
     display: inline-block;
@@ -175,6 +176,7 @@ footer {
     margin-right:5px;
     border: 1px solid transparent;
     border-radius: 20px;
+    position: relative;
 }
 
 .review p {
@@ -183,6 +185,11 @@ footer {
     text-align: center;
     font-size: 24px;
     padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 @media (min-width: 576px) {
