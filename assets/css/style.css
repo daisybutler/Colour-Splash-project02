@@ -133,19 +133,19 @@ footer {
 }
 
 .color-one {
-    background-color: #824ca7;
+    background-color: #dddddd;
 }
 
 .color-two{
-    background-color: #a882c1;
+    background-color: #dddddd;
 }
 
 .color-three {
-    background-color: #b9c406; 
+    background-color: #dddddd; 
 }
 
 .color-four {
-    background-color: #f4f3f4;
+    background-color: #ffffff;
 }
 
 .color-sample {
@@ -165,7 +165,7 @@ footer {
    margin-top: 40px;
    height: 50px;
    width: 50px;
-   border: 1px solid transparent;
+   border: 1px solid #dddddd;
    border-radius: 10px;
 }
 
