@@ -88,7 +88,7 @@ footer {
 }
 
  .jumbotron {
-    margin: 0 300px 0 300px;
+    /*margin: 0 300px 0 300px; */
     padding-top: 30px;
     background-color: rgba(221, 221, 221, 0.8);
 }
@@ -108,8 +108,10 @@ footer {
 }
 
 #three-steps img {
+    display: flex;
    width: 100%;
    height: auto;
+   padding-bottom: 20px;
 }
 
 #call-to-action {
