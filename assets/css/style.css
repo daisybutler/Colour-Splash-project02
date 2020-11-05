@@ -82,6 +82,13 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
+ 
+}
+
+ .jumbotron {
+    margin: 0 200px 0 200px;
+    padding-top: 30px;
+    background-color: rgba(250, 250, 250, 0.7)
 }
 
 
