@@ -252,6 +252,7 @@ footer {
     .contact-text{text-align: right}
     .contact-text h3 {font-size: 50px}
     .contact-text p {font-size: 25px}
+    #small-question-mark {display: none}
 
 }
 
