@@ -220,6 +220,8 @@ footer {
     border: 1px solid transparent;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 10px rgb(70, 69, 69);
 }
 
 .review p {
