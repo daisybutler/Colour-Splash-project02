@@ -88,7 +88,6 @@ footer {
 }
 
  .jumbotron {
-    /*margin: 0 300px 0 300px; */
     padding-top: 30px;
     background-color: rgba(221, 221, 221, 0.8);
 }
@@ -111,7 +110,7 @@ footer {
     display: flex;
    width: 100%;
    height: auto;
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 }
 
 #call-to-action {
