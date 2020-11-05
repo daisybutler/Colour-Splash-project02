@@ -144,7 +144,7 @@ footer {
 
 #smaller-screen-steps .step {
     width: 100%;
-    height: 400px;
+    height: auto;
     text-align: center;
     padding: 40px 60px 40px 20px;
 } 
@@ -172,6 +172,7 @@ footer {
 
 #smaller-screen-steps .step-three {
     background-color: #BD60CE;
+  
 }
 
 /* --------------------------------- CTA Button */
