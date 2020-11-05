@@ -88,7 +88,7 @@ footer {
     background-size: cover;
     min-height: 500px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    
 }
 
 /* --------------------------------- Jumbotron */
@@ -98,6 +98,7 @@ footer {
     background-color: rgba(221, 221, 221, 0.8);
     border: 1px solid transparent;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 
 .jumbotron h2 {
@@ -163,11 +164,16 @@ footer {
 
 /* --------------------------------- Reviews */
 
+#reviews-section {
+    display: flex;
+    justify-content: center;
+}
 .review {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: grey;
+    margin-right:5px;
 }
 
 /* -------------------------------------------------------------------------- tester.html */
