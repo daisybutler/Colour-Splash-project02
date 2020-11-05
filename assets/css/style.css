@@ -90,7 +90,9 @@ footer {
     display: flex;
     list-style: none;
     padding: 0;
-
+    background-color: #ffffff;
+    float: right;
+    margin-right: 15px;
 }
 
 .control-link a {
@@ -123,7 +125,7 @@ footer {
 
 #colour-sampling-area {
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #color-sample-background {
