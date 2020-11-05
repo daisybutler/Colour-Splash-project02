@@ -24,19 +24,6 @@ html, body {
     padding-left: 10px;
 }
 
-/* --------------------------------- Help Modal */
-
-.modal-header {
-    justify-content: center;
-}
-
-.modal-content {
-    text-align: center;
-}
-
-.modal-footer {
-    justify-content: center;
-}
 
 /* --------------------------------- Headings */
 #main-heading {
@@ -96,7 +83,31 @@ footer {
 
 
 /* -------------------------------------------------------------------------- tester.html */
-/* --------------------------------- Color sampling area */
+
+/* --------------------------------- Controls */
+
+
+
+
+/* --------------------------------- Help Modal */
+
+.modal-header {
+    justify-content: center;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.btn-default {
+    background-color: #bab0a4;
+}
+
+/* --------------------------------- Color Tester */
 
 #colour-sampling-area {
     margin-left: 40px;
