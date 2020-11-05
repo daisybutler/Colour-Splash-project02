@@ -183,7 +183,7 @@ footer {
     color: #fff;
     font-family: "Heebo", sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -232,12 +232,13 @@ footer {
 }
 
 .contact-text {
-    text-align: right;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .contact-text h3 {
     font-family: "Heebo", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #bab0a4;
 }
 
@@ -245,6 +246,19 @@ footer {
     font-family: "Heebo", sans-serif;
     font-size: 20px;
     color: #bab0a4;
+}
+
+@media (min-width: 576px) {
+    .contact-text{text-align: right}
+    .contact-text h3 {font-size: 50px}
+    .contact-text p {font-size: 25px}
+
+}
+
+@media (min-width: 768px) {
+    .contact-text h3 {font-size: 60px}
+    .contact-text p {font-size: 30px}
+
 }
 
 
