@@ -37,6 +37,8 @@
         </div>
     </header>
 
+    <!----Testing Controls-->
+
     <div id="colour-sampling-area" class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -51,24 +53,29 @@
                         <a class="control" data-toggle="modal" data-target="#helpModal">Help</a>
                     </li>
                 </ul>
+
                 <!-- Help Modal -->
-            <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="helpModalLabel">How To Use</h5>
-                        </div>
-                        <div class="modal-body">
-                            <p>1. Select a shape by clicking on it.<br><br>2. Change its colour by entering a hex number or by using the slider on the colour picker.<br><br>3. Play around to find a combination of colours that you like.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Got it!</button>
+
+                <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="helpModalLabel">How To Use</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>1. Select a shape by clicking on it.<br><br>2. Change its colour by entering a hex number or by using the slider on the colour picker.<br><br>3. Play around to find a combination of colours that you like.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Got it!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
+
+        <!----Interactive Colour Blocks-->
+
         <div class="row">
             <div id="color-sample-background" class="col-9 col-md-5 color-four">
                 <div class="row">
@@ -81,6 +88,9 @@
                     <div id="color-sample-4" class="col-12 color-sample color-one"></div>
                 </div>
             </div>
+
+            <!---Small Screen ONLY Hex Number Displays (Beneath swatches - makes the screen look less cramped)-->
+
             <div class="row">
                 <div id="swatches" class="col-1">
                     <div class="swatch color-one"></div>
@@ -101,6 +111,9 @@
                     </div>
                 </div>
             </div>
+
+            <!---Medium Screens and Above Hex Number Displays (Own Column - utilise the large space better)-->
+
             <div class="row">
                 <div id="labels" class="col-1 d-none d-md-inline">
                     <div class="hex-one">
@@ -117,11 +130,17 @@
                     </div>
                 </div>
             </div>
+
+            <!---Colour Picker API----->
+
             <div class="row">
                 <div id="color-picker" class="col-12"></div>
             </div>
         </div>
     </div>
+
+    <!---Footer----->
+    
     <footer class="container-fluid">
         <div class="row">
             <div class="col-1 footer-contents">

@@ -86,7 +86,9 @@ footer {
 
 /* --------------------------------- Controls */
 
-
+.testing-controls {
+    display: flex;
+}
 
 
 /* --------------------------------- Help Modal */
