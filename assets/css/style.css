@@ -127,13 +127,13 @@ footer {
     align-content: center;
     margin-top: 100px;
     margin-bottom: 0;
-    height: 100px;
+    height: 150px;
 }
 
 .footer-contents {
     float: none;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 .footer-contents i {
