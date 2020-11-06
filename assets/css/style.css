@@ -36,6 +36,9 @@ html, body {
     font-family: "Heebo", sans-serif;
     font-weight: 600;
     font-size: 60px;
+    display: block;
+    width: 400px;
+    margin: auto;
 
     /*--Code taken directly from https://fossheim.io/writing/posts/css-text-gradient/ ------------------------*/
 
