@@ -509,27 +509,20 @@ footer {
 }
 
 #swatches p {
-    
     font-size: 11px;
     padding-top: 15px;
     padding-left: 2px;
-
    
 } 
-
 
 @media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
 }
 
-/*---- Couldn't get swatches to respond to a tighter layout on small screen sizes.
 @media only screen and (max-width: 576px){
-    #labels .hex-one {margin-top: 0;}
-    #labels .hex-two {margin-top: 0;}
-    #labels .hex-three {margin-top: 0;}
-    #labels .hex-four {margin-top: 0;}
+    #swatches .color-one {margin-top: 30px}
+    .swatch {margin-left: 0 }
 }
-*/
 
 
 /* --------------------------------- Colour Picker */
