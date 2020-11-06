@@ -151,14 +151,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
-    padding-top: 50px;
-    
+    padding-top: 50px;  
 }
-
-@media only screen and (max-width: 576px){
-    #colour-splash-intro {min-height: 400px}
-}
-
 
 /* --------------------------------- Jumbotron */
 
@@ -180,19 +174,12 @@ footer {
     text-shadow: 1px 1px 2px grey;
 }
   
-
 .jumbotron p {
     color: #ffffff;
     font-family: "Heebo", sans-serif;
     font-size: 25px;
     text-align: center;
-    text-shadow: 1px 1px 5px #bab0a4;
-    
-}
-
-@media (min-width: 992px) {
-    .jumbotron h2 {font-size: 40px}
-    .jumbotron p {font-size: 30px}
+    text-shadow: 1px 1px 5px #bab0a4;  
 }
 
 /* --------------------------------- Three Steps Image */
@@ -202,10 +189,6 @@ footer {
    width: 100%;
    height: auto;
    padding-bottom: 40px;
-}
-
-@media only screen and (max-width: 576px){
-    #three-steps img {display: none}
 }
 
 #smaller-screen-steps .step {
@@ -261,17 +244,6 @@ footer {
     font-size: 25px;
 }
 
-@media (min-width: 768px) {
-    #call-to-action-button {font-size: 25px}
-    #call-to-action-button:hover {font-size: 30px}
-}
-
-@media (min-width: 992px) { 
-    #call-to-action-button {font-size: 30px}
-    #call-to-action-button:hover {font-size: 35px}
-
-}
-
 /* --------------------------------- Reviews */
 
 #reviews-section {
@@ -302,24 +274,6 @@ footer {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-}
-
-@media only screen and (max-width: 576px){
-    #reviews-section {display: none}
-}
-
-@media (min-width: 576px) {
-    .review {width: 180px; height: 180px}
-}
-
-@media (min-width: 992px) {
-    .review {width: 200px; height: 200px}
-    .review p {font-size: 25px}
-}
-
-@media (min-width: 1200px) {
-    .review {width: 250px; height: 250px; margin-right: 15px}
-    .review p {font-size: 30px}
 }
 
 #review-one {
@@ -364,19 +318,6 @@ footer {
     font-family: "Heebo", sans-serif;
     font-size: 20px;
     color: #bab0a4;
-}
-
-@media (min-width: 576px) {
-    .contact-text{text-align: right}
-    .contact-text h3 {font-size: 50px}
-    .contact-text p {font-size: 25px}
-    #small-question-mark {display: none}
-}
-
-@media (min-width: 768px) {
-    .contact-text h3 {font-size: 60px}
-    .contact-text p {font-size: 30px}
-
 }
 
 
@@ -515,16 +456,6 @@ footer {
    
 } 
 
-@media only screen and (max-width: 442px){
-    #main-heading {font-size: 35px; max-width: 220px}
-}
-
-@media only screen and (max-width: 576px){
-    #swatches .color-one {margin-top: 30px}
-    .swatch {margin-left: 0 }
-}
-
-
 /* --------------------------------- Colour Picker */
 
 #color-picker {
@@ -534,3 +465,45 @@ footer {
     margin-left: 40px;
 }
 
+/* -------------------------------------------------------------------------- Media Queries */
+
+@media only screen and (max-width: 442px){
+    #main-heading {font-size: 35px; max-width: 220px}
+}
+
+@media only screen and (max-width: 576px){
+    #colour-splash-intro {min-height: 400px}
+    #three-steps img {display: none}
+    #reviews-section {display: none}
+    #swatches .color-one {margin-top: 30px}
+    .swatch {margin-left: 0}
+}
+
+@media (min-width: 576px) {
+    .review {width: 180px; height: 180px}
+    .contact-text{text-align: right}
+    .contact-text h3 {font-size: 50px}
+    .contact-text p {font-size: 25px}
+    #small-question-mark {display: none}
+}
+
+@media (min-width: 768px) {
+    #call-to-action-button {font-size: 25px}
+    #call-to-action-button:hover {font-size: 30px}
+    .contact-text h3 {font-size: 60px}
+    .contact-text p {font-size: 30px}
+}
+
+@media (min-width: 992px) {
+    .jumbotron h2 {font-size: 40px}
+    .jumbotron p {font-size: 30px}
+    #call-to-action-button {font-size: 30px}
+    #call-to-action-button:hover {font-size: 35px}
+    .review {width: 200px; height: 200px}
+    .review p {font-size: 25px}
+}
+
+@media (min-width: 1200px) {
+    .review {width: 250px; height: 250px; margin-right: 15px}
+    .review p {font-size: 30px}
+}
