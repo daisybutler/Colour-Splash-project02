@@ -458,14 +458,16 @@ footer {
 
 #color-sample-3 {
     max-width: 45%;
-    margin-left: 8px;
+   
+    margin: auto;
 }
 
 #color-sample-2 {
     max-width: 45%;
-    margin-left: 8px;
+   
+    margin: auto;
 }
-
+/*
 @media (min-width: 992px) {
     #color-sample-3 {margin-left: 12px}
     #color-sample-2 {margin-left: 12px}
@@ -474,7 +476,7 @@ footer {
 @media (min-width:1200px) {
     #color-sample-3 {margin-left: 20px}
     #color-sample-2 {margin-left: 15px}
-}
+}*/
 /* --------------------------------- Swatches */
 
 .swatch {
