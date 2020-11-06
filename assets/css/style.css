@@ -514,13 +514,13 @@ footer {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 576px) {
+/*@media only screen and (max-width: 576px) {
     .small-screen-hex {display: none}
     #swatches {display: none}
     #main-heading {font-size: 40px; max-width: 300px}
-}
+} */
 
-@media only screen and (max-width: 349px){
+@media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
 }
 
