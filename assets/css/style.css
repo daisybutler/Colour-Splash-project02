@@ -33,73 +33,72 @@ html, body {
 /* --------------------------------- Headings */
 #main-heading {
     text-align: center;
-    color: #bab0a4;
     font-family: "Heebo", sans-serif;
     font-weight: 600;
     font-size: 60px;
 
-    /*--Code taken from https://fossheim.io/writing/posts/css-text-gradient/ ------------------------*/
+    /*--Code taken directly from https://fossheim.io/writing/posts/css-text-gradient/ ------------------------*/
+
     /* Create the gradient. */
     background-image: linear-gradient(
         50deg,
-        rgb(240, 141, 128) 16.666%, 
+        #EF7566 16.666%, 
         #E16541 16.666%, 
-        #E16541 33.333%, 
+        rgb(225, 161, 65) 33.333%, 
         #E4CA7C 33.333%, 
-        #E4CA7C 50%, 
+        rgb(208, 209, 114) 50%, 
         #46D9BD 50%, 
-        #46D9BD 66.666%, 
-        #BD60CE 66.666%, 
+        rgb(66, 197, 173) 66.666%, 
+        #00C2DE 66.666%, 
         #BD60CE 83.333%, 
         #BD60CE 83.333%);
 
     /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
+    background-size: 100%;
+    background-repeat: repeat;
 
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  
-  /* Animate the text when loading the element. */
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+    /* Animate the text when loading the element. */
     /* This animates it on page load and when hovering out. */
     animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+    }
 
-}
+    #main-heading:hover{
+        animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+    }
 
-#main-heading:hover{
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
+    /* Move the background and make it smaller. */
+    /* Animation shown when entering the page and after the hover animation. */
+    @keyframes rainbow-text-simple-animation-rev {
+        0% {
+            background-size: 650%;
+        }
+        40% {
+            background-size: 650%;
+        }
+        100% {
+            background-size: 100%;
+        }
+    }
 
-/* Move the background and make it smaller. */
-/* Animation shown when entering the page and after the hover animation. */
-@keyframes rainbow-text-simple-animation-rev {
-    0% {
-        background-size: 650%;
+    /* Move the background and make it larger. */
+    /* Animation shown when hovering over the text. */
+    @keyframes rainbow-text-simple-animation {
+        0% {
+            background-size: 100%;
+        }
+        80% {
+            background-size: 650%;
+        }
+        100% {
+            background-size: 650%;
+        }
     }
-    40% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 100%;
-    }
-}
-
-/* Move the background and make it larger. */
-/* Animation shown when hovering over the text. */
-@keyframes rainbow-text-simple-animation {
-    0% {
-        background-size: 100%;
-    }
-    80% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 650%;
-    }
-}
-
 
 #subtitle {
     font-family: "Heebo", sans-serif;
