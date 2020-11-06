@@ -509,16 +509,14 @@ footer {
 }
 
 #swatches p {
-    margin-left: 14px;
-    margin-top: 3px;
-    font-weight: bold;
-}
+    
+    font-size: 11px;
+    padding-top: 15px;
+    padding-left: 2px;
 
-/*@media only screen and (max-width: 576px) {
-    .small-screen-hex {display: none}
-    #swatches {display: none}
-    #main-heading {font-size: 40px; max-width: 300px}
-} */
+   
+} 
+
 
 @media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
