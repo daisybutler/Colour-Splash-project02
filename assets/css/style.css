@@ -481,6 +481,10 @@ footer {
     margin-top: 42px;
 }
 
+#labels .hex-five {
+    margin-top: 42px;
+}
+
 /* Styling for the hex numbers on small screens which appear inside the swatches. */
 #swatches p {
     font-size: 11px;
