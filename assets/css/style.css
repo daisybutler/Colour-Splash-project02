@@ -352,18 +352,21 @@ footer {
 
 /* --------------------------------- CONTROLS */
 
+#testing-controls-panel {
+    padding-bottom: 10px;
+}
+
 .testing-controls {
     display: flex;
     list-style: none;
     padding: 10px 0 10px 0;
     background-color: #ffffff;
-    /* Float right conforms to conventional positioning of control panels - intuitive experience for user. */
+    /* Float right conforms to conventional positioning of control panels - intuitive UX. */
     float: right;
     padding-left: 5px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 20px;
-    
 }
 
 .control-link a {
@@ -396,6 +399,7 @@ footer {
 
 #colour-sampling-area {
     padding: 30px 40px 30px 40px;
+    height: 70vh;
 }
 
 #color-sample-background {
