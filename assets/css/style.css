@@ -1,6 +1,8 @@
-/* ----------------------------------------------------------------- Sitewide */
+/* --------------------------------- FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
+
+/* --------------------------------- SITEWIDE FEATURES */
 
 html, body {
     width: 100%;
@@ -8,7 +10,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/* --------------------------------- Nav */
+/* --------------------------------- NAVBAR */
 
 .navbar{
     height: 100px;
@@ -31,7 +33,7 @@ html, body {
     padding-left: 10px;
 }
 
-/* --------------------------------- Headings */
+/* --------------------------------- HEADINGS */
 
 #main-heading {
     text-align: center;
@@ -42,7 +44,9 @@ html, body {
     width: 400px;
     margin: auto;
 
-    /*--Code for animated rainbow effect taken directly from https://fossheim.io/writing/posts/css-text-gradient/ ------------------------*/
+    /* ------------------ Original code credit: https://fossheim.io/writing/posts/css-text-gradient/ */
+
+    /*---RAINBOW EFFECT on the main heading for each page and animation when hovered over */
 
     /* Create the gradient. */
     background-image: linear-gradient(
@@ -58,18 +62,18 @@ html, body {
         #BD60CE 83.333%, 
         #BD60CE 83.333%);
 
-    /* Set the background size and repeat properties. */
+    /* Sets the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
 
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
+    /* Uses the text as a mask for the background. */
+    /* Shows the gradient as a text color rather than element bg. */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     
-    /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
+    /* Animates the text when loading the element. */
+    /* Animates the text on page load and when hovering over. */
     animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
     }
 
@@ -77,7 +81,7 @@ html, body {
         animation: rainbow-text-simple-animation 0.5s ease-in forwards;
     }
 
-    /* Move the background and make it smaller. */
+    /* Moves the background and makes it smaller. */
     /* Animation shown when entering the page and after the hover animation. */
     @keyframes rainbow-text-simple-animation-rev {
         0% {
@@ -91,7 +95,7 @@ html, body {
         }
     }
 
-    /* Move the background and make it larger. */
+    /* Moves the background and makes it larger. */
     /* Animation shown when hovering over the text. */
     @keyframes rainbow-text-simple-animation {
         0% {
@@ -104,6 +108,8 @@ html, body {
             background-size: 650%;
         }
     }
+
+    /* ---------------------------------------End of heading RAINBOW EFFECT code */
 
 #subtitle {
     font-family: "Heebo", sans-serif;
@@ -122,8 +128,9 @@ html, body {
     margin-left: 0;
 }
 
-/* --------------------------------- Footer */
+/* --------------------------------- FOOTER */
 
+/* Linear gradient creates and a visually appealing 3D effect */
 footer {
     background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
     align-content: center;
@@ -143,9 +150,9 @@ footer {
     color: #bab0a4;
 }
 
-/* -------------------------------------------------------------------------- index.html */
+/* -------------------------------------------------------------------------- INDEX.HTML */
 
-/* --------------------------------- Homepage Intro */
+/* --------------------------------- HOMEPAGE INTRODUCTION */
 
 #colour-splash-intro {
     background: url("../images/colour-splash-background.jpg");
@@ -156,14 +163,16 @@ footer {
     padding-top: 50px;  
 }
 
-/* --------------------------------- Jumbotron */
+/* --------------------------------- JUMBOTRON */
 
  .jumbotron {
     padding-top: 30px;
     background-color: rgba(221, 221, 221, 0.8);
+    /* setting a border and border radius softens the corners of shape for more visually appealing design */
     border: 1px solid transparent;
     border-radius: 30px;
     margin-bottom: 50px;
+    /* Box shadow gives a floating effect to jumbotron */
     box-shadow: 1px 2px 5px rgb(172, 171, 171);
 }
 
@@ -173,6 +182,7 @@ footer {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    /* Shadow makes the text stand out more on the background for better legibility */
     text-shadow: 1px 1px 2px grey;
 }
   
@@ -181,6 +191,7 @@ footer {
     font-family: "Heebo", sans-serif;
     font-size: 25px;
     text-align: center;
+    /* Shadow makes the text stand out more on the background for better legibility */
     text-shadow: 1px 1px 5px #bab0a4;  
 }
 
@@ -195,6 +206,7 @@ footer {
 
 #smaller-screen-steps .step {
     width: 100%;
+    /* Height: auto allows each box to only take up as much vertical space as is necessary to display their content */
     height: auto;
     text-align: center;
     padding: 40px 60px 40px 20px;
@@ -213,6 +225,7 @@ footer {
     font-family: "Heebo", sans-serif;
 }
 
+/* Matching colours for each step as displayed in its xs screen block and corresponding sm screen plus image demonstrates visual consistency. */
 #smaller-screen-steps .step-one {
     background-color: #EF7566;
 }
@@ -223,10 +236,9 @@ footer {
 
 #smaller-screen-steps .step-three {
     background-color: #BD60CE;
-  
 }
 
-/* --------------------------------- CTA Button */
+/* --------------------------------- CALL TO ACTION BUTTON */
 
 #call-to-action {
     display: flex;
@@ -236,17 +248,20 @@ footer {
 #call-to-action-button {
     color: #ffffff;
     font-size: 20px;
+    /* Transitions alway the user a smoother interaction with the button for good UX */
     -webkit-transition: .15s ease-out;
     -moz-transition: .15s ease-out;
     transition: .15s ease-out;
+    /* Box shadow gives a 3D effect to button */
     box-shadow: 1px 1px 2px grey;
 }
 
+/* Increases the button's size when the user hovers over it, acting as a visual prompt to click it. */
 #call-to-action-button:hover {
     font-size: 25px;
 }
 
-/* --------------------------------- Reviews */
+/* --------------------------------- REVIEWS */
 
 #reviews-section {
     display: flex;
@@ -259,10 +274,13 @@ footer {
     width: 150px;
     height: 150px;
     margin-right:5px;
+    /* Adding a transparent border and border-radius property softens the edges of the shapes for a more visually appealing look. */
     border: 1px solid transparent;
     border-radius: 20px;
+    /* Relative position to allow for absolute positioning for its child p elements. */
     position: relative;
     margin-bottom: 5px;
+    /* Box shadow gives floating effect to review boxes. */
     box-shadow: 1px 1px 10px rgb(70, 69, 69);
 }
 
@@ -272,6 +290,7 @@ footer {
     text-align: center;
     font-size: 20px;
     padding: 10px;
+    /* Positioning and translation ensures p elements remain centered in div on all screen sizes. */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -279,6 +298,7 @@ footer {
     transform: translate(-50%, -50%)
 }
 
+/* Review boxes correspond in colour to the background image colour it is adjacent, providing visual consistency to the page. */
 #review-one {
     background-color: #EF7566;
 }
@@ -299,7 +319,7 @@ footer {
     background-color: #BD60CE;
 }
 
-/* --------------------------------- Contact */
+/* --------------------------------- CONTACT */
 
 #contact-section {
     margin-top: 80px;
@@ -322,15 +342,16 @@ footer {
     color: #bab0a4;
 }
 
-/* -------------------------------------------------------------------------- tester.html */
+/* -------------------------------------------------------------------------- TESTER.HTML */
 
-/* --------------------------------- Controls */
+/* --------------------------------- CONTROLS */
 
 .testing-controls {
     display: flex;
     list-style: none;
     padding: 0;
     background-color: #ffffff;
+    /* Float right conforms to conventional positioning of control panels - intuitive experience for user. */
     float: right;
     margin-right: 15px;
 }
@@ -342,7 +363,7 @@ footer {
     font-family: "Heebo", sans-serif;
 }
 
-/* --------------------------------- Help Modal */
+/* --------------------------------- HELP MODAL */
 
 .modal-header {
     justify-content: center;
@@ -360,7 +381,7 @@ footer {
     background-color: #bab0a4;
 }
 
-/* --------------------------------- Color Tester */
+/* --------------------------------- COLOUR SAMPLING AREA */
 
 #colour-sampling-area {
     margin-left: 40px;
@@ -369,10 +390,12 @@ footer {
 
 #color-sample-background {
     padding: 20px 50px 20px 50px;
+    /* Border radius softens shape edges, as is consistent with the rest of the site's border styling. */
     border: 1px solid transparent;
     border-radius: 5px;
 }
 
+/* Default colour values are set to a neutral grey to convey the idea of a 'fresh palette' to be experimented on by the user. */
 .color-one {
     background-color: #dddddd;
 }
@@ -385,6 +408,7 @@ footer {
     background-color: #dddddd; 
 }
 
+/* Colour four - the background colour - blends in with the section background for a 'clean' look but can still be changed by user. */
 .color-four {
     background-color: #ffffff;
 }
@@ -398,6 +422,7 @@ footer {
    border-radius: 5px; 
 }
 
+/* Max-width: 43% with margin: auto allows a gap exist between the two central colour sample blocks without forcing one onto another line.*/
 #color-sample-3 {
     max-width: 47%;
     margin: auto;
@@ -408,7 +433,7 @@ footer {
     margin: auto;
 }
 
-/* --------------------------------- Swatches */
+/* --------------------------------- SWATCHES */
 
 .swatch {
     display: block;
@@ -420,10 +445,12 @@ footer {
    border-radius: 10px;
 }
 
+/* Margin applied to first swatch pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
 #swatches .color-one {
     margin-top: 40px;
 }
 
+/* Margin-left ensure the swatches do not render too closely to the colour sampling blocks. */
 #labels {
     margin-left: 5px;
 }
@@ -432,6 +459,7 @@ footer {
     font-weight: bold;
 }
 
+/* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #labels .hex-one {
     margin-top: 50px;
 }
@@ -448,13 +476,14 @@ footer {
     margin-top: 65px;
 }
 
+/* Styling for the hex numbers on small screens which appear inside the swatches. */
 #swatches p {
     font-size: 11px;
     padding-top: 15px;
     padding-left: 2px;
 } 
 
-/* --------------------------------- Colour Picker */
+/* --------------------------------- COLOUR PICKER API */
 
 #color-picker {
     height: 400px;
@@ -463,12 +492,14 @@ footer {
     margin-left: 40px;
 }
 
-/* -------------------------------------------------------------------------- Media Queries */
+/* -------------------------------------------------------------------------- MEDIA QUERIES */
 
+/* Extra-small screens - small phones */
 @media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
 }
 
+/* Small screens - larger phones. Fixes issues where did not construct with mobile first appproach successfully. */
 @media only screen and (max-width: 576px){
     #colour-splash-intro {min-height: 400px}
     #three-steps img {display: none}
@@ -477,6 +508,7 @@ footer {
     .swatch {margin-left: 0}
 }
 
+/* Small screens - larger phones */
 @media (min-width: 576px) {
     .review {width: 180px; height: 180px}
     .contact-text{text-align: right}
@@ -485,6 +517,7 @@ footer {
     #small-question-mark {display: none}
 }
 
+/* Medium screens - tablets */
 @media (min-width: 768px) {
     #call-to-action-button {font-size: 25px}
     #call-to-action-button:hover {font-size: 30px}
@@ -492,6 +525,7 @@ footer {
     .contact-text p {font-size: 30px}
 }
 
+/* Large screens - larger tablets and small laptops */
 @media (min-width: 992px) {
     .jumbotron h2 {font-size: 40px}
     .jumbotron p {font-size: 30px}
@@ -501,6 +535,7 @@ footer {
     .review p {font-size: 25px}
 }
 
+/* Extra-large screens - larger laptops and computers */
 @media (min-width: 1200px) {
     .review {width: 250px; height: 250px; margin-right: 15px}
     .review p {font-size: 30px}
