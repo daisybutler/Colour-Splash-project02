@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for Color Splash, preceeding its colour combination tester tool">
+	<meta name="keywords" content="colour, colours, colour combination, colour testing, colour theme, project colour scheme, website design, design">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Colour Splash</title>
 </head>
+
 <body>
+    <!---p-0 removes white space from either side of the container-->
+    <header class="container-fluid p-0"> 
 
-<!---Header--------->
-    <header class="container-fluid p-0">
-
-    <!-- Navbar---------->
+        <!-- NAVBAR--->
         <nav class="navbar navbar-expand navbar-light" style="background-image: linear-gradient(#dddddd, #f1efef, #dddddd)">
             <a href="/" class="navbar-brand"><i class="fas fa-palette"></i></a>
 
+            <!---Navbar always collapsed because only two nav-items to display - fits comfortably on all screen sizes.--->
             <div class="navbar-collapse collapse justify-content-stretch" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -29,7 +32,7 @@
             </div>
         </nav>
 
-        <!--Homepage Main Heading------->
+        <!---HOMEPAGE HEADING--->
         <div id="main-heading-section" class="row container-fluid">
             <div class="col-12">
                 <h1 id="main-heading">Colour Splash</h1>
@@ -38,9 +41,10 @@
         </div>
     </header>
 
-    <!---Homepage Jumbotron and CTA------->
+    <!---HOMEPAGE JUMBOTRON---->
     <div id="colour-splash-intro" class="container-fluid">
         <div class="row">
+            <!---mx-auto to center all content in the jumbotron--->
             <div class="jumbotron col-10 col-md-8 mx-auto">
                 <div class="row">
                     <div class="col-12">
@@ -49,10 +53,12 @@
                     </div>
                 </div>
                 <div class="row">
+                <!---THREE STEPS IMAGE (md screens +) - simpler to construct the design externally rather than within bootstrap -->
                     <div id="three-steps" class="col-12">
                         <img src="../assets/images/three-steps.png" alt="three-steps-to-using-the-colour-tool">
                     </div>
                 </div>
+                <!--CALL TO ACTION BUTTON-->
                 <div class="row">
                     <div id="call-to-action" class="col-12 d-flex">
                         <a id="call-to-action-button" class="btn btn-default btn-lg" type="button" href="tester.html">Get Started</a>
@@ -60,8 +66,10 @@
                 </div>
             </div>
         </div>
+        <!---REVIEWS - only displayed on small screens and above when more space is available--->
         <div class="row mx-auto">
             <div id="reviews-section" class="col-12">
+                <!---Review 1 and 5 only display on md screens and above to ensure the screen is large enough for five reviews to be read easily--->
                 <div id="review-one" class="review d-none d-md-inline-block">
                     <p>“Colour Splash is a great tool!”</p>
                 </div>
@@ -81,7 +89,7 @@
         </div>
     </div>
 
-    <!---Three steps display for small and x-small screens ONLY-->
+    <!---THREE STEPS BLOCKS - displays on x-small screens ONLY when #three-steps img becomes too small to read--->
     <div id="smaller-screen-steps" class="container-fluid d-block d-sm-none" style="box-sizing: content-box">
         <div class="row">
             <div class="col-12 step step-one">
@@ -103,22 +111,23 @@
         </div>
     </div>
 
-    <!--------Contact Section-->
-
+    <!---CONTACT--->
     <div id="contact-section" class="container-fluid">
         <div class="row">
             <div class="contact-text col-12 col-sm-6">
                 <h3>Have a question?</h3>
                 <p>Get in touch with us at<br>help@coloursplash.com</p>
+                <!---Small question mark img displays under text ONLY on xs screens when there is not enough space for them to be beside each other--->
                 <img id="small-question-mark" src="../assets/images/question-mark.png" width="100px" height="100px">
             </div>
+            <!---Larger question mark image displays on sm screens ONLY to the right of the text when there is more space to utilise--->
             <div class="contact-image d-none d-sm-block col-sm-6">
                 <img src="../assets/images/question-mark.png" alt="question-mark">
             </div>
         </div>
     </div>
 
-    <!----------Footer------>
+    <!---FOOTER--->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-1 footer-contents">
