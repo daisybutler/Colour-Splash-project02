@@ -391,8 +391,8 @@ footer {
 /* --------------------------------- COLOUR SAMPLING AREA */
 
 #colour-sampling-area {
-    margin-left: 40px;
-    margin-top: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 #color-sample-background {

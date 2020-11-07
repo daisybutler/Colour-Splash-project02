@@ -248,4 +248,5 @@ pickr5.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('color-sample-background').style.background = rgbaColor;
+     document.getElementById('colour-sampling-area').style.background = rgbaColor;
 })
