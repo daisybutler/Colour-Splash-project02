@@ -466,19 +466,19 @@ footer {
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #labels .hex-one {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #labels .hex-two {
-    margin-top: 70px;
+    margin-top: 42px;
 }
 
 #labels .hex-three {
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 #labels .hex-four {
-    margin-top: 65px;
+    margin-top: 42px;
 }
 
 /* Styling for the hex numbers on small screens which appear inside the swatches. */
