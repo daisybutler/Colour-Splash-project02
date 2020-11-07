@@ -202,7 +202,7 @@ footer {
     width: 100%;
     height: auto;
     padding-bottom: 40px;
-  /* Ensures the image is not clickable/dragable by the user */
+  /* Ensures the image is not clickable/draggable by the user */
   /* Original code credit: https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js */ 
     user-select: none;
     -moz-user-select: none;
