@@ -379,6 +379,23 @@ footer {
     font-family: "Heebo", sans-serif;
 }
 
+/* --------------------------------- REFRESH WARNING MODAL */
+
+.btn-success {
+    background-color: #46D9BD;
+}
+
+.btn-danger {
+    background-color: #EF7566;
+}
+
+.btn-success:hover {
+    background-color: rgb(42, 134, 117);
+}
+
+.btn-danger:hover {
+    background-color: rgb(201, 82, 67);
+}
 /* --------------------------------- HELP MODAL */
 
 .modal-header {
@@ -391,10 +408,6 @@ footer {
 
 .modal-footer {
     justify-content: center;
-}
-
-.btn-default {
-    background-color: #bab0a4;
 }
 
 /* --------------------------------- COLOUR SAMPLING AREA */
