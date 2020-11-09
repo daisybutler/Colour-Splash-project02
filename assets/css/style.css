@@ -417,7 +417,7 @@ footer {
 
 #colour-sampling-area {
     padding: 30px 40px 30px 40px;
-    height: 70vh;
+    height: 80vh;
 }
 
 #color-sample-background {
@@ -446,7 +446,8 @@ footer {
 }
 
 .color-sample {
-   height: 100px;
+   height: 140px;
+   width: 300px;
    display: inline-block;
    margin-top: 10px;
    margin-bottom: 10px;
