@@ -453,21 +453,17 @@ footer {
 /* --------------------------------- SWATCHES */
 
 .pcr-button {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
-.color-picker-1 {
-    padding-bottom: 10px;
-}
-
-/* Margin applied to first swatch pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
-#swatches .color-one {
-    margin-top: 40px;
+/* Padding applied to swatches column pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
+#swatches {
+    padding-top: 15px;
 }
 
 /* Margin-left ensure the swatches do not render too closely to the colour sampling blocks. */
 #labels {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #labels p {
@@ -480,23 +476,23 @@ footer {
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #labels .hex-one {
-    margin-top: 40px;
+    margin-top: 37px;
 }
 
 #labels .hex-two {
-    margin-top: 42px;
+    margin-top: 28px;
 }
 
 #labels .hex-three {
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 #labels .hex-four {
-    margin-top: 42px;
+    margin-top: 28px;
 }
 
 #labels .hex-five {
-    margin-top: 42px;
+    margin-top: 25px;
 }
 
 /* Styling for the hex numbers on small screens which appear inside the swatches. */
