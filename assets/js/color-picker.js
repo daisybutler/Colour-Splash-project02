@@ -50,9 +50,11 @@ pickr1.on('change', (color, instance) => {
     document.getElementById('color-sample-1').style.background = rgbaColor;
 })
 
+// Changes the hex label next to swatch one to match the currently selected color by user.
 pickr1.on('change', (color, instance) => {
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
+    document.getElementById('hex-one').innerText = hexColor
 })
 
 // Swatch 2
