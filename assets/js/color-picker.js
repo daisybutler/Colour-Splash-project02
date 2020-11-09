@@ -240,11 +240,11 @@ pickr4.on('change', (color, instance) => {
     document.getElementById('hex-four').innerText = hexColor
 })
 
-//---------------------------------------------------------------- COLOUR FIVE (background)
+//---------------------------------------------------------------- COLOUR SEVEN (background)
 
 // Displays swatch 5 with interactive color picker tool when clicked.
-const pickr5 = Pickr.create({
-    el: '.color-picker-5',
+const pickr7 = Pickr.create({
+    el: '.color-picker-7',
     theme: 'classic',
     default: '#ffffff',
 
@@ -287,7 +287,7 @@ const pickr5 = Pickr.create({
 });
 
 // Changes the background colour of #color-sample-five block to match the user's current selection on color-picker-5.
-pickr5.on('change', (color, instance) => {
+pickr7.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('color-sample-background').style.background = rgbaColor;
@@ -295,10 +295,10 @@ pickr5.on('change', (color, instance) => {
 })
 
 // Changes the hex label next to swatch 5 to match the currently selected color by user.
-pickr5.on('change', (color, instance) => {
+pickr7.on('change', (color, instance) => {
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
-    document.getElementById('hex-five').innerText = hexColor
+    document.getElementById('hex-seven').innerText = hexColor
 })
 
 
