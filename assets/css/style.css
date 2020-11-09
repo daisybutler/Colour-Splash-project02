@@ -459,7 +459,7 @@ footer {
 
 #color-picker-toggles {
     border: 1px solid transparent;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
     background-color: #fff;
     margin-bottom: 50px;
     padding-left: 10px;
@@ -485,6 +485,15 @@ footer {
 #swatches {
     padding-top: 10px;
 }
+
+/* ------------------------------- CATEGORY TITLES */
+
+.category-titles {
+    color: grey;
+    font-family: "Heebo", sans-serif;
+}
+
+/* ------------------------------- HEX LABELS */
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
@@ -541,6 +550,8 @@ footer {
     #reviews-section {display: none}
     #swatches .color-one {margin-top: 30px}
     .swatch {margin-left: 0}
+    #color-sample-background {padding-left: 10px}
+    .category-titles {font-size: 12px}
 }
 
 /* Small screens - larger phones */
@@ -558,6 +569,7 @@ footer {
     #call-to-action-button:hover {font-size: 30px}
     .contact-text h3 {font-size: 60px}
     .contact-text p {font-size: 30px}
+    #color-picker-toggles {border-radius: 20px 0 0 20px;}
 }
 
 /* Large screens - larger tablets and small laptops */

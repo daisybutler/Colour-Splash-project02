@@ -101,7 +101,7 @@
 
         <!----INTERACTIVE COLOUR SAMPLING BLOCKS-->
         <div class="row">
-            <div id="color-sample-background" class="col-9 col-md-7 offset-md-2 color-seven">
+            <div id="color-sample-background" class="col-9 col-md-7 offset-md-1 offset-lg-2 color-seven">
                 <div class="row">
                     <div id="color-sample-1" class="col-12 color-sample color-one">
                         <h2 id="sample-heading">Heading</h2>
@@ -119,25 +119,25 @@
             <!---SWATCHES - user clicks to trigger color picker display. User can then change the colour of the corresponding sampling block--->
             <div class="row">
                 <div id="swatches" class="col-1">
-                    <p>Blocks</p>
+                    <p class="category-titles">Blocks</p>
                     <div class="swatch color-one color-picker-1"></div>
                     <div class="swatch color-two color-picker-2"></div>
                     <div class="swatch color-three color-picker-3"></div>
 
-                    <p>Text</p>
+                    <p class="category-titles">Text</p>
                     <div class="swatch color-four color-picker-4"></div>
                     <div class="swatch color-five color-picker-5"></div>
                     <div class="swatch color-six color-picker-6"></div>
-                    <p>Background</p>
+                    <p class="category-titles">Background</p>
                      <div class="swatch color-seven color-picker-7"></div>
                 </div>
             </div>
             </div>
 
             <!---Hex numbers displayed on md screens and greater, since not enough room on smaller screens.--->
-            <div id="hex-color-labels">
+            <div id="hex-color-labels" class="d-none d-md-block">
                 <div class="row">
-                    <div id="labels" class="d-none d-md-block col-1">
+                    <div id="labels" class="col-1">
                         <div id="hex-one">
                             <p>#DDDDDD</p>
                         </div>
