@@ -464,7 +464,7 @@ footer {
 
 /* Margin-left ensure the swatches do not render too closely to the colour sampling blocks. */
 #labels {
-    margin-left: 10px;
+    margin-left: 10px;  
 }
 
 #labels p {
@@ -473,23 +473,23 @@ footer {
 }
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
-#labels .hex-one {
+#hex-one {
     margin-top: 37px;
 }
 
-#labels .hex-two {
+#hex-two {
     margin-top: 28px;
 }
 
-#labels .hex-three {
+#hex-three {
     margin-top: 25px;
 }
 
-#labels .hex-four {
+#hex-four {
     margin-top: 28px;
 }
 
-#labels .hex-five {
+#hex-five {
     margin-top: 25px;
 }
 
