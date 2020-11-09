@@ -50,6 +50,11 @@ pickr1.on('change', (color, instance) => {
     document.getElementById('color-sample-1').style.background = rgbaColor;
 })
 
+pickr1.on('change', (color, instance) => {
+    const hexColor = color.toHEXA().toString();
+    console.log(hexColor)
+})
+
 // Swatch 2
 const pickr2 = Pickr.create({
     el: '.color-picker-2',
