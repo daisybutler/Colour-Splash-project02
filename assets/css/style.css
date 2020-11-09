@@ -417,7 +417,7 @@ footer {
 
 #colour-sampling-area {
     padding: 30px 40px 30px 40px;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 #color-sample-background {
@@ -457,48 +457,55 @@ footer {
 
 /* --------------------------------- SWATCHES */
 
+#color-picker-toggles {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
 .pcr-button {
-    margin-top: 20px;
+    margin-bottom: 10px;
     border: 2px solid grey;
 }
 
 /* Padding applied to swatches column pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
 #swatches {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
-/* Margin-left ensure the swatches do not render too closely to the colour sampling blocks. */
-#labels {
-    margin-left: 10px;
-}
+
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
-    margin-top: 37px;
+    margin-top: 65px;
     color: grey;
     letter-spacing: 1px;
 }
 
 #hex-two {
-    margin-top: 28px;
+    margin-top: 18px;
     color: grey;
     letter-spacing: 1px;
 }
 
 #hex-three {
-    margin-top: 25px;
+    margin-top: 15px;
     color: grey;
     letter-spacing: 1px;
 }
 
 #hex-four {
-    margin-top: 28px;
+    margin-top: 60px;
     color: grey;
     letter-spacing: 1px;
 }
 
 #hex-five {
-    margin-top: 25px;
+    margin-top: 60px;
     color: grey;
     letter-spacing: 1px;
 }
