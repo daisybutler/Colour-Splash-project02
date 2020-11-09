@@ -454,6 +454,7 @@ footer {
 
 .pcr-button {
     margin-top: 20px;
+    border: 2px solid grey;
 }
 
 /* Padding applied to swatches column pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
@@ -470,8 +471,6 @@ footer {
     font-weight: bold;
     color: grey;
     letter-spacing: 1px;
-    border: 1px solid transparent;
-    border-radius: 20px;
 }
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
@@ -494,13 +493,6 @@ footer {
 #labels .hex-five {
     margin-top: 25px;
 }
-
-/* Styling for the hex numbers on small screens which appear inside the swatches. */
-#swatches p {
-    font-size: 11px;
-    padding-top: 15px;
-    padding-left: 2px;
-} 
 
 /* -------------------------------------------------------------------------- MEDIA QUERIES */
 
