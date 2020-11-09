@@ -369,7 +369,7 @@ footer {
     float: right;
     padding-left: 5px;
     margin-bottom: 0;
-    /* Ensure a white background remains behind each control so they are legible no matter what colour the background is changed to. */
+    /* Ensures a white background remains behind each control so they are legible no matter what colour the background is changed to. */
     border: 1px solid transparent;
     border-radius: 20px;
 }
@@ -454,18 +454,6 @@ footer {
    border-radius: 5px; 
 }
 
-/* Max-width: 47% with margin: auto allows a gap to exist between the two central colour sample blocks without forcing one onto another line.*/
-
-#color-sample-2 {
-    max-width: 47%;
-    margin: auto;
-}
-
-#color-sample-3 {
-    max-width: 47%;
-    margin-right: auto;
-}
-
 /* --------------------------------- SWATCHES */
 
 .pcr-button {
@@ -482,8 +470,6 @@ footer {
 #labels {
     margin-left: 10px;
 }
-
-
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
