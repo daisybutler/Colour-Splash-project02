@@ -49,7 +49,7 @@
             <div id="testing-controls-panel" class="col-12">
                 <ul class="testing-controls">
                     <li class="control-link">
-                        <a class="control" href="tester.html">Refresh</a>
+                        <a class="control" data-toggle="modal" data-target="#refreshWarning">Refresh</a>
                     </li>
                     <li class="control-link">
                         <a class="control" href="/">Share</a>
@@ -59,6 +59,24 @@
                         <a class="control" data-toggle="modal" data-target="#helpModal">Help</a>
                     </li>
                 </ul>
+
+                <div class="modal fade" id="refreshWarning" tabindex="-1" role="dialog" aria-labelledby="refreshWarningLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="refreshWarningLabel">Refresh?</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>Are you sure you want to refresh? Your current colour selection will be lost.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a type="button" class="btn btn-default" href="tester.html">Yes, refresh</a>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- HELP MODAL -->
                 <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">

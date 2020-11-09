@@ -300,3 +300,8 @@ pickr5.on('change', (color, instance) => {
     console.log(hexColor)
     document.getElementById('hex-five').innerText = hexColor
 })
+
+
+function userConfirmation() {
+    
+}

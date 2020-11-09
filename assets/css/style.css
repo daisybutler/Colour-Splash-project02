@@ -464,33 +464,40 @@ footer {
 
 /* Margin-left ensure the swatches do not render too closely to the colour sampling blocks. */
 #labels {
-    margin-left: 10px;  
+    margin-left: 10px;
 }
 
-#labels p {
-    color: grey;
-    letter-spacing: 1px;
-}
+
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
     margin-top: 37px;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 #hex-two {
     margin-top: 28px;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 #hex-three {
     margin-top: 25px;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 #hex-four {
     margin-top: 28px;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 #hex-five {
     margin-top: 25px;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 /* -------------------------------------------------------------------------- MEDIA QUERIES */
