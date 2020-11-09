@@ -246,6 +246,9 @@ footer {
 
 /* --------------------------------- CALL TO ACTION BUTTON */
 
+.btn-default {
+    background-color: #bab0a4;
+}
 #call-to-action {
     display: flex;
     justify-content: center;
