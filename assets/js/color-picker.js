@@ -1,6 +1,6 @@
 // Original code credit: https://github.com/Simonwep/pickr#getting-started
 
-//---------------------------------------------------------------- COLOUR ONE
+//---------------------------------------------------------------- COLOUR ONE (block)
 
 // Displays swatch 1 with interactive color picker tool when clicked.
 const pickr1 = Pickr.create({
@@ -60,7 +60,7 @@ pickr1.on('change', (color, instance) => {
     document.getElementById('hex-one').innerText = hexColor
 })
 
-//---------------------------------------------------------------- COLOUR TWO
+//---------------------------------------------------------------- COLOUR TWO (block)
 
 // Displays swatch 2 with interactive color picker tool when clicked.
 const pickr2 = Pickr.create({
@@ -120,7 +120,7 @@ pickr2.on('change', (color, instance) => {
     document.getElementById('hex-two').innerText = hexColor
 })
 
-//---------------------------------------------------------------- COLOUR THREE
+//---------------------------------------------------------------- COLOUR THREE (block)
 
 // Displays swatch 3 with interactive color picker tool when clicked.
 const pickr3 = Pickr.create({
@@ -180,7 +180,7 @@ pickr3.on('change', (color, instance) => {
     document.getElementById('hex-three').innerText = hexColor
 })
 
-//---------------------------------------------------------------- COLOUR FOUR
+//---------------------------------------------------------------- COLOUR FOUR (heading text)
 
 // Displays swatch 4 with interactive color picker tool when clicked.
 const pickr4 = Pickr.create({
@@ -226,11 +226,11 @@ const pickr4 = Pickr.create({
     }
 });
 
-// Changes the background colour of #color-sample-four block to match the user's current selection on color-picker-4.
+// Changes the text colour of #sample-heading text to match the user's current selection on color-picker-4.
 pickr4.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
-    document.getElementById('color-sample-4').style.background = rgbaColor;
+    document.getElementById('sample-heading').style.color = rgbaColor;
 })
 
 // Changes the hex label next to swatch 4 to match the currently selected color by user.
@@ -240,7 +240,7 @@ pickr4.on('change', (color, instance) => {
     document.getElementById('hex-four').innerText = hexColor
 })
 
-//---------------------------------------------------------------- COLOUR FIVE
+//---------------------------------------------------------------- COLOUR FIVE (background)
 
 // Displays swatch 5 with interactive color picker tool when clicked.
 const pickr5 = Pickr.create({
