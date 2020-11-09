@@ -584,9 +584,25 @@ footer {
 
 /* -------------------------------------------------------------------------- MEDIA QUERIES */
 
+/* Extremely-small screens - iPhone 5C */
+@media only screen and (max-width: 345px){
+    #color-sample-background {padding-left: 10px}
+    .color-sample {max-width: 140px}
+    #color-sample-background {max-width: 150px}
+    #sample-heading {font-size: 30px}
+     #color-picker-toggles {padding-left: 30px}
+}
+
 /* Extra-small screens - small phones */
 @media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
+    #color-sample-background {padding-right: 30px}
+    #testing-controls-panel {padding-bottom: 0}
+    #color-picker-toggles {padding-right: 20px}
+    #sample-heading {font-size: 35px}
+    #sample-subheading {font-size: 18px}
+    #sample-paragraph {font-size: 12px}
+    
 }
 
 /* Small screens - larger phones. Fixes issues where did not construct with mobile first appproach successfully. */
@@ -596,7 +612,6 @@ footer {
     #reviews-section {display: none}
     #swatches .color-one {margin-top: 30px}
     .swatch {margin-left: 0}
-    #color-sample-background {padding-left: 10px}
     .category-titles {font-size: 12px}
 }
 

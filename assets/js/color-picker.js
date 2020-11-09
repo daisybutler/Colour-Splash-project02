@@ -419,8 +419,3 @@ pickr7.on('change', (color, instance) => {
     console.log(hexColor)
     document.getElementById('hex-seven').innerText = hexColor
 })
-
-
-function userConfirmation() {
-
-}
