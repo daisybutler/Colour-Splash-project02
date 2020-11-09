@@ -420,6 +420,8 @@ footer {
     min-height: 80vh;
 }
 
+/* ------------------------ BLOCKS */
+
 #color-sample-background {
     padding: 20px 50px 20px 50px;
     /* Border radius softens shape edges, as is consistent with the rest of the site's border styling. */
@@ -440,9 +442,11 @@ footer {
     background-color: #dddddd; 
 }
 
-/* Colour four - the background colour - blends in with the section background for a 'clean' look but can still be changed by user. */
+/* Colour seven - the background colour - is completely transparent so that when the #color-sampling-area colour is changed, it is completely visible.
+   Setting the #colour-sample-background to change as well as #color-sampling-area created a visible border between the two areas, when user changed opacity,
+   due to one being layered on top of the other. */
 .color-seven {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0)
 }
 
 .color-sample {
@@ -456,8 +460,11 @@ footer {
    position: relative;
 }
 
+/* ------------------------ TEXT */
+
 #sample-heading {
     font-family: "Heebo", sans-serif;
+    color: #ffffff;
     font-size: 40px;
     position: absolute;
     top: 50%;
@@ -468,6 +475,7 @@ footer {
 
 #sample-subheading {
     font-family: "Heebo", sans-serif;
+    color: #ffffff;
     font-size: 24px;
     position: absolute;
     top: 50%;
@@ -478,6 +486,7 @@ footer {
 
 #sample-paragraph {
     font-family: "Heebo", sans-serif;
+    color: #ffffff;
     font-size: 14px;
     position: absolute;
     top: 50%;

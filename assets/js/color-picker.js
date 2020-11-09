@@ -406,11 +406,10 @@ const pickr7 = Pickr.create({
     }
 });
 
-// Changes the background colour of #color-sample-seven block to match the user's current selection on color-picker-7.
+// Changes the background of the entire #color-sampling-area to match the user's current selection on color-picker-7.
 pickr7.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
-    document.getElementById('color-sample-background').style.background = rgbaColor;
     document.getElementById('colour-sampling-area').style.background = rgbaColor;
 })
 
