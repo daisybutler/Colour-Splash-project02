@@ -1,6 +1,8 @@
 // Original code credit: https://github.com/Simonwep/pickr#getting-started
 
-// Swatch One
+//---------------------------------------------------------------- COLOUR ONE
+
+// Displays swatch 1 with interactive color picker tool when clicked.
 const pickr1 = Pickr.create({
     el: '.color-picker-1',
     theme: 'classic',
@@ -44,20 +46,23 @@ const pickr1 = Pickr.create({
     }
 });
 
+// Changes the background colour of #color-sample-one block to match the user's current selection on color-picker-1.
 pickr1.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('color-sample-1').style.background = rgbaColor;
 })
 
-// Changes the hex label next to swatch one to match the currently selected color by user.
+// Changes the hex label next to swatch 1 to match the currently selected color by user.
 pickr1.on('change', (color, instance) => {
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-one').innerText = hexColor
 })
 
-// Swatch 2
+//---------------------------------------------------------------- COLOUR TWO
+
+// Displays swatch 2 with interactive color picker tool when clicked.
 const pickr2 = Pickr.create({
     el: '.color-picker-2',
     theme: 'classic',
@@ -107,7 +112,9 @@ pickr2.on('change', (color, instance) => {
     document.getElementById('color-sample-2').style.background = rgbaColor;
 })
 
-// Swatch Three
+//---------------------------------------------------------------- COLOUR THREE
+
+// Displays swatch 3 with interactive color picker tool when clicked.
 const pickr3 = Pickr.create({
     el: '.color-picker-3',
     theme: 'classic',
@@ -157,7 +164,9 @@ pickr3.on('change', (color, instance) => {
     document.getElementById('color-sample-3').style.background = rgbaColor;
 })
 
-// Swatch Four
+//---------------------------------------------------------------- COLOUR FOUR
+
+// Displays swatch 4 with interactive color picker tool when clicked.
 const pickr4 = Pickr.create({
     el: '.color-picker-4',
     theme: 'classic',
@@ -207,7 +216,9 @@ pickr4.on('change', (color, instance) => {
     document.getElementById('color-sample-4').style.background = rgbaColor;
 })
 
-// Swatch Five
+//---------------------------------------------------------------- COLOUR FIVE
+
+// Displays swatch 5 with interactive color picker tool when clicked.
 const pickr5 = Pickr.create({
     el: '.color-picker-5',
     theme: 'classic',
@@ -256,8 +267,6 @@ pickr5.on('change', (color, instance) => {
     console.log(rgbaColor)
     document.getElementById('color-sample-background').style.background = rgbaColor;
     document.getElementById('colour-sampling-area').style.background = rgbaColor;
-
-    //document.getElementsByClassName('pcr-button').style.color();
     
 })
 
