@@ -459,12 +459,21 @@ footer {
 
 #color-picker-toggles {
     border: 1px solid transparent;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
     background-color: #fff;
     margin-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 30px;
+}
+
+#hex-color-labels {
+    border: 1px solid transparent;
+    border-radius: 0 20px 20px 0;
+    background-color: #fff;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-right: 10px;
 }
 
 .pcr-button {
@@ -477,11 +486,9 @@ footer {
     padding-top: 10px;
 }
 
-
-
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
-    margin-top: 65px;
+    margin-top: 55px;
     color: grey;
     letter-spacing: 1px;
 }
