@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!---EmailJS Code Snippet------->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_wJWiEnhJwrwISrcLO687b");
+        emailjs.send('gmail', 'colour_splash_contact', {name: "bob", message: "Hello"});
+    })();
+    </script>
     <title>Colour Splash</title>
 </head>
 
