@@ -11,15 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!---EmailJS Code Snippet------->
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("user_wJWiEnhJwrwISrcLO687b");
-        emailjs.send('gmail', 'colour_splash_contact', {name: "bob", message: "Hello"});
-    })();
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <title>Colour Splash</title>
 </head>
 
@@ -135,7 +127,7 @@
                 </p>
                 <div class="collapse" id="collapse-contact">
                     <div class="card card-body">
-                        <form id="contact-form">
+                        <form id="contact-form" onsubmit="return sendMail(this);">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="name" class="form-control" id="name" required>
@@ -176,5 +168,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+    <script src="assets/js/sendQuestion.js"></script>
 </body>
 </html>
