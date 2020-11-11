@@ -351,10 +351,37 @@ footer {
 .contact-text button {
     background-color: #bab0a4;
     color: #fff;
+    font-size: 20px;
+    border: none;
+    /* Transitions alway the user a smoother interaction with the button for good UX */
+    -webkit-transition: .15s ease-out;
+    -moz-transition: .15s ease-out;
+    transition: .15s ease-out;
+    /* Box shadow gives a 3D effect to button */
+    box-shadow: 1px 2px 2px grey;
+}
+
+.contact-text button:hover {
+    background-color: #bab0a4;
+    font-size: 25px;  
+}
+
+.contact-text button:active {
+    background-color: #bab0a4;
+}
+
+.contact-text button:focus {
+    background-color: #bab0a4;
+    text-decoration: none;
+    box-shadow: none;
 }
 
 #contact-form .form-group {
     text-align: left;
+}
+
+#submit-button {
+    text-align: center;
 }
 
 /* -------------------------------------------------------------------------- TESTER.HTML */
@@ -623,7 +650,7 @@ footer {
     .review {width: 180px; height: 180px}
     .contact-text {text-align: right}
     .contact-text h3 {font-size: 50px}
-    /* .contact-text button {padding-right: 20px} */
+    .contact-text button {margin-right: 20px}
     #small-question-mark {display: none}
     #sample-heading {font-size: 50px}
     #sample-subheading {font-size: 30px}
@@ -634,8 +661,9 @@ footer {
 @media (min-width: 768px) {
     #call-to-action-button {font-size: 25px}
     #call-to-action-button:hover {font-size: 30px}
+    .contact-text button { font-size: 25px}
+    .contact-text button:hover {font-size: 30px}
     .contact-text h3 {font-size: 60px}
-    .contact-text p {font-size: 30px}
     #color-picker-toggles {border-radius: 20px 0 0 20px;}
 }
 
