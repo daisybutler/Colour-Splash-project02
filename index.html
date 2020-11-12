@@ -132,6 +132,8 @@
                 </p>
                 <div class="collapse" id="collapse-contact">
                     <div class="card card-body">
+                        <!---CONTACT FORM--->
+                        <!---Linked up to the EmailJS API by invoking the sendMail() function (in sendQuestion.js file) on submit.--->
                         <form id="contactForm" onsubmit="return sendMail(this);">
                             <div class="form-group">
                                 <label for="name">Name</label>
@@ -148,6 +150,7 @@
                             <div id="submit-button">
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
+                            <!---Will contain a message to user should their submit request fail to return status 200--->
                             <div id="fail-message"></div>
                         </form>
                     </div>
@@ -173,7 +176,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!---Location of the sendMail() function for the contact form on submit--->
     <script src="assets/js/sendQuestion.js"></script>
 </body>
 </html>
