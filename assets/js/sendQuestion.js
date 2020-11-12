@@ -7,6 +7,7 @@ function sendMail(contactForm){
     .then(
         function(response){
             console.log("SUCCESS", response);
+            document.getElementById("submit-button").innerHTML = "<p style = 'color: #46D9BD';>Thank You!<br>We will get back to you shortly.</p>";
         },
         function(error){
             console.log("FAILED", error);
