@@ -459,7 +459,7 @@ footer {
 
 #colour-sampling-area {
     padding: 30px 40px 30px 40px;
-    min-height: 80vh;
+    
 }
 
 /* ------------------------ BLOCKS */
@@ -663,8 +663,11 @@ footer {
     #small-question-mark {display: none}
     #sample-heading {font-size: 50px}
     #sample-subheading {font-size: 30px}
-    #sample-paragraph {font-size: 20px}
     #collapse-contact{margin-left: 20px;}
+}
+
+@media (min-width: 622px) {
+    #sample-paragraph {font-size: 20px}
 }
 
 /* Medium screens - tablets */
@@ -692,6 +695,6 @@ footer {
     .review {width: 250px; height: 250px; margin-right: 15px}
     .review p {font-size: 30px}
     #sample-heading {font-size: 60px}
-    #sample-subheading {font-size: 40px}
-    #sample-paragraph {font-size: 25px}
+    #sample-subheading {font-size: 35px}
+    #sample-paragraph {font-size: 20px}
 }
