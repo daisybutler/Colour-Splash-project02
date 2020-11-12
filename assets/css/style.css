@@ -353,29 +353,32 @@ footer {
     color: #fff;
     font-size: 20px;
     border: none;
-    /* Transitions alway the user a smoother interaction with the button for good UX */
+    /* Transitions ensure a smoother interaction with the button */
     -webkit-transition: .15s ease-out;
     -moz-transition: .15s ease-out;
     transition: .15s ease-out;
     /* Box shadow gives a 3D effect to button */
     box-shadow: 1px 2px 2px grey;
 }
-
+/* Button gets bigger on hover */
 .contact-text button:hover {
     background-color: #bab0a4;
     font-size: 25px;  
 }
 
+/* Overrides the default btn-primary background-color of blue when active */
 .contact-text button:active {
     background-color: #bab0a4;
 }
 
+/* Overrides the default btn-primary background-color of blue when clicked */
 .contact-text button:focus {
     background-color: #bab0a4;
     text-decoration: none;
     box-shadow: none;
 }
 
+/* Overrides the align-text:right set to .contact-text on small screens above within the contact form only */
 .form-group {
     text-align: left;
 }
