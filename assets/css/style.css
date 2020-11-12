@@ -376,7 +376,7 @@ footer {
     box-shadow: none;
 }
 
-#contact-form .form-group {
+.form-group {
     text-align: left;
 }
 
@@ -631,8 +631,7 @@ footer {
     #color-picker-toggles {padding-right: 20px}
     #sample-heading {font-size: 35px}
     #sample-subheading {font-size: 18px}
-    #sample-paragraph {font-size: 12px}
-    
+    #sample-paragraph {font-size: 12px}  
 }
 
 /* Small screens - larger phones. Fixes issues where did not construct with mobile first appproach successfully. */
