@@ -50,7 +50,7 @@ const pickr1 = Pickr.create({
 pickr1.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
-    document.getElementById('color-sample-1').style.background = rgbaColor;
+   document.getElementById('color-sample-1').style.background = rgbaColor;
 })
 
 // Changes the hex label next to swatch 1 to match the currently selected color by user.

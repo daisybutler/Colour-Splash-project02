@@ -582,6 +582,15 @@ footer {
     padding-top: 10px;
 }
 
+/* Makes the background-color of the buttons within the color picker match the site theme. */
+.pcr-app .pcr-interaction .pcr-save {
+    background: #bab0a4;
+}
+
+.pcr-app .pcr-interaction .pcr-type.active {
+    background: #bab0a4;
+}
+
 /* ------------------------------- CATEGORY TITLES */
 
 .category-titles {
