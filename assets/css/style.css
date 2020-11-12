@@ -483,7 +483,8 @@ footer {
     border-radius: 5px;
 }
 
-/* Default colour values are set to a neutral grey to convey the idea of a 'fresh palette' to be experimented on by the user. */
+/* Default colour values are set to site pastels red, green and purple, as are their corresponding swatches, to 
+immediately suggest to the user a relationship (one is control for the other) between the color-sample and its swatch. */
 .color-one {
     background-color: #EF7566;
 }
