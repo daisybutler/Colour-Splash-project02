@@ -1,4 +1,4 @@
-// -------------------------------- EmailJS API: https://www.emailjs.com/
+// -------------------------------------------------- EmailJS API: https://www.emailjs.com/
 
 // sendMail Function
 
