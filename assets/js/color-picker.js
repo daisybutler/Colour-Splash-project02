@@ -6,7 +6,7 @@
 const pickr1 = Pickr.create({
     el: '.color-picker-1',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#EF7566',
 
     swatches: [
         'rgba(244, 67, 54, 1)',
@@ -66,7 +66,7 @@ pickr1.on('change', (color, instance) => {
 const pickr2 = Pickr.create({
     el: '.color-picker-2',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#46D9BD',
 
     swatches: [
          'rgba(244, 67, 54, 1)',
@@ -126,7 +126,7 @@ pickr2.on('change', (color, instance) => {
 const pickr3 = Pickr.create({
     el: '.color-picker-3',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#BD60CE',
 
     swatches: [
          'rgba(244, 67, 54, 1)',
@@ -186,7 +186,7 @@ pickr3.on('change', (color, instance) => {
 const pickr4 = Pickr.create({
     el: '.color-picker-4',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#FFFFFF',
 
     swatches: [
         'rgba(244, 67, 54, 1)',
@@ -246,7 +246,7 @@ pickr4.on('change', (color, instance) => {
 const pickr5 = Pickr.create({
     el: '.color-picker-5',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#FFFFFF',
 
     swatches: [
         'rgba(244, 67, 54, 1)',
@@ -305,7 +305,7 @@ pickr5.on('change', (color, instance) => {
 const pickr6 = Pickr.create({
     el: '.color-picker-6',
     theme: 'classic',
-    default: '#dddddd',
+    default: '#FFFFFF',
 
     swatches: [
         'rgba(244, 67, 54, 1)',

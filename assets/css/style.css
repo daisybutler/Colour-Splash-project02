@@ -485,15 +485,15 @@ footer {
 
 /* Default colour values are set to a neutral grey to convey the idea of a 'fresh palette' to be experimented on by the user. */
 .color-one {
-    background-color: #dddddd;
+    background-color: #EF7566;
 }
 
 .color-two{
-    background-color: #dddddd;
+    background-color: #46D9BD;
 }
 
 .color-three {
-    background-color: #dddddd; 
+    background-color: #BD60CE; 
 }
 
 /* Colour seven - the background colour - is completely transparent so that when the #color-sampling-area colour is changed, it is completely visible.
