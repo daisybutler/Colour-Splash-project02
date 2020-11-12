@@ -380,6 +380,10 @@ footer {
     text-align: left;
 }
 
+#collapse-contact {
+    margin-bottom: 20px;
+}
+
 #submit-button {
     text-align: center;
 }
