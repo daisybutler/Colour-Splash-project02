@@ -11,6 +11,7 @@ function sendMail(contactForm){
         },
         function(error){
             console.log("FAILED", error);
+            document.getElementById("fail-message").innerHTML = "<p style = 'color: #EF7566; text-align: center; padding-top: 10px'>Oops!<br>Your question can't be sent at the moment.<br>Please try again later.</p>";
         }
     );
     return false;

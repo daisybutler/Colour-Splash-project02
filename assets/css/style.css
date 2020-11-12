@@ -383,6 +383,9 @@ footer {
 #submit-button {
     text-align: center;
 }
+#submit-button button {
+    margin-right: 0;
+}
 
 /* -------------------------------------------------------------------------- TESTER.HTML */
 
