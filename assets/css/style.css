@@ -385,7 +385,6 @@ footer {
 
 #collapse-contact {
     margin-bottom: 20px;
-    margin-left: 20px;
 }
 
 #submit-button {
@@ -665,6 +664,7 @@ footer {
     #sample-heading {font-size: 50px}
     #sample-subheading {font-size: 30px}
     #sample-paragraph {font-size: 20px}
+    #collapse-contact{margin-left: 20px;}
 }
 
 /* Medium screens - tablets */
