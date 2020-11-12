@@ -581,7 +581,7 @@ footer {
 
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
 #hex-one {
-    margin-top: 55px;
+    margin-top: 92px;
     color: grey;
     letter-spacing: 1px;
 }
