@@ -1,4 +1,4 @@
-// Original code credit: https://github.com/Simonwep/pickr#getting-started
+// Code uses the Color-Picker library by Simonwep: https://github.com/Simonwep/pickr#getting-started
 
 //---------------------------------------------------------------- COLOUR ONE (block)
 
@@ -241,7 +241,7 @@ pickr4.on('change', (color, instance) => {
 })
 
 
-//---------------------------------------------------------------- COLOUR FIVE (SUB-heading text)
+//---------------------------------------------------------------- COLOUR FIVE (sub-heading text)
 // Displays swatch 5 with interactive color picker tool when clicked.
 const pickr5 = Pickr.create({
     el: '.color-picker-5',
