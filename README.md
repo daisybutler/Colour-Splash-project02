@@ -59,5 +59,16 @@ The primary goal of the website is to offer a simple tool which users, from desi
 
 ## Credits
 
+### Media
 
+- The background image colour-splash-background.jpg was taken by Paweł Czerwiński and was obtained from [Unsplash](https://unsplash.com/photos/3k9PGKWt7ik).
+- The ms2-favicon is an edited version of the [FontAwesome palette icon](https://fontawesome.com/icons/palette?style=solid).
+
+### Code
+
+- Positioning and translating the contents of review boxes on homepage uses the CSS suggestions found on [W3C](https://www.w3.org/Style/Examples/007/center.en.html#block).
+- The CSS text gradient effect applied to the main headings was originally taken from [Sarah L. Fossheim](https://fossheim.io/writing/posts/css-text-gradient/) and edited for this website.
+- Preventing the #three-steps image on the homepage from being draggable or selectable uses the CSS found on [this Stackoverflow thread](https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js).
+- The tester page uses the Color-Picker library by [Simonwep on Github](https://github.com/Simonwep/pickr).
+- The contact form on the homepage is facilitated by the [EmailJS API](https://www.emailjs.com/).
 
