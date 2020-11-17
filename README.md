@@ -22,8 +22,25 @@ The primary goal of the website is to offer a simple tool which users, from desi
 - A 'share' option so users can save their colour selection locally;
 - Easy navigation - text is kept to a minimum, clear call to action, two-page website, clean layout.
 
-## Features
+### User Stories
 
+1. As a new user, I want to find it easy to navigate the website and find the testing tool.
+2. As a new user who is not a designer/developer, I want to find inspiration with attractive example colour combinations.
+3. As a new user, I want to find instructions for using the site most effectively for my needs.
+4. As an existing user, I want to export my chosen colour combination so I can refer back to it when needed.
+5. As an existing user, I want to be able to contact the owner of the site with a question about, or problem with, using the website.
+6. As a new user, I want assurance that others recommend the use of this tool.
+7. As an existing user, I want to be able to reset my colour selection and begin over.
+8. As an existing user, I want to experiment with shades of colours, which update and display instantaneously for me to see.
+9. As an existing user with a colour selection already in mind, I want to input a HEX or RGBA number directly into the colour picker.
+
+### Wireframe mockups
+
+[Home](assets/images/homewireframe-coloursplash.pdf)
+
+[Tester](/assets/images/testerwireframe-coloursplash.pdf)
+
+## Features
 
 ## Technologies Used
 - This project uses HTML, CSS and Javascript programming languages.
