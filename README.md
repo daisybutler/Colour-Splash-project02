@@ -52,7 +52,7 @@ The primary goal of the website is to offer a simple tool which users, from desi
 - [Color-Picker Library](https://github.com/Simonwep/pickr) - this project uses the Color-Picker public library by Simonwep on Github.
 
 ## Testing
-
+Testing information can be found in this [TESTING.md file](TESTING.md).
 
 ## Deployment
 
