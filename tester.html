@@ -49,15 +49,16 @@
             <div id="testing-controls-panel" class="col-12">
                 <ul class="testing-controls">
                     <li class="control-link">
-                        <a id="combinationGenerator" class="control" onclick="generateCombination()">Inspire Me</a>
+                        <a id="combinationGenerator" class="control" onclick = "return generateCombination();">Inspire Me</a>
                     </li>
+                    <!---Refresh control triggers a modal asking user to confirm they are happy to lose their current colour selection - ensures control is not clicked by accident--->
                     <li class="control-link">
                         <a class="control" data-toggle="modal" data-target="#refreshWarning">Refresh</a>
                     </li>
                     <li class="control-link">
                         <a class="control" href="#">Share</a>
                     </li>
-                    <!---Help button triggers a modal containing usage instructions - ensure content is only displayed when user requests it to reduce page congestion--->
+                    <!---Help control triggers a modal containing usage instructions - ensure content is only displayed when user requests it to reduce page congestion--->
                     <li class="control-link">
                         <a class="control" data-toggle="modal" data-target="#helpModal">Help</a>
                     </li>
@@ -186,5 +187,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
         <script type="text/javascript" src="assets/js/color-picker.js"></script>
+        <script src="assets/js/combinationGenerator.js"></script>
     </body>
 </html>
