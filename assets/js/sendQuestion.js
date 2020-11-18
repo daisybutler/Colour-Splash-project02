@@ -1,6 +1,6 @@
 // -------------------------------------------------- EmailJS API: https://www.emailjs.com/
 
-// sendMail Function
+// sendMail() Function
 
 function sendMail(contactForm){
     emailjs.send("service_xu52dyr", "colour_splash_contact", {
