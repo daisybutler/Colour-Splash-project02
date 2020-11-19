@@ -1,5 +1,9 @@
-// generateCombination() function. Triggered by clicking .tester-control "Inspire Me" in tester.html
+// generateCombination() function. Triggered by clicking .tester-control "Ideas" in tester.html
 
+//When the user refreshes the page, the session storage is cleared, the counter resets to 0, and the combination suggestions will be displayed from 1 upwards.
+window.onload = function(){
+sessionStorage.clear();
+}
 
 function generateCombination() {
 
@@ -17,7 +21,7 @@ function generateCombination() {
     } else {
         console.log("No more combination suggestions.");
 
-        //Resets the counter to 0 so the user can click through the same 10 options again if they wish.
+        //Resets the counter to 0 so the user can click through the same 10 suggestions again if they wish.
         let currentCounter = sessionStorage.clear();
     }
     

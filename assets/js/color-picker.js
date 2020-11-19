@@ -46,19 +46,26 @@ const pickr1 = Pickr.create({
     }
 });
 
-// Changes the background colour of #color-sample-one block to match the user's current selection on color-picker-1.
 pickr1.on('change', (color, instance) => {
+
+    //Changes the background colour of #color-sample-one block to match the user's current selection on color-picker-1.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
-   document.getElementById('color-sample-1').style.background = rgbaColor;
-})
+    document.getElementById('color-sample-1').style.background = rgbaColor;
 
-// Changes the hex label next to swatch 1 to match the currently selected color by user.
-pickr1.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 1 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-one').innerText = hexColor
 })
+
+
+// Changes the hex label next to swatch 1 to match the currently selected color by user.
+//pickr1.on('change', (color, instance) => {
+    //const rgbaColor = color.toRGBA().toString();
+    //console.log(rgbaColor)
+    //document.getElementsByClassName('pcr-button').style.color = rgbaColor;
+//})
 
 //---------------------------------------------------------------- COLOUR TWO (block)
 
@@ -106,19 +113,19 @@ const pickr2 = Pickr.create({
     }
 });
 
-// Changes the background colour of #color-sample-two block to match the user's current selection on color-picker-2.
 pickr2.on('change', (color, instance) => {
+
+    // Changes the background colour of #color-sample-two block to match the user's current selection on color-picker-2.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('color-sample-2').style.background = rgbaColor;
-})
 
-// Changes the hex label next to swatch 2 to match the currently selected color by user.
-pickr2.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 2 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-two').innerText = hexColor
 })
+
 
 //---------------------------------------------------------------- COLOUR THREE (block)
 
@@ -166,15 +173,14 @@ const pickr3 = Pickr.create({
     }
 });
 
-// Changes the background colour of #color-sample-three block to match the user's current selection on color-picker-3.
 pickr3.on('change', (color, instance) => {
+
+    // Changes the background colour of #color-sample-three block to match the user's current selection on color-picker-3.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('color-sample-3').style.background = rgbaColor;
-})
 
-// Changes the hex label next to swatch 3 to match the currently selected color by user.
-pickr3.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 3 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-three').innerText = hexColor
@@ -226,20 +232,18 @@ const pickr4 = Pickr.create({
     }
 });
 
-// Changes the text colour of #sample-heading text to match the user's current selection on color-picker-4.
 pickr4.on('change', (color, instance) => {
+
+    // Changes the text colour of #sample-heading text to match the user's current selection on color-picker-4.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('sample-heading').style.color = rgbaColor;
-})
 
-// Changes the hex label next to swatch 4 to match the currently selected color by user.
-pickr4.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 4 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-four').innerText = hexColor
 })
-
 
 //---------------------------------------------------------------- COLOUR FIVE (sub-heading text)
 // Displays swatch 5 with interactive color picker tool when clicked.
@@ -286,15 +290,14 @@ const pickr5 = Pickr.create({
     }
 });
 
-// Changes the text colour of #sample-subheading text to match the user's current selection on color-picker-5.
 pickr5.on('change', (color, instance) => {
+
+    // Changes the text colour of #sample-subheading text to match the user's current selection on color-picker-5.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('sample-subheading').style.color = rgbaColor;
-})
 
-// Changes the hex label next to swatch 5 to match the currently selected color by user.
-pickr5.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 5 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-five').innerText = hexColor
@@ -345,20 +348,19 @@ const pickr6 = Pickr.create({
     }
 });
 
-// Changes the text colour of #sample-paragraph text to match the user's current selection on color-picker-6.
+
 pickr6.on('change', (color, instance) => {
+
+    // Changes the text colour of #sample-paragraph text to match the user's current selection on color-picker-6.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('sample-paragraph').style.color = rgbaColor;
-})
 
-// Changes the hex label next to swatch 6 to match the currently selected color by user.
-pickr6.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 6 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-six').innerText = hexColor
 })
-
 
 //---------------------------------------------------------------- COLOUR SEVEN (background)
 
@@ -406,15 +408,14 @@ const pickr7 = Pickr.create({
     }
 });
 
-// Changes the background of the entire #color-sampling-area to match the user's current selection on color-picker-7.
 pickr7.on('change', (color, instance) => {
+
+    // Changes the background of the entire #color-sampling-area to match the user's current selection on color-picker-7.
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
     document.getElementById('colour-sampling-area').style.background = rgbaColor;
-})
 
-// Changes the hex label next to swatch 7 to match the currently selected color by user.
-pickr7.on('change', (color, instance) => {
+    // Changes the hex label next to swatch 7 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
     console.log(hexColor)
     document.getElementById('hex-seven').innerText = hexColor
