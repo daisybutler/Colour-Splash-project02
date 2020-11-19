@@ -507,10 +507,6 @@ immediately suggest to the user a relationship (one is control for the other) be
    height: 140px;
    width: 300px;
    display: inline-block;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   border: 1px solid transparent;
-   border-radius: 5px; 
    position: relative;
 }
 
@@ -563,7 +559,7 @@ immediately suggest to the user a relationship (one is control for the other) be
     margin-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #hex-color-labels {
@@ -690,6 +686,7 @@ immediately suggest to the user a relationship (one is control for the other) be
     #sample-heading {font-size: 50px}
     #sample-subheading {font-size: 30px}
     #collapse-contact{margin-left: 20px;}
+    .color-sample {height: 150px}
 }
 
 @media (min-width: 622px) {
