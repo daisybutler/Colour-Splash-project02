@@ -518,6 +518,7 @@ immediately suggest to the user a relationship (one is control for the other) be
 
 #sample-heading {
     font-family: "Heebo", sans-serif;
+    font-weight: bold;
     color: #ffffff;
     font-size: 40px;
     position: absolute;
@@ -529,6 +530,7 @@ immediately suggest to the user a relationship (one is control for the other) be
 
 #sample-subheading {
     font-family: "Heebo", sans-serif;
+    font-weight: bold;
     color: #ffffff;
     font-size: 24px;
     position: absolute;
@@ -540,6 +542,7 @@ immediately suggest to the user a relationship (one is control for the other) be
 
 #sample-paragraph {
     font-family: "Heebo", sans-serif;
+    font-weight: bold;
     color: #ffffff;
     font-size: 14px;
     position: absolute;
@@ -651,7 +654,9 @@ immediately suggest to the user a relationship (one is control for the other) be
     .color-sample {max-width: 140px}
     #color-sample-background {max-width: 150px}
     #sample-heading {font-size: 30px}
-     #color-picker-toggles {padding-left: 30px}
+    #color-picker-toggles {padding-left: 30px}
+    #sample-paragraph{font-weight: normal}
+    #testing-controls-panel {padding-right: 0}
 }
 
 /* Extra-small screens - small phones */
@@ -662,7 +667,7 @@ immediately suggest to the user a relationship (one is control for the other) be
     #color-picker-toggles {padding-right: 20px}
     #sample-heading {font-size: 35px}
     #sample-subheading {font-size: 18px}
-    #sample-paragraph {font-size: 12px}  
+    #sample-paragraph {font-size: 10px}  
 }
 
 /* Small screens - larger phones. Fixes issues where did not construct with mobile first appproach successfully. */
