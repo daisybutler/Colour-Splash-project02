@@ -37,9 +37,10 @@ const pickr1 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
+            cancel: true,
             clear: true,
             save: true
         }
@@ -50,22 +51,16 @@ pickr1.on('change', (color, instance) => {
 
     //Changes the background colour of #color-sample-one block to match the user's current selection on color-picker-1.
     const rgbaColor = color.toRGBA().toString();
-    console.log(rgbaColor)
+    console.log(rgbaColor);
     document.getElementById('color-sample-1').style.background = rgbaColor;
 
     // Changes the hex label next to swatch 1 to match the currently selected color by user.
     const hexColor = color.toHEXA().toString();
-    console.log(hexColor)
-    document.getElementById('hex-one').innerText = hexColor
+    console.log(hexColor);
+    document.getElementById('hex-one').innerText = hexColor;
+
+    //pickr1.getElementsByClassName('pcr-button').default = rgbaColor;
 })
-
-
-// Changes the hex label next to swatch 1 to match the currently selected color by user.
-//pickr1.on('change', (color, instance) => {
-    //const rgbaColor = color.toRGBA().toString();
-    //console.log(rgbaColor)
-    //document.getElementsByClassName('pcr-button').style.color = rgbaColor;
-//})
 
 //---------------------------------------------------------------- COLOUR TWO (block)
 
@@ -104,8 +99,8 @@ const pickr2 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
@@ -164,8 +159,8 @@ const pickr3 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
@@ -223,8 +218,8 @@ const pickr4 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
@@ -281,8 +276,8 @@ const pickr5 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
@@ -339,8 +334,8 @@ const pickr6 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
@@ -399,8 +394,8 @@ const pickr7 = Pickr.create({
             hex: true,
             rgba: true,
             hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true

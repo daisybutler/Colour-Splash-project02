@@ -583,11 +583,11 @@ immediately suggest to the user a relationship (one is control for the other) be
 
 /* Makes the background-color of the buttons within the color picker match the site theme. */
 .pcr-app .pcr-interaction .pcr-save {
-    background: #bab0a4;
+    background: #46D9BD;
 }
 
 .pcr-app .pcr-interaction .pcr-type.active {
-    background: #bab0a4;
+    background: #46D9BD;
 }
 
 /* ------------------------------- CATEGORY TITLES */
