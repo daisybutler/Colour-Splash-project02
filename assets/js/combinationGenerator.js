@@ -13,46 +13,20 @@ function generateCombination() {
     //Adds one to counter every time the user clicks the control.
     sessionStorage.setItem("counter", ++currentCounter);
 
-    //If the counter is less than or equal to 10 (number of combinations available), increment counter by one and log the suggestion number to console.
-    if (currentCounter <= 10){
+    //If the counter is less than or equal to 13 (number of combinations available), increment counter by one and log the suggestion number to console.
+    if (currentCounter <= 13){
         console.log("Combination Suggestion: " + currentCounter);
 
-    //If the currentCounter is 11 or greater (i.e. on the next click there will be no more suggestions to display), log this infomation to console.
+    //If the currentCounter is 14 or greater (i.e. on the next click the default colours will display again), log this infomation to console.
     } else {
         console.log("No more combination suggestions.");
 
-        //Resets the counter to 0 so the user can click through the same 10 suggestions again if they wish.
+        //Resets the counter to 0 so the user can click through the same 13 suggestions again if they wish.
         let currentCounter = sessionStorage.clear();
     }
-    
+
     //-----------------------------------------------------------------------------Combination Suggestion 1
     if(currentCounter == 1){
-
-        //Gold, white, dark green
-        let suggestions = ["#9F6B17","#FFFFFF","#1A4D33"];
-
-        document.getElementById('color-sample-1').style.background = suggestions[0];
-        document.getElementById('color-sample-2').style.background = suggestions[1];
-        document.getElementById('color-sample-3').style.background = suggestions[0];
-        document.getElementById('sample-heading').style.color = suggestions[1];
-        document.getElementById('sample-subheading').style.color = suggestions[0];
-        document.getElementById('sample-paragraph').style.color = suggestions[1];
-        document.getElementById('colour-sampling-area').style.background = suggestions[2];
-
-        // Changes the hex labels to match suggestions
-        document.getElementById('hex-one').innerText = suggestions[0];
-        document.getElementById('hex-two').innerText = suggestions[1];
-        document.getElementById('hex-three').innerText = suggestions[0];
-        document.getElementById('hex-four').innerText = suggestions[1];
-        document.getElementById('hex-five').innerText = suggestions[0];
-        document.getElementById('hex-six').innerText = suggestions[1];
-        document.getElementById('hex-seven').innerText = suggestions[2];
-
-        //document.getElementsByClassName('pcr-current-color').style.color = rgb(255,255,255);
-    }
-
-    //-----------------------------------------------------------------------------Combination Suggestion 2
-    else if(currentCounter == 2){
 
         //Beige, dark brown, brown
         let suggestions = ["#F2BE94","#31110D","#76271F"];
@@ -73,9 +47,35 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //document.getElementsByClassName('pcr-current-color').style.color = rgb(255,255,255);
+    }
+    
+    //-----------------------------------------------------------------------------Combination Suggestion 2
+    else if(currentCounter == 2){
+
+        //Gold, white, dark green
+        let suggestions = ["#9F6B17","#FFFFFF","#1A4D33"];
+
+        document.getElementById('color-sample-1').style.background = suggestions[0];
+        document.getElementById('color-sample-2').style.background = suggestions[1];
+        document.getElementById('color-sample-3').style.background = suggestions[0];
+        document.getElementById('sample-heading').style.color = suggestions[1];
+        document.getElementById('sample-subheading').style.color = suggestions[0];
+        document.getElementById('sample-paragraph').style.color = suggestions[1];
+        document.getElementById('colour-sampling-area').style.background = suggestions[2];
+
+        // Changes the hex labels to match suggestions
+        document.getElementById('hex-one').innerText = suggestions[0];
+        document.getElementById('hex-two').innerText = suggestions[1];
+        document.getElementById('hex-three').innerText = suggestions[0];
+        document.getElementById('hex-four').innerText = suggestions[1];
+        document.getElementById('hex-five').innerText = suggestions[0];
+        document.getElementById('hex-six').innerText = suggestions[1];
+        document.getElementById('hex-seven').innerText = suggestions[2];
     }
 
-    //-----------------------------------------------------------------------------Combination Suggestion 3
+    //-----------------------------------------------------------------------------Combination Suggestion 3 
     else if(currentCounter == 3){
 
         //Pastel green, navy, cream, very pale green
@@ -99,7 +99,7 @@ function generateCombination() {
         document.getElementById('hex-seven').innerText = suggestions[0];
     }
 
-    //-----------------------------------------------------------------------------Combination Suggestion 4
+    //-----------------------------------------------------------------------------Combination Suggestion 4 
     else if(currentCounter == 4){
 
         //Tuscan red, 'old lavender' purple, lighter purple, white
@@ -268,6 +268,78 @@ function generateCombination() {
         document.getElementById('hex-four').innerText = suggestions[2];
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[1];
+        document.getElementById('hex-seven').innerText = suggestions[3];
+    }
+
+    //-----------------------------------------------------------------------------Combination Suggestion 11
+    else if(currentCounter == 11){
+
+        //Taupe, warm light brown, rose, grey
+        let suggestions = ["#EAE8DC","#D8C3A4","#E88073","#8E8D89"];
+
+        document.getElementById('color-sample-1').style.background = suggestions[1];
+        document.getElementById('color-sample-2').style.background = suggestions[3];
+        document.getElementById('color-sample-3').style.background = suggestions[2];
+        document.getElementById('sample-heading').style.color = suggestions[0];
+        document.getElementById('sample-subheading').style.color = suggestions[0];
+        document.getElementById('sample-paragraph').style.color = suggestions[0];
+        document.getElementById('colour-sampling-area').style.background = suggestions[0];
+
+        // Changes the hex labels to match suggestions
+        document.getElementById('hex-one').innerText = suggestions[1];
+        document.getElementById('hex-two').innerText = suggestions[3];
+        document.getElementById('hex-three').innerText = suggestions[2];
+        document.getElementById('hex-four').innerText = suggestions[0];
+        document.getElementById('hex-five').innerText = suggestions[0];
+        document.getElementById('hex-six').innerText = suggestions[0];
+        document.getElementById('hex-seven').innerText = suggestions[0];
+    }
+
+    //-----------------------------------------------------------------------------Combination Suggestion 12
+    else if(currentCounter == 12){
+
+        // Dark, purple, lighter purple, grey
+        let suggestions = ["#2B1C3C","#43328D","#8165A7","#A4B3B6"];
+
+        document.getElementById('color-sample-1').style.background = suggestions[1];
+        document.getElementById('color-sample-2').style.background = suggestions[2];
+        document.getElementById('color-sample-3').style.background = suggestions[3];
+        document.getElementById('sample-heading').style.color = suggestions[3];
+        document.getElementById('sample-subheading').style.color = suggestions[3];
+        document.getElementById('sample-paragraph').style.color = suggestions[0];
+        document.getElementById('colour-sampling-area').style.background = suggestions[0];
+
+        // Changes the hex labels to match suggestions
+        document.getElementById('hex-one').innerText = suggestions[1];
+        document.getElementById('hex-two').innerText = suggestions[2];
+        document.getElementById('hex-three').innerText = suggestions[3];
+        document.getElementById('hex-four').innerText = suggestions[3];
+        document.getElementById('hex-five').innerText = suggestions[3];
+        document.getElementById('hex-six').innerText = suggestions[0];
+        document.getElementById('hex-seven').innerText = suggestions[0];
+    }
+
+    //-----------------------------------------------------------------------------Combination Suggestion 13
+    else if(currentCounter == 13){
+
+        //Purple, yellow, nude, white
+        let suggestions = ["#A54AC9","#FDCD06","#FFB38F","#FFFFFF"];
+
+        document.getElementById('color-sample-1').style.background = suggestions[0];
+        document.getElementById('color-sample-2').style.background = suggestions[1];
+        document.getElementById('color-sample-3').style.background = suggestions[2];
+        document.getElementById('sample-heading').style.color = suggestions[3];
+        document.getElementById('sample-subheading').style.color = suggestions[3];
+        document.getElementById('sample-paragraph').style.color = suggestions[3];
+        document.getElementById('colour-sampling-area').style.background = suggestions[3];
+
+        // Changes the hex labels to match suggestions
+        document.getElementById('hex-one').innerText = suggestions[0];
+        document.getElementById('hex-two').innerText = suggestions[1];
+        document.getElementById('hex-three').innerText = suggestions[2];
+        document.getElementById('hex-four').innerText = suggestions[3];
+        document.getElementById('hex-five').innerText = suggestions[3];
+        document.getElementById('hex-six').innerText = suggestions[3];
         document.getElementById('hex-seven').innerText = suggestions[3];
     }
 
