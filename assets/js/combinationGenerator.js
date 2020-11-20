@@ -1,6 +1,6 @@
 // generateCombination() function. Triggered by clicking .tester-control "Ideas" in tester.html
 
-//When the user refreshes the page, the session storage is cleared, the counter resets to 0, and the combination suggestions will be displayed from 1 upwards.
+//When the user refreshes the page, the session storage is cleared, the counter resets to 0, and the combination suggestions will be displayed from 1 upwards again.
 window.onload = function(){
 sessionStorage.clear();
 }
@@ -28,27 +28,25 @@ function generateCombination() {
     //-----------------------------------------------------------------------------Combination Suggestion 1
     if(currentCounter == 1){
 
-        //Dark grey, orange and white
-        let suggestions = ["#2F2F2C","#FF7129","#FFFFFF"];
+        //Gold, white, dark green
+        let suggestions = ["#9F6B17","#FFFFFF","#1A4D33"];
 
-        document.getElementById('color-sample-1').style.background = suggestions[1];
-        document.getElementById('color-sample-1').style.borderBottom = "2px solid " + suggestions[2];
+        document.getElementById('color-sample-1').style.background = suggestions[0];
         document.getElementById('color-sample-2').style.background = suggestions[1];
-        document.getElementById('color-sample-2').style.borderBottom = "2px solid " + suggestions[2];
-        document.getElementById('color-sample-3').style.background = suggestions[1];
-        document.getElementById('sample-heading').style.color = suggestions[0];
-        document.getElementById('sample-subheading').style.color = suggestions[2];
-        document.getElementById('sample-paragraph').style.color = suggestions[2];
-        document.getElementById('colour-sampling-area').style.background = suggestions[0];
+        document.getElementById('color-sample-3').style.background = suggestions[0];
+        document.getElementById('sample-heading').style.color = suggestions[1];
+        document.getElementById('sample-subheading').style.color = suggestions[0];
+        document.getElementById('sample-paragraph').style.color = suggestions[1];
+        document.getElementById('colour-sampling-area').style.background = suggestions[2];
 
         // Changes the hex labels to match suggestions
-        document.getElementById('hex-one').innerText = suggestions[1];
+        document.getElementById('hex-one').innerText = suggestions[0];
         document.getElementById('hex-two').innerText = suggestions[1];
-        document.getElementById('hex-three').innerText = suggestions[1];
-        document.getElementById('hex-four').innerText = suggestions[0];
-        document.getElementById('hex-five').innerText = suggestions[2];
-        document.getElementById('hex-six').innerText = suggestions[2];
-        document.getElementById('hex-seven').innerText = suggestions[0];
+        document.getElementById('hex-three').innerText = suggestions[0];
+        document.getElementById('hex-four').innerText = suggestions[1];
+        document.getElementById('hex-five').innerText = suggestions[0];
+        document.getElementById('hex-six').innerText = suggestions[1];
+        document.getElementById('hex-seven').innerText = suggestions[2];
 
         //document.getElementsByClassName('pcr-current-color').style.color = rgb(255,255,255);
     }
@@ -60,11 +58,8 @@ function generateCombination() {
         let suggestions = ["#F2BE94","#31110D","#76271F"];
 
         document.getElementById('color-sample-1').style.background = suggestions[1];
-        document.getElementById('color-sample-1').style.border = "none";
         document.getElementById('color-sample-2').style.background = suggestions[2];
-        document.getElementById('color-sample-2').style.border = "none";
         document.getElementById('color-sample-3').style.background = suggestions[1];
-        document.getElementById('color-sample-3').style.border = "none";
         document.getElementById('sample-heading').style.color = suggestions[0];
         document.getElementById('sample-subheading').style.color = suggestions[0];
         document.getElementById('sample-paragraph').style.color = suggestions[0];
@@ -83,14 +78,14 @@ function generateCombination() {
     //-----------------------------------------------------------------------------Combination Suggestion 3
     else if(currentCounter == 3){
 
-        //Pastel green, navy and cream
-        let suggestions = ["#5CDB94","#05396B","#EDF5E0"];
+        //Pastel green, navy, cream, very pale green
+        let suggestions = ["#5CDB94","#05396B","#EDF5E0", "#8DE4AF"];
 
         document.getElementById('color-sample-1').style.background = suggestions[1];
-        document.getElementById('color-sample-2').style.background = suggestions[0];
+        document.getElementById('color-sample-2').style.background = suggestions[3];
         document.getElementById('color-sample-3').style.background = suggestions[1];
         document.getElementById('sample-heading').style.color = suggestions[2];
-        document.getElementById('sample-subheading').style.color = suggestions[2];
+        document.getElementById('sample-subheading').style.color = suggestions[1];
         document.getElementById('sample-paragraph').style.color = suggestions[2];
         document.getElementById('colour-sampling-area').style.background = suggestions[0];
 
@@ -131,8 +126,8 @@ function generateCombination() {
     //-----------------------------------------------------------------------------Combination Suggestion 5
     else if(currentCounter == 5){
 
-        //Almost black, bright blue, white, medium blue, deep blue
-        let suggestions = ["#282828","#3500D5","#FFFFFF","#23008F","#1A0061"];
+        //Almost black, bright blue, light grey, medium blue, deep blue
+        let suggestions = ["#282828","#3500D5","#D7CDCD","#23008F","#1A0061"];
 
         document.getElementById('color-sample-1').style.background = suggestions[1];
         document.getElementById('color-sample-2').style.background = suggestions[3];

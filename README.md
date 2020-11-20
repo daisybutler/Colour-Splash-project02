@@ -134,6 +134,10 @@ STILL TO COMPLETE.
 ## Credits
 ---
 
+### **Design**
+
+- The "Ideas" control for the tester displays colour schemes inspired by [Visme's blog post on colour schemes](https://visme.co/blog/website-color-schemes/).
+
 ### **Media**
 
 - The background image colour-splash-background.jpg was taken by Paweł Czerwiński and was obtained from [Unsplash](https://unsplash.com/photos/3k9PGKWt7ik).
