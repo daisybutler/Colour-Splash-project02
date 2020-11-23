@@ -48,7 +48,7 @@ function generateCombination() {
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
 
-         //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
         let pcrButtonColours = ["#31110D","#76271F","#31110D","#F2BE94","#F2BE94","#F2BE94","#F2BE94"]
         changePcrButtonColours(pcrButtonColours);
     }

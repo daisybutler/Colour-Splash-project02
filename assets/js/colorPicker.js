@@ -59,7 +59,6 @@ pickr1.on('change', (color, instance) => {
     console.log(hexColor);
     document.getElementById('hex-one').innerText = hexColor;
 
-    //pickr1.getElementsByClassName('pcr-button').default = rgbaColor;
 })
 
 //---------------------------------------------------------------- COLOUR TWO (block)
@@ -415,3 +414,6 @@ pickr7.on('change', (color, instance) => {
     console.log(hexColor)
     document.getElementById('hex-seven').innerText = hexColor
 })
+
+
+
