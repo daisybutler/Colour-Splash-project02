@@ -48,7 +48,9 @@ function generateCombination() {
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
 
-        //document.getElementsByClassName('pcr-current-color').style.color = rgb(255,255,255);
+         //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#31110D","#76271F","#31110D","#F2BE94","#F2BE94","#F2BE94","#F2BE94"]
+        changePcrButtonColours(pcrButtonColours);
     }
     
     //-----------------------------------------------------------------------------Combination Suggestion 2
@@ -73,13 +75,17 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[1];
         document.getElementById('hex-seven').innerText = suggestions[2];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#9F6B17","#FFFFFF","#9F6B17","#FFFFFF","#9F6B17","#FFFFFF","#1A4D33"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 3 
     else if(currentCounter == 3){
 
         //Pastel green, navy, cream, very pale green
-        let suggestions = ["#5CDB94","#05396B","#EDF5E0", "#8DE4AF"];
+        let suggestions = ["#5CDB94","#05396B","#EDF5E0","#8DE4AF"];
 
         document.getElementById('color-sample-1').style.background = suggestions[1];
         document.getElementById('color-sample-2').style.background = suggestions[3];
@@ -91,12 +97,16 @@ function generateCombination() {
 
         // Changes the hex labels to match suggestions
         document.getElementById('hex-one').innerText = suggestions[1];
-        document.getElementById('hex-two').innerText = suggestions[0];
+        document.getElementById('hex-two').innerText = suggestions[3];
         document.getElementById('hex-three').innerText = suggestions[1];
         document.getElementById('hex-four').innerText = suggestions[2];
-        document.getElementById('hex-five').innerText = suggestions[2];
+        document.getElementById('hex-five').innerText = suggestions[1];
         document.getElementById('hex-six').innerText = suggestions[2];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#05396B","#8DE4AF","#05396B","#EDF5E0","#05396B","#EDF5E0","#5CDB94"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 4 
@@ -121,6 +131,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[3];
         document.getElementById('hex-six').innerText = suggestions[3];
         document.getElementById('hex-seven').innerText = suggestions[3];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#4E1B1E","#63495B","#83687A","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 5
@@ -145,6 +159,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[2];
         document.getElementById('hex-six').innerText = suggestions[2];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#3500D5","#23008F","#1A0061","#D7CDCD","#D7CDCD","#D7CDCD","#282828"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 6
@@ -169,32 +187,40 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[2];
         document.getElementById('hex-six').innerText = suggestions[2];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#C4083E","#950841","#6F2332","#FFFFFF","#FFFFFF","#FFFFFF","#1A1A1D"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 7
     else if(currentCounter == 7){
 
         //Black/blue, fluroscent blue, white, black
-        let suggestions = ["#1F2833","#66FCF2","#FFFFFF","#0B0C10"];
+        let suggestions = ["#1F2833","#66FCF2","#0B0C10"];
 
-        document.getElementById('color-sample-1').style.background = suggestions[3];
+        document.getElementById('color-sample-1').style.background = suggestions[2];
         document.getElementById('color-sample-1').style.borderBottom = "2px solid " + suggestions[1];
-        document.getElementById('color-sample-2').style.background = suggestions[3];
+        document.getElementById('color-sample-2').style.background = suggestions[2];
         document.getElementById('color-sample-2').style.borderBottom = "2px solid " + suggestions[1];
-        document.getElementById('color-sample-3').style.background = suggestions[3];
+        document.getElementById('color-sample-3').style.background = suggestions[2];
         document.getElementById('sample-heading').style.color = suggestions[1];
         document.getElementById('sample-subheading').style.color = suggestions[1];
         document.getElementById('sample-paragraph').style.color = suggestions[1];
         document.getElementById('colour-sampling-area').style.background = suggestions[0];
 
         // Changes the hex labels to match suggestions
-        document.getElementById('hex-one').innerText = suggestions[3];
-        document.getElementById('hex-two').innerText = suggestions[3];
-        document.getElementById('hex-three').innerText = suggestions[3];
+        document.getElementById('hex-one').innerText = suggestions[2];
+        document.getElementById('hex-two').innerText = suggestions[2];
+        document.getElementById('hex-three').innerText = suggestions[2];
         document.getElementById('hex-four').innerText = suggestions[1];
         document.getElementById('hex-five').innerText = suggestions[1];
         document.getElementById('hex-six').innerText = suggestions[1];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#0B0C10","#0B0C10","#0B0C10","#66FCF2","#66FCF2","#66FCF2","#1F2833"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 8
@@ -221,6 +247,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[2];
         document.getElementById('hex-six').innerText = suggestions[1];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#E3B0BC","#9B1750","#E3B0BC","#9B1750","#E3B0BC","#9B1750","#E5E4DF"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 9
@@ -245,6 +275,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#FF642F","#FFE402","#14A76A","#272727","#272727","#272727","#272727",]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 10
@@ -269,6 +303,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[1];
         document.getElementById('hex-seven').innerText = suggestions[3];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#A8D2E7","#F76D6E","#F7E9A0","#F7E9A0","#A8D2E7","#F76D6E","#DDDDDD"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 11
@@ -293,6 +331,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[0];
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#D8C3A4","#8E8D89","#E88073","#EAE8DC","#EAE8DC","#EAE8DC","#EAE8DC"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 12
@@ -317,6 +359,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[3];
         document.getElementById('hex-six').innerText = suggestions[0];
         document.getElementById('hex-seven').innerText = suggestions[0];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#43328D","#8165A7","#A4B3B6","#A4B3B6","#A4B3B6","#2B1C3C","#2B1C3C"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     //-----------------------------------------------------------------------------Combination Suggestion 13
@@ -341,6 +387,10 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[3];
         document.getElementById('hex-six').innerText = suggestions[3];
         document.getElementById('hex-seven').innerText = suggestions[3];
+
+        //Creates an ordered array of colours for this specific combination, to be passed in to the changePcrButtonColours() function
+        let pcrButtonColours = ["#A54AC9","#FDCD06","#FFB38F","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"]
+        changePcrButtonColours(pcrButtonColours);
     }
 
     else {
@@ -363,5 +413,18 @@ function generateCombination() {
         document.getElementById('hex-five').innerText = suggestions[3];
         document.getElementById('hex-six').innerText = suggestions[3];
         document.getElementById('hex-seven').innerText = suggestions[3];
+
+        let pcrButtonColours = ["#EF7566","#46D9BD","#BD60CE", "#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"]
+        changePcrButtonColours(pcrButtonColours);
+    }
+}
+
+//-------------------------------------------------Function to iterate through every .pcr-button and change its colour to match its corresponding sample.
+
+function changePcrButtonColours(pcrButtonColours) {
+    const pcrButtons = document.getElementsByClassName('pcr-button');
+    for (i = 0; i < pcrButtons.length; i++) {
+        pcrButtons[i];
+        pcrButtons[i].style.color = pcrButtonColours[i];
     }
 }
