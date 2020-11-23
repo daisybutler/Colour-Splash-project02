@@ -156,6 +156,45 @@ footer {
 
 /* -------------------------------------------------------------------------- INDEX.HTML */
 
+/* --------------------------------- BACK TO TOP BUTTON */
+/* Original code credit: https://codepen.io/deveb22/pen/QxPmGz */
+
+#back-to-top-button {
+    display: inline-block;
+    background-color: #E4CA7C;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   
+    border-radius: 4px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.fa-angle-up {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#back-to-top-button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#back-to-top-button:active {
+    background-color: #555;
+}
+
+#back-to-top-button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* --------------------------------- HOMEPAGE INTRODUCTION */
 
 #colour-splash-intro {
