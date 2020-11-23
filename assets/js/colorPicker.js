@@ -58,7 +58,6 @@ pickr1.on('change', (color, instance) => {
     const hexColor = color.toHEXA().toString();
     console.log(hexColor);
     document.getElementById('hex-one').innerText = hexColor;
-
 })
 
 //---------------------------------------------------------------- COLOUR TWO (block)

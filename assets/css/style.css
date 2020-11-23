@@ -134,7 +134,6 @@ html, body {
 footer {
     background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
     align-content: center;
-    margin-bottom: 0;
     height: 150px;
 }
 
