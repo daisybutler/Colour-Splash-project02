@@ -134,20 +134,24 @@ html, body {
 footer {
     background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
     align-content: center;
-    height: 150px;
+    height: 200px;
 }
 
 .footer-contents {
-    float: none;
-    margin: 0 auto;
-    margin-top: 45px;
-    /* Removing default max-width stops the col-1 class forcing the contents (icon) over to the left on smaller screens.*/
-    max-width: none;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .footer-contents i {
     font-size: 55px;
     color: #bab0a4;  
+}
+
+.copyright {
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    color: #bab0a4;
+    padding-top: 10px;
 }
 
 /* -------------------------------------------------------------------------- INDEX.HTML */
