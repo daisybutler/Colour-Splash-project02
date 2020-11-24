@@ -124,14 +124,19 @@
         <!---CONTACT--->
         <div id="contact-section" class="container-fluid">
             <div class="row">
-                <div class="contact-text col-12 col-sm-6">
+                <!---Larger question mark image displays on sm screens ONLY to the right of the text when there is more space to utilise--->
+                <!---<div class="contact-image d-none d-sm-block col-sm-6">
+                    <img src="../assets/images/question-mark.png" alt="question-mark">
+                </div>--->
+                <div class="contact-text col-12">
+                    <img id="small-question-mark" src="../assets/images/question-mark.png" width="100px" height="100px">
                     <h3>Have a question?</h3>
                     <p>
                         <button class="btn btn-secondary btn-lg" type="button" data-toggle="collapse" data-target="#collapse-contact" aria-expanded="false" aria-controls="collapse-contact-form">
                         Get in Touch
                         </button>
                     </p>
-                    <div class="collapse" id="collapse-contact">
+                    <div class="collapse col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3" id="collapse-contact">
                         <div class="card card-body">
                             <!---CONTACT FORM--->
                             <!---Linked up to the EmailJS API by invoking the sendMail() function (in sendQuestion.js file) on submit.--->
@@ -156,13 +161,8 @@
                             </form>
                         </div>
                     </div>
-                    <!---Small question mark img displays under text ONLY on xs screens when there is not enough space for them to be beside each other--->
-                    <img id="small-question-mark" src="../assets/images/question-mark.png" width="100px" height="100px">
                 </div>
-                <!---Larger question mark image displays on sm screens ONLY to the right of the text when there is more space to utilise--->
-                <div class="contact-image d-none d-sm-block col-sm-6">
-                    <img src="../assets/images/question-mark.png" alt="question-mark">
-                </div>
+        
             </div>
         </div>
         <!---FOOTER--->

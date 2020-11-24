@@ -123,6 +123,7 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - [**Keynote - Apple(UK)**](https://www.apple.com/uk/keynote/) - this project used Keynote to create all graphics (three steps image) used in this project that have not be credited to other sources.
 - [**Adobe Photoshop 2020**](https://www.adobe.com/uk/products/photoshop.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB:G:s&s_kwcid=AL!3085!3!428621692972!e!!g!!adobe%20photoshop!9753976727!99414617483&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB) - this project used Adobe Photoshop to edit site graphics and the favicon image.
 - [**Figma**](https://www.figma.com/) - this project used Figma to construct wireframes in the design stage of the website.
+- [**Canva**](https://www.canva.com/) - this project used Canva to make the contact-background.png image.
 
 ## Testing
 ---

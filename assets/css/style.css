@@ -392,7 +392,7 @@ footer {
     background-repeat:no-repeat;
     background-size: cover;
     min-height: 600px;
-    padding-top: 190px; 
+    padding-top: 140px; 
     padding-bottom: 80px;
 }
 
@@ -437,20 +437,13 @@ footer {
     box-shadow: none;
 }
 
-/* Overrides the align-text:right set to .contact-text on small screens above within the contact form only */
-.form-group {
-    text-align: left;
-}
-
-#collapse-contact {
+/*#collapse-contact {
     margin-bottom: 20px;
-}
+    max-width: 60%;
+}*/
 
 #submit-button {
     text-align: center;
-}
-#submit-button button {
-    margin-right: 0;
 }
 
 /* -------------------------------------------------------------------------- TESTER.HTML */
@@ -730,13 +723,11 @@ immediately suggest to the user a relationship (one is control for the other) be
 /* Small screens - larger phones */
 @media (min-width: 576px) {
     .review {width: 180px; height: 180px}
-    .contact-text {text-align: right}
     .contact-text h3 {font-size: 50px}
-    .contact-text button {margin-right: 20px}
-    #small-question-mark {display: none}
+    #small-question-mark {width: 150px; height: 150px}
+    #contact-section {padding-top: 120px}
     #sample-heading {font-size: 50px}
     #sample-subheading {font-size: 30px}
-    #collapse-contact{margin-left: 20px;}
     .color-sample {height: 150px}
 }
 
