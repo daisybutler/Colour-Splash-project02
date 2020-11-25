@@ -689,22 +689,22 @@ immediately suggest to the user a relationship (one is control for the other) be
 
 /* Extremely-small screens - iPhone 5C */
 @media only screen and (max-width: 345px){
-    #color-sample-background {padding-left: 10px}
-    .color-sample {max-width: 140px}
-    #color-sample-background {max-width: 150px}
     #sample-heading {font-size: 30px}
-    #color-picker-toggles {padding-left: 30px}
-    #sample-paragraph{font-weight: normal}
+    #sample-paragraph {font-weight: normal}
     #testing-controls-panel {padding-right: 0}
     .control-link a {padding-right: 10px}
+    .pickr {padding: 0 1px 0 0}
+}
+
+/* Above extremely-small screens - iPhone 5C */
+@media only screen and (min-width: 345px){
+    .pickr {padding: 0 5px 0 5px}
 }
 
 /* Extra-small screens - small phones */
 @media only screen and (max-width: 442px){
     #main-heading {font-size: 35px; max-width: 220px}
-    #color-sample-background {padding-right: 30px}
     #testing-controls-panel {padding-bottom: 0}
-    #color-picker-toggles {padding-right: 20px}
     #sample-heading {font-size: 35px}
     #sample-subheading {font-size: 18px}
     #sample-paragraph {font-size: 10px}  
@@ -718,6 +718,7 @@ immediately suggest to the user a relationship (one is control for the other) be
     #swatches .color-one {margin-top: 30px}
     .swatch {margin-left: 0}
     .category-titles {font-size: 12px}
+    #color-picker-toggles {margin-left: auto; margin-right: auto}
 }
 
 /* Small screens - larger phones */
