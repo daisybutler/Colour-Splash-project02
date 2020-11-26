@@ -25,7 +25,7 @@ The ideal user for this site is a designer (websites, graphics) who will find th
 - Simple-to-use color picker buttons;
 - Both background and textual samples that can have their colour changed;
 - Straightforward steps for use, including visual prompts, under the 'help' control;
-- A 'share' option so users can save their colour selection locally;
+- A 'share' option so users can save a text copy of their colour selection locally;
 - Easy navigation - text is kept to a minimum, clear call to action, two-page website, clean layout.
 
 ### **User Stories**
@@ -33,7 +33,7 @@ The ideal user for this site is a designer (websites, graphics) who will find th
 1. As a new user, I want to find it easy to navigate the website and find the testing tool.
 2. As a new user who is not a designer/developer, I want to find inspiration with attractive example colour combinations.
 3. As a new user, I want to find instructions for using the site most effectively for my needs.
-4. As an existing user, I want to export my chosen colour combination so I can refer back to it when needed.
+4. As an existing user, I want to export a text copy of my chosen colour combination to my device, so I can refer back to it after closing the Colour Splash website.
 5. As an existing user, I want to be able to contact the owner of the site with a question about, or problem with, using the website.
 6. As a new user, I want assurance that others recommend the use of this tool.
 7. As an existing user, I want to be able to reset my colour selection and begin over.
@@ -70,11 +70,11 @@ The last feature on the homepage is the **contact section.** The large rhetorica
 
 ### **Tester**
 
-The tester page contains the **colour tester tool.** The tool had **three controls,** 'Refresh', 'Share' and 'Help', intuitively placed in the top right hand corner to replicate the conventional positioning of game controls. 
+The tester page contains the **colour tester tool.** The tool had **four controls,** 'Ideas', 'Refresh', 'Share' and 'Help', intuitively placed in the top right hand corner to replicate the conventional positioning of game controls. 
 
 The **'Refresh'** **control** reloads the page so that the current colour selections made by the user are removed and the page becomes a fresh palette. Since the user may click this by accident and risk losing a colour selection, a **warning modal** pops up asking the user to confirm or cancel the refresh. Intuitive colour coding for 'cancel' as red and 'yes, refresh' as green.
 
-The **'Share'** **control** allows the user to export their current colour selection in text format to save on their device and refer back to after then have exited the site. 
+The **'Share'** **control** allows the user to export their current colour selection in text format to save on their device and refer back to after then have exited the site. The download will appear on the user's device as 'colour-combination.txt'.
 
 The **'Help'** **control** is linked to a **help modal** which pops up with **detailed instructions** as to how to use the tool should they not figure it out intuitively (perhaps less tech savvy people). The instructions are broken down in to **3 steps** to make it simple and easy to remember. **'Swatch' and 'color-picker' images** have been added after each reference since one test user for the developing website did not understand what these terms referred to. The modal can be easily closed using the **green 'Got it!' button.**
 
@@ -96,6 +96,8 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - **Call to action buttons**: The two buttons on the homepage, 'Get Started' and 'Get in Touch' grow in size when the user hovers over them to prompt clicking.
 
 - **Contact Form:** The 'Get in Touch' button on the home page triggers a modal to open on the left-hand side of the screen. Providing all required fields have been filled out, pressing the 'Submit' button will trigger the sendMail() function in the Javascript file sendQuestion.js.
+
+- **Share:** The share control allows the user to download the hex numbers of their current colour selection. Clicking the button triggers the exportSelection() function found in exportSelection.js.
 
 - **Help Modal:** The help control on the tester page triggers a modal to drop down from the top of the page, which the user can dismiss by clicking the 'Got it!' button.
 
@@ -124,6 +126,7 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - [**Adobe Photoshop 2020**](https://www.adobe.com/uk/products/photoshop.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB:G:s&s_kwcid=AL!3085!3!428621692972!e!!g!!adobe%20photoshop!9753976727!99414617483&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB) - this project used Adobe Photoshop to edit site graphics and the favicon image.
 - [**Figma**](https://www.figma.com/) - this project used Figma to construct wireframes in the design stage of the website.
 - [**Canva**](https://www.canva.com/) - this project used Canva to make the contact-background.png image.
+- [**FileSaver Library**](https://github.com/eligrey/FileSaver.js) - this project uses the public library FileSaver.js by Eli Grey on Github.
 
 ## Testing
 ---
@@ -152,4 +155,6 @@ STILL TO COMPLETE.
 - Preventing the #three-steps image on the homepage from being draggable or selectable uses the CSS found on [this Stackoverflow thread](https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js).
 - The tester page uses the Color-Picker library by [Simonwep on Github](https://github.com/Simonwep/pickr).
 - The contact form on the homepage is facilitated by the [EmailJS API](https://www.emailjs.com/).
+- The 'Share' control on the tester page uses the FileSaver.js library by [Eli Grey on Github](https://github.com/eligrey/FileSaver.js).
+- The basic implementation of the FileSaver.js library relied on [this helpful YouTube tutorial](https://www.youtube.com/watch?v=kwfoEb0-DQI) buy was adapted signifcantly for use in this website.
 
