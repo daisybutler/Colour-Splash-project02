@@ -51,7 +51,7 @@
                             <a class="control" data-toggle="modal" data-target="#refreshWarning">Refresh</a>
                         </li>
                         <li class="control-link">
-                            <a class="control" href="#">Share</a>
+                            <a type="submit" onclick="exportSelection()">Share</a>
                         </li>
                         <!---Help control triggers a modal containing usage instructions - ensure content is only displayed when user requests it to reduce page congestion--->
                         <li class="control-link">
@@ -176,7 +176,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
         <script type="text/javascript" src="assets/js/colorPicker.js"></script>
-        <script src="assets/js/combinationGenerator.js"></script>
+        <script type="text/javascript" src="assets/js/combinationGenerator.js"></script>
+        <script type="text/javascript" src="assets/js/exportSelection.js"></script>
     </body>
 </html>
