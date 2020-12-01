@@ -13,6 +13,9 @@ The primary goal of the website is to offer a simple tool which users, from desi
 1. [UX](#ux)
     * [User profile](#user-profile)
     * [User Stories](#user-stories)
+    * [Design](#design)
+        * [Colours](#colours)
+        * [Fonts](#fonts)
     * [Wireframe Mockups](#wireframe-mockups)
 
 2. [Features](#features)
@@ -28,7 +31,7 @@ The primary goal of the website is to offer a simple tool which users, from desi
 5. [Deployment](#deployment)
 
 6. [Credits](#credits)
-    * [Design](#design)
+    * [Inspiration](#inspiration)
     * [Media](#media)
     * [Code](#code)
 
@@ -65,6 +68,36 @@ The ideal user for this site is a designer (websites, graphics) who will find th
 7. As an existing user, I want to be able to reset my colour selection and begin over.
 8. As an existing user, I want to experiment with shades of colours, which update and display instantaneously for me to see.
 9. As an existing user with a colour selection already in mind, I want to input a HEX or RGBA number directly into the colour picker.
+
+### **Design**
+
+#### Colours
+The Homepage is has the base colours as follows:
+* ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF (White) 
+* ![#BAB0A4](https://placehold.it/15/bab0a4/000000?text=+) #BAB0A4 (Taupe) 
+* ![#DDDDDD](https://placehold.it/15/DDDDDD/000000?text=+) #DDDDDD (Grey) 
+
+To illustrate to the user how bright, bold and beautiful combinations of colour can be, the page also showcases the following pastel shades:
+* ![#EF7566](https://placehold.it/15/EF7566/000000?text=+) #EF7566 (Pastel Red) 
+* ![#E4CA7C](https://placehold.it/15/E4CA7C/000000?text=+) #E4CA7C (Pastel Yellow) 
+* ![#46D9BD](https://placehold.it/15/46D9BD/000000?text=+) #46D9BD (Pastel Green) 
+* ![#00C2DE](https://placehold.it/15/00C2DE/000000?text=+) #00C2DE (Pastel Blue) 
+* ![#BD60CE](https://placehold.it/15/BD60CE/000000?text=+) #BD60CE (Pastel Purple) 
+
+These shades were picked from the homepage's background image, to create visual consistency across for the page for an aesthetically pleasing effect. 
+
+The base colours for the Tester page are as follows:
+* ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF (White) 
+* ![#BAB0A4](https://placehold.it/15/bab0a4/000000?text=+) #BAB0A4 (Taupe) 
+* ![#DDDDDD](https://placehold.it/15/DDDDDD/000000?text=+) #DDDDDD (Grey) 
+ 
+This neutral colour scheme ensures no colour clashes arise when the user changes the blocks, text or background colours in the testing area. Similarly, it ensures the user's input is not ditracted from or skewed by the presence of 'loud' colours around the testing area. 
+
+#### Fonts
+
+The fonts used in this project are "Heebo" from Google fonts and Sans Serif. All text with the font-family "Heebo" have been assigned the fallback font Sans Serif should Google fonts fail to load.
+
+The "Heebo" font was choosen for its legability and 'soft' look. Text needs to be read on a wide range of background colours, thus simplicity of font choice is paramount. 
 
 ### **Wireframe Mockups**
 
@@ -167,7 +200,7 @@ STILL TO COMPLETE.
 ## Credits
 ---
 
-### **Design**
+### **Inspiration**
 
 - The "Ideas" control for the tester displays colour schemes inspired by [Visme's blog post on colour schemes](https://visme.co/blog/website-color-schemes/).
 
