@@ -72,6 +72,9 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 - Chrome - displays correctly [(view here).](assets/images/readme-images/opening-html.png)
 - Safari - displays correctly [(view here).](assets/images/readme-images/safari.png)
 
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add the necessary prefixers to CSS so that the live website renders across all other browsers.
+
+
 ### Mentor Review
 
 Seun loved the aesthetic of the Homepage and the consistency in colours. She used the colour pickers on the Tester page easily and found all buttons to work as expected.
