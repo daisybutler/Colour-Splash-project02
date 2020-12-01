@@ -1,18 +1,27 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* --------------------------------- FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
 
 /* --------------------------------- SITEWIDE FEATURES */
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+
 /* --------------------------------- NAVBAR */
 
-.navbar{
+.navbar {
     height: 100px;
 }
 
@@ -33,6 +42,7 @@ html, body {
     padding-left: 10px;
 }
 
+
 /* --------------------------------- HEADINGS */
 
 #main-heading {
@@ -43,73 +53,93 @@ html, body {
     display: block;
     width: 400px;
     margin: auto;
-
     /* ------------------ Original code credit: https://fossheim.io/writing/posts/css-text-gradient/ */
-
     /*---RAINBOW EFFECT on the main heading for each page and animation when hovered over */
-
     /* Create the gradient. */
-    background-image: linear-gradient(
-        50deg,
-        #EF7566 16.666%, 
-        #E16541 16.666%, 
-        rgb(225, 161, 65) 33.333%, 
-        #E4CA7C 33.333%, 
-        rgb(208, 209, 114) 50%, 
-        #46D9BD 50%, 
-        rgb(66, 197, 173) 66.666%, 
-        #00C2DE 66.666%, 
-        #BD60CE 83.333%, 
-        #BD60CE 83.333%);
-
+    background-image: -o-linear-gradient( 40deg, #EF7566 16.666%, #E16541 16.666%, rgb(225, 161, 65) 33.333%, #E4CA7C 33.333%, rgb(208, 209, 114) 50%, #46D9BD 50%, rgb(66, 197, 173) 66.666%, #00C2DE 66.666%, #BD60CE 83.333%, #BD60CE 83.333%);
+    background-image: linear-gradient( 50deg, #EF7566 16.666%, #E16541 16.666%, rgb(225, 161, 65) 33.333%, #E4CA7C 33.333%, rgb(208, 209, 114) 50%, #46D9BD 50%, rgb(66, 197, 173) 66.666%, #00C2DE 66.666%, #BD60CE 83.333%, #BD60CE 83.333%);
     /* Sets the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-
     /* Uses the text as a mask for the background. */
     /* Shows the gradient as a text color rather than element bg. */
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     /* Animates the text when loading the element. */
     /* Animates the text on page load and when hovering over. */
-    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
-    }
+    -webkit-animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+            animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
 
-    #main-heading:hover{
-        animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-    }
+#main-heading:hover {
+    -webkit-animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+            animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
 
-    /* Moves the background and makes it smaller. */
-    /* Animation shown when entering the page and after the hover animation. */
-    @keyframes rainbow-text-simple-animation-rev {
-        0% {
-            background-size: 650%;
-        }
-        40% {
-            background-size: 650%;
-        }
-        100% {
-            background-size: 100%;
-        }
-    }
 
-    /* Moves the background and makes it larger. */
-    /* Animation shown when hovering over the text. */
-    @keyframes rainbow-text-simple-animation {
-        0% {
-            background-size: 100%;
-        }
-        80% {
-            background-size: 650%;
-        }
-        100% {
-            background-size: 650%;
-        }
-    }
+/* Moves the background and makes it smaller. */
 
-    /* ---------------------------------------End of heading RAINBOW EFFECT code */
+
+/* Animation shown when entering the page and after the hover animation. */
+
+@-webkit-keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+
+/* Moves the background and makes it larger. */
+
+
+/* Animation shown when hovering over the text. */
+
+@-webkit-keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+
+
+/* ---------------------------------------End of heading RAINBOW EFFECT code */
 
 #subtitle {
     font-family: "Heebo", sans-serif;
@@ -128,12 +158,18 @@ html, body {
     margin-left: 0;
 }
 
+
 /* --------------------------------- FOOTER */
 
+
 /* Linear gradient creates and a visually appealing 3D effect */
+
 footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), color-stop(#f1efef), to(#dddddd));
+    background-image: -o-linear-gradient(#dddddd, #f1efef, #dddddd);
     background-image: linear-gradient(#dddddd, #f1efef, #dddddd);
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     height: 200px;
 }
 
@@ -144,7 +180,7 @@ footer {
 
 .footer-contents i {
     font-size: 55px;
-    color: #bab0a4;  
+    color: #bab0a4;
 }
 
 .copyright {
@@ -154,9 +190,13 @@ footer {
     padding-top: 10px;
 }
 
+
 /* -------------------------------------------------------------------------- INDEX.HTML */
 
+
 /* --------------------------------- BACK TO TOP BUTTON */
+
+
 /* Original code credit: https://codepen.io/deveb22/pen/QxPmGz */
 
 #back-to-top-button {
@@ -165,11 +205,12 @@ footer {
     width: 50px;
     height: 50px;
     text-align: center;
-   
     border-radius: 4px;
     position: fixed;
     bottom: 50px;
     right: 50px;
+    -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
+    -o-transition: background-color .3s, opacity .5s, visibility .5s;
     transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
@@ -195,6 +236,7 @@ footer {
     visibility: visible;
 }
 
+
 /* --------------------------------- HOMEPAGE INTRODUCTION */
 
 #colour-splash-intro {
@@ -203,12 +245,13 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
-    padding-top: 50px;  
+    padding-top: 50px;
 }
+
 
 /* --------------------------------- JUMBOTRON */
 
- .jumbotron {
+.jumbotron {
     padding-top: 30px;
     background-color: rgba(221, 221, 221, 0.8);
     /* setting a border and border radius softens the corners of shape for more visually appealing design */
@@ -216,7 +259,8 @@ footer {
     border-radius: 30px;
     margin-bottom: 50px;
     /* Box shadow gives a floating effect to jumbotron */
-    box-shadow: 1px 2px 5px rgb(172, 171, 171);
+    -webkit-box-shadow: 1px 2px 5px rgb(172, 171, 171);
+            box-shadow: 1px 2px 5px rgb(172, 171, 171);
 }
 
 .jumbotron h2 {
@@ -235,18 +279,21 @@ footer {
     font-size: 25px;
     text-align: center;
     /* Shadow makes the text stand out more on the background for better legibility */
-    text-shadow: 1px 1px 5px rgb(194, 193, 193);  
+    text-shadow: 1px 1px 5px rgb(194, 193, 193);
 }
+
 
 /* --------------------------------- Three Steps Image */
 
 #three-steps img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: auto;
     padding-bottom: 40px;
-  /* Ensures the image is not clickable/draggable by the user */
-  /* Original code credit: https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js */ 
+    /* Ensures the image is not clickable/draggable by the user */
+    /* Original code credit: https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -260,7 +307,7 @@ footer {
     height: auto;
     text-align: center;
     padding: 40px 60px 40px 20px;
-} 
+}
 
 #smaller-screen-steps .step h4 {
     color: #fff;
@@ -275,7 +322,9 @@ footer {
     font-family: "Heebo", sans-serif;
 }
 
+
 /* Matching colours for each step as displayed in its xs screen block and corresponding sm screen plus image demonstrates visual consistency. */
+
 #smaller-screen-steps .step-one {
     background-color: #EF7566;
 }
@@ -288,14 +337,20 @@ footer {
     background-color: #BD60CE;
 }
 
+
 /* --------------------------------- CALL TO ACTION BUTTON */
 
 .btn-default {
     background-color: #bab0a4;
 }
+
 #call-to-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #call-to-action-button {
@@ -303,30 +358,40 @@ footer {
     font-size: 20px;
     /* Transitions alway the user a smoother interaction with the button for good UX */
     -webkit-transition: .15s ease-out;
-    -moz-transition: .15s ease-out;
+    -o-transition: .15s ease-out;
     transition: .15s ease-out;
     /* Box shadow gives a 3D effect to button */
-    box-shadow: 1px 1px 2px grey;
+    -webkit-box-shadow: 1px 1px 2px grey;
+            box-shadow: 1px 1px 2px grey;
 }
 
+
 /* Increases the button's size when the user hovers over it, acting as a visual prompt to click it. */
+
 #call-to-action-button:hover {
     font-size: 25px;
 }
 
+
 /* --------------------------------- REVIEWS */
 
 #reviews-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .review {
     display: inline-block;
     width: 150px;
     height: 150px;
-    margin-right:5px;
+    margin-right: 5px;
     /* Adding a transparent border and border-radius property softens the edges of the shapes for a more visually appealing look. */
     border: 1px solid transparent;
     border-radius: 20px;
@@ -334,7 +399,8 @@ footer {
     position: relative;
     margin-bottom: 5px;
     /* Box shadow gives floating effect to review boxes. */
-    box-shadow: 1px 1px 10px rgb(70, 69, 69);
+    -webkit-box-shadow: 1px 1px 10px rgb(70, 69, 69);
+            box-shadow: 1px 1px 10px rgb(70, 69, 69);
 }
 
 .review p {
@@ -348,7 +414,9 @@ footer {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
 }
 
 .review-author {
@@ -360,10 +428,14 @@ footer {
     top: 80%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
+
 /* Review boxes correspond in colour to the background image colour it is adjacent, providing visual consistency to the page. */
+
 #review-one {
     background-color: #EF7566;
 }
@@ -384,15 +456,16 @@ footer {
     background-color: #BD60CE;
 }
 
+
 /* --------------------------------- CONTACT */
 
 #contact-section {
     background: url("../images/contact-background.png");
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
-    padding-top: 140px; 
+    padding-top: 140px;
     padding-bottom: 80px;
 }
 
@@ -414,27 +487,36 @@ footer {
     border: none;
     /* Transitions ensure a smoother interaction with the button */
     -webkit-transition: .15s ease-out;
-    -moz-transition: .15s ease-out;
+    -o-transition: .15s ease-out;
     transition: .15s ease-out;
     /* Box shadow gives a 3D effect to button */
-    box-shadow: 1px 2px 2px grey;
-}
-/* Button gets bigger on hover */
-.contact-text button:hover {
-    background-color: #bab0a4;
-    font-size: 25px;  
+    -webkit-box-shadow: 1px 2px 2px grey;
+            box-shadow: 1px 2px 2px grey;
 }
 
+
+/* Button gets bigger on hover */
+
+.contact-text button:hover {
+    background-color: #bab0a4;
+    font-size: 25px;
+}
+
+
 /* Overrides the default btn-primary background-color of blue when active */
+
 .contact-text button:active {
     background-color: #bab0a4;
 }
 
+
 /* Overrides the default btn-primary background-color of blue when clicked */
+
 .contact-text button:focus {
     background-color: #bab0a4;
     text-decoration: none;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .card-body {
@@ -446,7 +528,9 @@ footer {
     text-align: center;
 }
 
+
 /* -------------------------------------------------------------------------- TESTER.HTML */
+
 
 /* --------------------------------- CONTROLS */
 
@@ -455,6 +539,8 @@ footer {
 }
 
 .testing-controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding: 10px 0 10px 0;
@@ -468,7 +554,7 @@ footer {
     border-radius: 20px;
 }
 
-.control-link a {
+.control {
     padding-right: 15px;
     padding-left: 15px;
     text-decoration: none;
@@ -477,7 +563,21 @@ footer {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    background-color: white;
+    border: none;
 }
+
+.control:hover {
+    color: white;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.control:focus {
+    outline: none;
+}
+
 
 /* --------------------------------- REFRESH WARNING MODAL */
 
@@ -496,10 +596,14 @@ footer {
 .btn-danger:hover {
     background-color: rgb(201, 82, 67);
 }
+
+
 /* --------------------------------- HELP MODAL */
 
 .modal-header {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .modal-content {
@@ -507,14 +611,18 @@ footer {
 }
 
 .modal-footer {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
+
 
 /* --------------------------------- COLOUR SAMPLING AREA */
 
 #colour-sampling-area {
     padding: 30px 40px 30px 40px;
 }
+
 
 /* ------------------------ BLOCKS */
 
@@ -525,33 +633,38 @@ footer {
     border-radius: 5px;
 }
 
+
 /* Default colour values are set to site pastels red, green and purple, as are their corresponding swatches, to 
 immediately suggest to the user a relationship (one is control for the other) between the color-sample and its swatch. */
+
 .color-one {
     background-color: #EF7566;
 }
 
-.color-two{
+.color-two {
     background-color: #46D9BD;
 }
 
 .color-three {
-    background-color: #BD60CE; 
+    background-color: #BD60CE;
 }
+
 
 /* Colour seven - the background colour - is completely transparent so that when the #color-sampling-area colour is changed, it is completely visible.
    Setting the #colour-sample-background to change as well as #color-sampling-area created a visible border between the two areas, when user changed opacity,
    due to one being layered on top of the other. */
+
 .color-seven {
     background-color: rgba(255, 255, 255, 0)
 }
 
 .color-sample {
-   height: 140px;
-   width: 300px;
-   display: inline-block;
-   position: relative;
+    height: 140px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
 }
+
 
 /* ------------------------ TEXT */
 
@@ -564,7 +677,9 @@ immediately suggest to the user a relationship (one is control for the other) be
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
 }
 
 #sample-subheading {
@@ -576,7 +691,9 @@ immediately suggest to the user a relationship (one is control for the other) be
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
 }
 
 #sample-paragraph {
@@ -588,10 +705,13 @@ immediately suggest to the user a relationship (one is control for the other) be
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 /* --------------------------------- SWATCHES */
 
@@ -612,19 +732,23 @@ immediately suggest to the user a relationship (one is control for the other) be
     margin-bottom: 50px;
     margin-top: 13px;
     padding-right: 10px;
-} 
+}
 
 .pcr-button {
     margin-bottom: 10px;
     border: 2px solid grey;
 }
 
+
 /* Padding applied to swatches column pushes the swatches down to sit inline with the colour sampling blocks for a cleaner layout. */
+
 #swatches {
     padding-top: 10px;
 }
 
+
 /* Makes the background-color of the buttons within the color picker match the site theme. */
+
 .pcr-app .pcr-interaction .pcr-save {
     background: #46D9BD;
 }
@@ -633,6 +757,7 @@ immediately suggest to the user a relationship (one is control for the other) be
     background: #46D9BD;
 }
 
+
 /* ------------------------------- CATEGORY TITLES */
 
 .category-titles {
@@ -640,9 +765,12 @@ immediately suggest to the user a relationship (one is control for the other) be
     font-family: "Heebo", sans-serif;
 }
 
+
 /* ------------------------------- HEX LABELS */
 
+
 /* Differing margins applied to the labels ensures each is rendered inline with its corresponding swatch. */
+
 #hex-one {
     margin-top: 92px;
     color: grey;
@@ -685,82 +813,192 @@ immediately suggest to the user a relationship (one is control for the other) be
     letter-spacing: 1px;
 }
 
+
 /* -------------------------------------------------------------------------- MEDIA QUERIES */
 
+
 /* Extremely-small screens - iPhone 5C */
-@media only screen and (max-width: 345px){
-    #sample-heading {font-size: 30px}
-    #sample-paragraph {font-weight: normal}
-    #testing-controls-panel {padding-right: 0}
-    .control-link a {padding-right: 10px}
-    .pickr {padding: 0 1px 0 0}
+
+@media only screen and (max-width: 345px) {
+    #sample-heading {
+        font-size: 30px
+    }
+    #sample-paragraph {
+        font-weight: normal
+    }
+    #testing-controls-panel {
+        padding-right: 0
+    }
+    .control-link a {
+        padding-right: 10px
+    }
+    .pickr {
+        padding: 0 1px 0 0
+    }
 }
+
 
 /* Above extremely-small screens - iPhone 5C */
-@media only screen and (min-width: 345px){
-    .pickr {padding: 0 5px 0 5px}
+
+@media only screen and (min-width: 345px) {
+    .pickr {
+        padding: 0 5px 0 5px
+    }
 }
+
 
 /* Extra-small screens - small phones */
-@media only screen and (max-width: 442px){
-    #main-heading {font-size: 35px; max-width: 220px}
-    #testing-controls-panel {padding-bottom: 0}
-    #sample-heading {font-size: 35px}
-    #sample-subheading {font-size: 18px}
-    #sample-paragraph {font-size: 10px}  
+
+@media only screen and (max-width: 442px) {
+    #main-heading {
+        font-size: 35px;
+        max-width: 220px
+    }
+    #testing-controls-panel {
+        padding-bottom: 0
+    }
+    #sample-heading {
+        font-size: 35px
+    }
+    #sample-subheading {
+        font-size: 18px
+    }
+    #sample-paragraph {
+        font-size: 10px
+    }
 }
+
 
 /* Small screens - larger phones. Fixes issues where did not construct with mobile first appproach successfully. */
-@media only screen and (max-width: 576px){
-    #colour-splash-intro {min-height: 400px}
-    #three-steps img {display: none}
-    #reviews-section {display: none}
-    #swatches .color-one {margin-top: 30px}
-    .swatch {margin-left: 0}
-    .category-titles {font-size: 12px}
-    #color-picker-toggles {margin-left: auto; margin-right: auto}
+
+@media only screen and (max-width: 576px) {
+    #colour-splash-intro {
+        min-height: 400px
+    }
+    #three-steps img {
+        display: none
+    }
+    #reviews-section {
+        display: none
+    }
+    #swatches .color-one {
+        margin-top: 30px
+    }
+    .swatch {
+        margin-left: 0
+    }
+    .category-titles {
+        font-size: 12px
+    }
+    #color-picker-toggles {
+        margin-left: auto;
+        margin-right: auto
+    }
 }
 
+
 /* Small screens - larger phones */
+
 @media (min-width: 576px) {
-    .review {width: 180px; height: 180px}
-    .contact-text h3 {font-size: 50px}
-    #small-question-mark {width: 150px; height: 150px}
-    #contact-section {padding-top: 120px}
-    #sample-heading {font-size: 50px}
-    #sample-subheading {font-size: 30px}
-    .color-sample {height: 150px}
+    .review {
+        width: 180px;
+        height: 180px
+    }
+    .contact-text h3 {
+        font-size: 50px
+    }
+    #small-question-mark {
+        width: 150px;
+        height: 150px
+    }
+    #contact-section {
+        padding-top: 120px
+    }
+    #sample-heading {
+        font-size: 50px
+    }
+    #sample-subheading {
+        font-size: 30px
+    }
+    .color-sample {
+        height: 150px
+    }
 }
 
 @media (min-width: 622px) {
-    #sample-paragraph {font-size: 20px}
+    #sample-paragraph {
+        font-size: 20px
+    }
 }
+
 
 /* Medium screens - tablets */
+
 @media (min-width: 768px) {
-    #call-to-action-button {font-size: 25px}
-    #call-to-action-button:hover {font-size: 30px}
-    .contact-text button { font-size: 25px}
-    .contact-text button:hover {font-size: 30px}
-    .contact-text h3 {font-size: 60px}
-    #color-picker-toggles {border-radius: 20px 0 0 20px;}
+    #call-to-action-button {
+        font-size: 25px
+    }
+    #call-to-action-button:hover {
+        font-size: 30px
+    }
+    .contact-text button {
+        font-size: 25px
+    }
+    .contact-text button:hover {
+        font-size: 30px
+    }
+    .contact-text h3 {
+        font-size: 60px
+    }
+    #color-picker-toggles {
+        border-radius: 20px 0 0 20px;
+    }
 }
+
 
 /* Large screens - larger tablets and small laptops */
+
 @media (min-width: 992px) {
-    .jumbotron h2 {font-size: 40px}
-    .jumbotron p {font-size: 30px}
-    #call-to-action-button {font-size: 30px}
-    #call-to-action-button:hover {font-size: 35px}
-    .review {width: 200px; height: 200px}
-    .review p {font-size: 25px}
+    .jumbotron h2 {
+        font-size: 40px
+    }
+    .jumbotron p {
+        font-size: 30px
+    }
+    #call-to-action-button {
+        font-size: 30px
+    }
+    #call-to-action-button:hover {
+        font-size: 35px
+    }
+    .review {
+        width: 200px;
+        height: 200px
+    }
+    .review p {
+        font-size: 25px
+    }
 }
 
+
 /* Extra-large screens - larger laptops and computers */
+
 @media (min-width: 1200px) {
-    .review {width: 250px; height: 250px; margin-right: 15px}
-    .review p {font-size: 30px}
-    #sample-heading {font-size: 60px}
-    #sample-subheading {font-size: 35px}
-    #sample-paragraph {font-size: 20px}
+    .review {
+        width: 250px;
+        height: 250px;
+        margin-right: 15px
+    }
+    .review p {
+        font-size: 30px
+    }
+    #sample-heading {
+        font-size: 60px
+    }
+    #sample-subheading {
+        font-size: 35px
+    }
+    #sample-paragraph {
+        font-size: 20px
+    }
 }

@@ -14,12 +14,12 @@
         <title>Colour Tester</title>
     </head>
     <body>
-        <!---p-0 removes white space from either side of the container-->
+        <!--p-0 removes white space from either side of the container-->
         <header class="container-fluid p-0">
-            <!---NAVBAR--->
+            <!--NAVBAR-->
             <nav class="navbar navbar-expand navbar-light" style="background-image: linear-gradient(#dddddd, #f1efef, #dddddd)">
                 <a href="/" class="navbar-brand"><i class="fas fa-palette"></i></a>
-                <!---Navbar always collapsed because only two nav-items to display - fits comfortably on all screen sizes--->
+                <!--Navbar always collapsed because only two nav-items to display - fits comfortably on all screen sizes-->
                 <div class="navbar-collapse collapse justify-content-stretch" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -31,34 +31,34 @@
                     </ul>
                 </div>
             </nav>
-            <!---TESTER PAGE HEADING--->
+            <!--TESTER PAGE HEADING-->
             <div id="main-heading-section" class="row container-fluid">
                 <div class="col-12">
                     <h1 id="main-heading">Colour Tester</h1>
                 </div>
             </div>
         </header>
-        <!----TESTING CONTROLS-->
+        <!--TESTING CONTROLS-->
         <div id="colour-sampling-area" class="container-fluid">
             <div class="row">
                 <div id="testing-controls-panel" class="col-12">
                     <ul class="testing-controls">
                         <li class="control-link">
-                            <a id="combinationGenerator" class="control" onclick = "return generateCombination();">Ideas</a>
+                            <button id="combinationGenerator" class="control" onclick = "return generateCombination();">Ideas</button>
                         </li>
-                        <!---Refresh control triggers a modal asking user to confirm they are happy to lose their current colour selection - ensures control is not clicked by accident--->
+                        <!--Refresh control triggers a modal asking user to confirm they are happy to lose their current colour selection - ensures control is not clicked by accident-->
                         <li class="control-link">
-                            <a class="control" data-toggle="modal" data-target="#refreshWarning">Refresh</a>
+                            <button class="control" data-toggle="modal" data-target="#refreshWarning">Refresh</button>
                         </li>
                         <li class="control-link">
-                            <a type="submit" onclick="exportSelection()">Share</a>
+                            <button type="submit" class="control" onclick="exportSelection()">Share</button>
                         </li>
-                        <!---Help control triggers a modal containing usage instructions - ensure content is only displayed when user requests it to reduce page congestion--->
+                        <!--Help control triggers a modal containing usage instructions - ensure content is only displayed when user requests it to reduce page congestion-->
                         <li class="control-link">
-                            <a class="control" data-toggle="modal" data-target="#helpModal">Help</a>
+                            <button class="control" data-toggle="modal" data-target="#helpModal">Help</button>
                         </li>
                     </ul>
-                    <!---REFRESH WARNING MODAL--->
+                    <!--REFRESH WARNING MODAL-->
                     <div class="modal fade" id="refreshWarning" tabindex="-1" role="dialog" aria-labelledby="refreshWarningLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -69,13 +69,13 @@
                                     <p>By clicking refresh, your current colour selection will be lost.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <a type="button" class="btn btn-success" href="tester.html">Yes, refresh</a>
+                                    <a role="button" class="btn btn-success" href="tester.html">Yes, refresh</a>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!---HELP MODAL--->
+                    <!--HELP MODAL-->
                     <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -83,13 +83,13 @@
                                     <h5 class="modal-title" id="helpModalLabel">How To Use</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>1. Select a block, text or background swatch <img src="assets/images/swatch-example.png" alt="example-swatch" > by clicking on it.<br>
-                                        <br>2. Change the colour by using the circular colour picker <img src="assets/images/colour-picker-example.png" width="17px" height="17px" alt="example-colour-picker"> OR directly entering a colour value into the bottom left-hand box.<br>
+                                    <p>1. Select a block, text or background swatch <img src="assets/images/swatch-example.png" width="17" height="17" alt="example-swatch" > by clicking on it.<br>
+                                        <br>2. Change the colour by using the circular colour picker <img src="assets/images/colour-picker-example.png" width="17" height="17" alt="example-colour-picker"> OR directly entering a colour value into the bottom left-hand box.<br>
                                         <br>3. Tap the "Save" button.<br>
                                         <br>4. Play around until you find a combination of colours that you like!
                                     </p>
                                 </div>
-                                <!---Button allows user to close modal once they no longer require it-->
+                                <!--Button allows user to close modal once they no longer require it-->
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-success" data-dismiss="modal">Got it!</button>
                                 </div>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <!----INTERACTIVE COLOUR SAMPLING BLOCKS-->
+            <!--INTERACTIVE COLOUR SAMPLING BLOCKS-->
             <div class="row">
                 <div id="color-sample-background" class="col-12 col-sm-9 col-md-7 offset-md-1 offset-lg-2 color-seven">
                     <div class="row">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div id="color-picker-toggles">
-                    <!---SWATCHES - user clicks to trigger color picker display. User can then change the colour of the corresponding sampling block--->
+                    <!--SWATCHES - user clicks to trigger color picker display. User can then change the colour of the corresponding sampling block-->
                     <div class="row">
                         <div id="swatches" class="col-12 d-flex col-sm-1 d-sm-block">
                             <p class="category-titles d-none d-sm-block"><strong>Swatches</strong></p>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <!---Hex numbers displayed on md screens and greater, since not enough room on smaller screens.--->
+                <!--Hex numbers displayed on md screens and greater, since not enough room on smaller screens-->
                 <div id="hex-color-labels" class="d-none d-md-block">
                     <div class="row">
                         <div id="labels" class="col-1">
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <!---FOOTER--->
+        <!--FOOTER-->
         <footer class="footer mt-auto py-3">
             <div class="container-fluid">
                 <div class="row">
@@ -177,7 +177,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-
         <script type="text/javascript" src="assets/js/colorPicker.js"></script>
         <script type="text/javascript" src="assets/js/combinationGenerator.js"></script>
         <script type="text/javascript" src="assets/js/exportSelection.js"></script>

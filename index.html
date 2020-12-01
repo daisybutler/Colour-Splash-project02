@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <!---EmailJS Code Snippet------->
+        <!--EmailJS Code Snippet-->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <script type="text/javascript">
             (function(){
@@ -19,12 +19,12 @@
         <title>Colour Splash</title>
     </head>
     <body>
-        <!---p-0 removes white space from either side of the container--->
+        <!--p-0 removes white space from either side of the container-->
         <header class="container-fluid p-0">
-            <!-- NAVBAR--->
+            <!--NAVBAR-->
             <nav class="navbar navbar-expand navbar-light" style="background-image: linear-gradient(#dddddd, #f1efef, #dddddd)">
                 <a href="/" class="navbar-brand"><i class="fas fa-palette"></i></a>
-                <!---Navbar always collapsed because only two nav-items to display - fits comfortably on all screen sizes--->
+                <!--Navbar always collapsed because only two nav-items to display - fits comfortably on all screen sizes-->
                 <div class="navbar-collapse collapse justify-content-stretch" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -36,7 +36,7 @@
                     </ul>
                 </div>
             </nav>
-            <!---HOMEPAGE HEADING--->
+            <!--HOMEPAGE HEADING-->
             <div id="main-heading-section" class="row container-fluid">
                 <div class="col-12">
                     <h1 id="main-heading">Colour Splash</h1>
@@ -44,14 +44,12 @@
                 </div>
             </div>
         </header>
-
-        <!-- Back to top button -->
+        <!--BACK TO TOP BUTTON-->
         <a id="back-to-top-button"><i class="fas fa-angle-up"></i></a>
-
-        <!---HOMEPAGE JUMBOTRON---->
+        <!--HOMEPAGE JUMBOTRON-->
         <div id="colour-splash-intro" class="container-fluid">
             <div class="row">
-                <!---mx-auto to center all content in the jumbotron--->
+                <!--mx-auto to center all content in the jumbotron-->
                 <div class="jumbotron col-10 col-md-8 mx-auto">
                     <div class="row">
                         <div class="col-12">
@@ -60,7 +58,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!---THREE STEPS IMAGE (md screens +) - simpler to construct the design externally rather than within bootstrap -->
+                        <!--THREE STEPS IMAGE (md screens +) - simpler to construct the design externally rather than within bootstrap-->
                         <div id="three-steps" class="col-12">
                             <img src="../assets/images/three-steps.png" alt="three-steps-to-using-the-colour-tool">
                         </div>
@@ -68,15 +66,15 @@
                     <!--CALL TO ACTION BUTTON-->
                     <div class="row">
                         <div id="call-to-action" class="col-12 d-flex">
-                            <a id="call-to-action-button" class="btn btn-default btn-lg" type="button" href="tester.html">Get Started</a>
+                            <a id="call-to-action-button" class="btn btn-default btn-lg" role="button" href="tester.html">Get Started</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!---REVIEWS - only displayed on small screens and above when more space is available--->
+            <!--REVIEWS - only displayed on small screens and above when more space is available-->
             <div class="row mx-auto">
                 <div id="reviews-section" class="col-12">
-                    <!---Review 1 and 5 only display on md screens and above to ensure the screen is large enough for five reviews to be read easily--->
+                    <!--Review 1 and 5 only display on md screens and above to ensure the screen is large enough for five reviews to be read easily-->
                     <div id="review-one" class="review d-none d-md-inline-block">
                         <p>“Colour Splash is a great tool!”</p>
                         <small class="review-author">~ GAHV ~</small>
@@ -100,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <!---THREE STEPS BLOCKS - displays on x-small screens ONLY when #three-steps img becomes too small to read--->
+        <!--THREE STEPS BLOCKS - displays on x-small screens ONLY when #three-steps img becomes too small to read-->
         <div id="smaller-screen-steps" class="container-fluid d-block d-sm-none" style="box-sizing: content-box">
             <div class="row">
                 <div class="col-12 step step-one">
@@ -121,29 +119,25 @@
                 </div>
             </div>
         </div>
-        <!---CONTACT--->
+        <!--CONTACT-->
         <div id="contact-section" class="container-fluid">
             <div class="row">
-                <!---Larger question mark image displays on sm screens ONLY to the right of the text when there is more space to utilise--->
-                <!---<div class="contact-image d-none d-sm-block col-sm-6">
-                    <img src="../assets/images/question-mark.png" alt="question-mark">
-                </div>--->
                 <div class="contact-text col-12">
-                    <img id="small-question-mark" src="../assets/images/question-mark.png" width="100px" height="100px">
+                    <img id="small-question-mark" src="../assets/images/question-mark.png" width="100" height="100" alt="question-mark">
                     <h3>Have a question?</h3>
                     <p>
-                        <button class="btn btn-secondary btn-lg" type="button" data-toggle="collapse" data-target="#collapse-contact" aria-expanded="false" aria-controls="collapse-contact-form">
+                        <button class="btn btn-secondary btn-lg" type="button" data-toggle="collapse" data-target="#collapse-contact" aria-expanded="false" aria-controls="collapse-contact">
                         Get in Touch
                         </button>
                     </p>
                     <div class="collapse col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3" id="collapse-contact">
                         <div class="card card-body">
-                            <!---CONTACT FORM--->
-                            <!---Linked up to the EmailJS API by invoking the sendMail() function (in sendQuestion.js file) on submit.--->
+                            <!--CONTACT FORM-->
+                            <!--Linked up to the EmailJS API by invoking the sendMail() function (in sendQuestion.js file) on submit-->
                             <form id="contactForm" onsubmit="return sendMail(this);">
                                 <div class="form-group">
                                     <label for="name">Name</label>
-                                    <input type="name" class="form-control" id="name" required>
+                                    <input type="text" class="form-control" id="name" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="emailaddress">Email Address</label>
@@ -151,21 +145,20 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Question</label>
-                                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
                                 </div>
                                 <div id="submit-button">
                                     <button type="submit" class="btn btn-secondary">Submit</button>
                                 </div>
-                                <!---Will contain a message to user should their submit request fail to return status 200--->
+                                <!--Will contain a message to user should their submit request fail to return status 200-->
                                 <div id="result-message" style="padding-top: 10px;"></div>
                             </form>
                         </div>
                     </div>
                 </div>
-        
             </div>
         </div>
-        <!---FOOTER--->
+        <!--FOOTER-->
         <footer class="footer mt-auto py-3">
             <div class="container-fluid">
                 <div class="row">
@@ -179,7 +172,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <!---Links to the location of the sendMail() function for the contact form--->
+        <!--Links to the location of the sendMail() function for the contact form-->
         <script src="assets/js/sendQuestion.js"></script>
         <script src="assets/js/backToTopButton.js"></script>
     </body>
