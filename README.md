@@ -25,6 +25,11 @@ The primary goal of the website is to offer a simple tool which users, from desi
     * [Features to Implement in the Future](#features-to-implement-in-the-future)
 
 3. [Technologies Used](technologies-used)
+    * [Languages](#languages)
+    * [Tools](#tools)
+    * [Libraries](#libraries)
+    * [APIs](#apis)
+    * [Graphics](#graphics)
 
 4. [Testing](#testing)
 
@@ -101,9 +106,9 @@ The "Heebo" font was choosen for its legability and 'soft' look. Text needs to b
 
 ### **Wireframe Mockups**
 
-[**Home**](assets/images/homewireframe-coloursplash.pdf)
+[**Home**](assets/images/readme-images/homewireframe-coloursplash.pdf)
 
-[**Tester**](/assets/images/testerwireframe-coloursplash.pdf)
+[**Tester**](/assets/images/readme-images/testerwireframe-coloursplash.pdf)
 
 ## Features
 ---
@@ -119,29 +124,65 @@ A favicon matching the website's logo is installed in the head of each page.
 
 ### **Home**
 
-The homepage features a **jumbotron** with a box-shadow effect, which makes it appear to be 'floating' above the colourful **background image**. It contains: a bold **welcome message** stating the purpose of the site; an artistically-designed and simple **three step guide** to using the site; and a clear **call to action** button, which grows in size when hovered over to encourage clicking, prompts the user to visit the Tester page. 
+The homepage features a **jumbotron** with a box-shadow effect, which makes it appear to be 'floating' above the colourful **background image**. It contains: a bold **welcome message** stating the purpose of the site; an artistically-designed and simple **three step guide** to using the site; and a clear **call to action** button, which grows in size when hovered over to encourage clicking, prompting the user to visit the Tester page. 
+
+![Top of Homepage](/assets/images/readme-images/opening-html.png)
 
 On extra-small screens the three steps image disappears from the jumbotron and instead appears in three blocks, one for each step, below it. This is because at smaller screen sizes, the text was too small to read in the image. The blocks' background colours on extra-small screens are the same as those on larger screens to maintain visual consistency. 
 
-The **review boxes** which appear below the jumbotron and homepage background image serve as a further prompt to the user to go and try out the tester tool if they have not yet clicked the call to action button. Each review box has a background colour which blends with the colour scheme of the homepage background image above, which is both visually-appealing and signifies the website is passionate about beautiful colour combinations; it can help the user find beautiful colours for their website too. On medium screens, the two reviews on the left and right disappear to avoid a 'cluttered' look ensure the remain reviews match the visible colours on the background image above. On small screens, the reviews disappear completely due to significantly less space. 
+![Three steps full width display on mobile](/assets/images/readme-images/steps-on-mobile.png)
 
-The last feature on the homepage is the **contact section.** The large rhetorical question draws the user to the section and the question mark image visually reenforces the purpose of the section. On clicking the button below, a **contact form** contained in a modal drops down and the user can submit a question through the EmailJS API. A green **success message** appears underneath the submit button if the message has been successfully sent. Similarly, a red **fail message** appears if it has not and requests that the user tries again later. The contact section has its content justified in the center with each element stacked over each other for a clean layout. The background space is filled with a subtle, neutral image for an visually-pleasing use of the free space.
+The **review boxes** which appear below the jumbotron and homepage background image serve as a further prompt to the user to go and try out the tester tool if they have not yet clicked the call to action button. Each review box has a background colour which blends with the colour scheme of the homepage background image above, which is both visually-appealing and signifies the website is passionate about beautiful colour combinations; it can help the user find beautiful colours for their website too. 
+
+![Five reviews displayed beneath jumbotron on large width and higher](/assets/images/readme-images/five-reviews-displayed.png)
+
+On medium screens, the two reviews on the left and right disappear to avoid a 'cluttered' look ensure the remain reviews match the visible colours on the background image above. On small screens, the reviews disappear completely due to significantly less space. 
+
+![Three reviews displayed beneath jumbotron on medium width and lower](/assets/images/readme-images/three-reviews-medium-screen.png)
+
+The last feature on the homepage is the **contact section.** The large rhetorical question draws the user to the section and the question mark image visually reenforces the purpose of the section. 
+
+![Contact section collapsed](/assets/images/readme-images/contact-section-collapsed.png)
+
+On clicking the button below, a **contact form** contained in a modal drops down and the user can submit a question through the EmailJS API. 
+
+![Contact section expanded](/assets/images/readme-images/contact-section-expanded.png)
+
+A green **success message** appears underneath the submit button if the message has been successfully sent and the input fields are cleared.
+
+![Email success message](/assets/images/readme-images/email-success.png)
+
+Similarly, a red **fail message** appears if it has not and requests that the user tries again later. The contact section has its content justified in the center with each element stacked over each other for a clean layout. The background space is filled with a subtle, neutral image for an visually-pleasing use of the free space.
+
+![Email fail message](/assets/images/readme-images/email-fail.png)
 
 ### **Tester**
 
-The tester page contains the **colour tester tool.** The tool had **four controls,** 'Ideas', 'Refresh', 'Share' and 'Help', intuitively placed in the top right hand corner to replicate the conventional positioning of game controls. 
+The tester page contains the **colour tester tool.** The tool had **four controls,** 'Ideas', 'Refresh', 'Share' and 'Help', intuitively placed in the top right hand corner to replicate the conventional positioning of game controls. On hover, the background of each control becomes grey and the text becomes white. 
+
+![Tester controls](/assets/images/readme-images/top-right-controls.png)
 
 The **'Refresh'** **control** reloads the page so that the current colour selections made by the user are removed and the page becomes a fresh palette. Since the user may click this by accident and risk losing a colour selection, a **warning modal** pops up asking the user to confirm or cancel the refresh. Intuitive colour coding for 'cancel' as red and 'yes, refresh' as green.
 
-The **'Share'** **control** allows the user to export their current colour selection in text format to save on their device and refer back to after then have exited the site. The download will appear on the user's device as 'colour-combination.txt'.
+![Refresh control](/assets/images/readme-images/refresh-control.png)
+
+The **'Share'** **control** allows the user to export their current colour selection in text format to save on their device and refer back to after then have exited the site. The download will appear on the user's device as 'colour-combination.txt'. The image below shows where this download appears in Chrome.
+
+![Download bar](/assets/images/readme-images/download-bar.png)
 
 The **'Help'** **control** is linked to a **help modal** which pops up with **detailed instructions** as to how to use the tool should they not figure it out intuitively (perhaps less tech savvy people). The instructions are broken down in to **3 steps** to make it simple and easy to remember. **'Swatch' and 'color-picker' images** have been added after each reference since one test user for the developing website did not understand what these terms referred to. The modal can be easily closed using the **green 'Got it!' button.**
+
+![Help modal pop-up](/assets/images/readme-images/help-modal-popup.png)
 
 In the center of the tool, there are **three blocks** stacked on top of each other and each contains **three text samples** (either a suitably-sized heading, sub-heading or paragraph text). These text samples are the dictionary definition of "colour", rather than *lorem ipsum* or a generic 'heading', 'sub-heading' etc., to provide a more interesting, and on theme, text sample for the user to work with. The **entire background** of the tool is a sample that can be changed too. 
 
 The block samples, before user interaction, **begin as either red, green or purple.** Originally they were a light grey to suggest a 'blank workspace' feel, however test users suggested a clearer relationship between the block and its swatch could be seen if there was a colour relationship between them independent to others. White text goes with all three of these and the background also begins with this neutral tone.
 
+![Testing area image](/assets/images/readme-images/whole-tester-area.png)
+
 To the right hand side of the blocks are **seven swatches** which each correspond to a block, text or background colour. There is a **'Swatches' label** and **sub-section label** above them for user clarity. On click, each swatch opens up a **color-picker,** where the user can browse colours with **a slider** or **directly input** a HEX, RGBA et al. The corresponding sample changes colour as soon so the colour-picker slider changes, allowing the user to instantaneously review their current selection. If the user is happy with their new selection, they can click the **'Save' button** and it will be saved to the swatch. If they wish to return to their **previous selection,** they can select this by clicking it in the top left-hand corner.
+
+![Colour Picker expanded](/assets/images/readme-images/picker-expanded.png)
 
 On larger screens the **hex number** of the current colour selection appears to the right-hand side of each swatch. This is a helpful feature for a designer since, as only one color-picker can be open at a time, they may wish to replicate a colour in another sample on the page. On smaller screens there is not sufficient space for these hex numbers, so they disappear; the user can still access all colour numbers in each individual color-picker.
 
@@ -152,18 +193,30 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 
 - **Responsive Headings:** The rainbow gradient effect on the background of the main heading on each page responds to the user hovering over it by transitioning to the red shade only. Hovering off again transitions the colours back to the rainbow effect.
 
+![Responsive Headings](/assets/images/readme-images/responsive-heading.png)
+
 - **Call to action buttons**: The two buttons on the homepage, 'Get Started' and 'Get in Touch' grow in size when the user hovers over them to prompt clicking.
 
+![cta-button](/assets/images/readme-images/cta-btn.png)
+
 - **Contact Form:** The 'Get in Touch' button on the home page triggers a modal to open on the left-hand side of the screen. Providing all required fields have been filled out, pressing the 'Submit' button will trigger the sendMail() function in the Javascript file sendQuestion.js.
+
+![form-dropdown](/assets/images/readme-images/form-trigger.png)
+
+- **Ideas:** The ideas control triggers the testing area to change all of its colours to a preset colour combination. There are 13 suggested combinations before the original default colours display again.
+
+- **Refresh:** The refresh control triggers a warning modal. Clicking 'Yes, refresh' in this modal resets the tester tool for the user.
 
 - **Share:** The share control allows the user to download the hex numbers of their current colour selection. Clicking the button triggers the exportSelection() function found in exportSelection.js.
 
 - **Help Modal:** The help control on the tester page triggers a modal to drop down from the top of the page, which the user can dismiss by clicking the 'Got it!' button.
 
-- **Refresh:** The refresh control triggers a warning modal. Clicking 'Yes, refresh' in this modal resets the tester tool for the user.
+
+![Controls panel](/assets/images/readme-images/controls-highlight.png)
 
 - **Color-pickers:** The color pickers are triggered to expand by the user clicking on their corresponding swatch. The user can input a color reference in the color picker by selecting a type along the bottom (e.g. hex) and inserting the reference in the bottom left-hand box, changing the corresponding sample colour on the screen. Alternatively, they can drag the color picker around the palette in the center, click a sample colour along the bottom and adjust the opacity on the right-hand side slider if they do not have an exact colour in mind. Colour changes happen simultaneously to the user's interaction with the color pickers. If the user clicks 'Save' in the bottom right-hand corner, the current current selection will become the new colour selection stored in the swatch. There are seven different color pickers, thus the user can input up to seven different colours to the page.
 
+![Colour picker](/assets/images/readme-images/colour-picker-closeup.png)
 
 ### **Features to Implement in the Future**
 
@@ -173,21 +226,40 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 ## Technologies Used
 ---
 
-- This project uses **HTML, CSS and Javascript** programming languages.
+### **Languages**
+
+- HTML - base language for this project.
+- CSS - used for styling the HTML code.
+- JavaScript - used to make the web app interactive.
+
+### **Tools**
+
 - [**Gitpod**](https://www.gitpod.io/) - the IDE Gitpod was used in the building process of this website.
 - [**HTML Validation**](https://validator.w3.org/) - HTML was validated using W3C Validator.
 - [**CSS Validation**](https://jigsaw.w3.org/css-validator/) - CSS was validated using W3C CSS Validator.
 - [**JSHint**](https://jshint.com/) - Javascript was validated using JSHint.
+- [**Free Formatter**](https://www.freeformatter.com/) - Free Formatter was uded to format all HTML, CSS and Javascript files.
+- [**Google Chrome DevTools**](https://developers.google.com/web/tools/chrome-devtools) - DevTools were used to debug and test code in the browser.
+
+### **Libraries**
+
 - [**BootstrapCDN**](https://www.bootstrapcdn.com/) - this project uses Bootstrap4 to make a fully responsive website and optimise its layout and structure.
-- [**FontAwesome**](https://fontawesome.com/) - this project uses FontAwesome 5 to provide icons.
+- [**FontAwesome**](https://fontawesome.com/) - this project uses FontAwesome 5 to provide an the basic version of the icon for the favicon, but was edited in Photoshop.
 - [**Google Fonts**](https://fonts.google.com/) - this project uses Google Fonts to style the website's fonts.
-- [**EmailJS**](https://www.emailjs.com/) - this project uses the EmailJS API to facilitate email communication between users and website owner.
 - [**Color-Picker Library**](https://github.com/Simonwep/pickr) - this project uses the Color-Picker public library by Simonwep on Github.
-- [**Keynote - Apple(UK)**](https://www.apple.com/uk/keynote/) - this project used Keynote to create all graphics (three steps image) used in this project that have not be credited to other sources.
-- [**Adobe Photoshop 2020**](https://www.adobe.com/uk/products/photoshop.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB:G:s&s_kwcid=AL!3085!3!428621692972!e!!g!!adobe%20photoshop!9753976727!99414617483&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB) - this project used Adobe Photoshop to edit site graphics and the favicon image.
+- [**FileSaver Library**](https://github.com/eligrey/FileSaver.js) - this project uses the public library FileSaver.js by Eli Grey on Github.
+
+### **APIs**
+
+- [**EmailJS**](https://www.emailjs.com/) - this project uses the EmailJS API to facilitate email communication between users and website owner. The email form is located in the dropdown modal in the contact section of index.html.
+
+### **Graphics**
+
+- [**Keynote - Apple (UK)**](https://www.apple.com/uk/keynote/) - this project used Keynote to create the three-steps-image.png used on the Homepage.
+- [**Adobe Photoshop 2020**](https://www.adobe.com/uk/products/photoshop.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB:G:s&s_kwcid=AL!3085!3!428621692972!e!!g!!adobe%20photoshop!9753976727!99414617483&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB) - this project used Adobe Photoshop to edit the project's graphics and the favicon image.
 - [**Figma**](https://www.figma.com/) - this project used Figma to construct wireframes in the design stage of the website.
 - [**Canva**](https://www.canva.com/) - this project used Canva to make the contact-background.png image.
-- [**FileSaver Library**](https://github.com/eligrey/FileSaver.js) - this project uses the public library FileSaver.js by Eli Grey on Github.
+- [**Unsplash**](https://unsplash.com/) - any photos used in this project were obtained from Unsplash.
 
 ## Testing
 ---
