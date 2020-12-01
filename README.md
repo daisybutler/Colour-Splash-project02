@@ -1,7 +1,6 @@
-# Colour Splash
+# Colour Splash - A Colour Combination Tester
 
-## Colour Combination Tester
----
+![Demo](assets/images/readme-images/demo.png)
 
 An easy-to-use website for trying out combinations of colours. The user can then replicate their colour selection in their own website or project. The website is made up of two pages: a homepage with site introduction, call to action, user reviews and contact form; a tester page with interactive color picker buttons and help, share and refresh control options. 
 

@@ -42,15 +42,17 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 ## Automated Testing
 ---
 
-#### Code Validation
+### Code Validation
 
-- This project used the [W3C Markup Validation Service]([https://validator.w3.org/](https://validator.w3.org/)) to validate html code.
+- This project used [Free Formatter]([https://www.freeformatter.com](https://www.freeformatter.com/)) to format HTML, CSS and Javascript code.
+
+- This project used the [W3C Markup Validation Service]([https://validator.w3.org/](https://validator.w3.org/)) to validate HTML code.
 
     ![index.html validation](assets/images/readme-images/validated-home.png)
 
     ![tester.html validation](assets/images/readme-images/validated-tester.png)
 
-- This project used the [W3C CSS Validation Service]([https://validator.w3.org/](https://validator.w3.org/)) to validate css code.
+- This project used the [W3C CSS Validation Service]([https://validator.w3.org/](https://validator.w3.org/)) to validate CSS code.
 
     ![style.css validation](assets/images/readme-images/validated-css.png)
 
@@ -64,9 +66,11 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 
 ![sendQuestion.js validation](assets/images/readme-images/validated-send-mail.png)
 
-- This project used [Free Formatter]([https://www.freeformatter.com](https://www.freeformatter.com/)) to format HTML, CSS and Javascript code.
 
-#### Browser Validation
+### Browser Validation
+
+- Chrome - displays correctly [(view here).](assets/images/readme-images/opening-html.png)
+- Safari - displays correctly [(view here).](assets/images/readme-images/safari.png)
 
 ### Mentor Review
 
