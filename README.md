@@ -7,6 +7,32 @@ An easy-to-use website for trying out combinations of colours. The user can then
 
 The primary goal of the website is to offer a simple tool which users, from designers to amateurs, will return to every time they need to experiment with colours. They might even recommend the site to their friends or colleagues. A website with heavy traffic offers an optimal space for paid advertisements, should the owner wish to monetize it.
 
+## Table of Contents
+---
+
+1. [UX](#ux)
+    * [User profile](#user-profile)
+    * [User Stories](#user-stories)
+    * [Wireframe Mockups](#wireframe-mockups)
+
+2. [Features](#features)
+    * [Home](#home)
+    * [Tester](#tester)
+    * [Interactive Features](#interactive-features)
+    * [Features to Implement in the Future](#features-to-implement-in-the-future)
+
+3. [Technologies Used](technologies-used)
+
+4. [Testing](#testing)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+    * [Design](#design)
+    * [Media](#media)
+    * [Code](#code)
+
+
 ## UX
 ---
 ### **User Profile**
@@ -116,12 +142,14 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 
 - This project uses **HTML, CSS and Javascript** programming languages.
 - [**Gitpod**](https://www.gitpod.io/) - the IDE Gitpod was used in the building process of this website.
+- [**HTML Validation**](https://validator.w3.org/) - HTML was validated using W3C Validator.
+- [**CSS Validation**](https://jigsaw.w3.org/css-validator/) - CSS was validated using W3C CSS Validator.
+- [**JSHint**](https://jshint.com/) - Javascript was validated using JSHint.
 - [**BootstrapCDN**](https://www.bootstrapcdn.com/) - this project uses Bootstrap4 to make a fully responsive website and optimise its layout and structure.
 - [**FontAwesome**](https://fontawesome.com/) - this project uses FontAwesome 5 to provide icons.
 - [**Google Fonts**](https://fonts.google.com/) - this project uses Google Fonts to style the website's fonts.
 - [**EmailJS**](https://www.emailjs.com/) - this project uses the EmailJS API to facilitate email communication between users and website owner.
 - [**Color-Picker Library**](https://github.com/Simonwep/pickr) - this project uses the Color-Picker public library by Simonwep on Github.
-- [**Notion**](https://www.notion.so/) - this project used the desktop app Notion to draft and edit the README and TESTING files in markdown more easily, to then be copied into the actual files.
 - [**Keynote - Apple(UK)**](https://www.apple.com/uk/keynote/) - this project used Keynote to create all graphics (three steps image) used in this project that have not be credited to other sources.
 - [**Adobe Photoshop 2020**](https://www.adobe.com/uk/products/photoshop.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB:G:s&s_kwcid=AL!3085!3!428621692972!e!!g!!adobe%20photoshop!9753976727!99414617483&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8Ak7I5GPFqK_hyGJJ9M9rpFhX_cfOAqTWV44cFbDwwbIFny_prib-K0aAvzrEALw_wcB) - this project used Adobe Photoshop to edit site graphics and the favicon image.
 - [**Figma**](https://www.figma.com/) - this project used Figma to construct wireframes in the design stage of the website.
@@ -157,4 +185,3 @@ STILL TO COMPLETE.
 - The contact form on the homepage is facilitated by the [EmailJS API](https://www.emailjs.com/).
 - The 'Share' control on the tester page uses the FileSaver.js library by [Eli Grey on Github](https://github.com/eligrey/FileSaver.js).
 - The basic implementation of the FileSaver.js library relied on [this helpful YouTube tutorial](https://www.youtube.com/watch?v=kwfoEb0-DQI) buy was adapted signifcantly for use in this website.
-
