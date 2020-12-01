@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // --------------------- Code uses the Color-Picker library by Simonwep: https://github.com/Simonwep/pickr#getting-started
 
 //---------------------------------------------------------------- COLOUR ONE (block)

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // generateCombination() function. Triggered by clicking .tester-control "Ideas" in tester.html
 
 //When the user refreshes the page, the session storage is cleared, the counter resets to 0, and the combination suggestions will be displayed from 1 upwards again.

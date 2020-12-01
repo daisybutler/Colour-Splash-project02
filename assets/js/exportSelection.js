@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // --------------------------- Code uses the FileSaver.js library by eligrey: https://github.com/eligrey/FileSaver.js
 
 // exportSelection() function. Triggered when the user clicks "Share" in tester.html

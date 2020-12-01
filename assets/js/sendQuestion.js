@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // -------------------------------------------------- EmailJS API: https://www.emailjs.com/
 
 // sendMail() Function
