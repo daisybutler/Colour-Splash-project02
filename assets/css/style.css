@@ -16,6 +16,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    margin-top: 30px; /* Add a top margin to avoid content overlay due to fixed navbar */
 }
 
 
@@ -23,6 +24,11 @@ body {
 
 .navbar {
     height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
 }
 
 .nav-item a {
