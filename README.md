@@ -144,9 +144,9 @@ The "Heebo" font was choosen for its legability and 'soft' look. Text needs to b
 
 ### **Wireframe Mockups**
 
-[**Home** - page 1](assets/images/readme-images/homewireframe-coloursplash.pdf)
+[**Home** - page 1](assets/images/readme-images/home-wireframe.png)
 
-[**Tester** - page 2](/assets/images/readme-images/testerwireframe-coloursplash.pdf)
+[**Tester** - page 2](/assets/images/readme-images/tester-wireframe.png)
 
 The entire Figma workspace can be viewed [here.](https://www.figma.com/file/nElFkz4EXEIG4BUX7zjIgB/Milestone-2-Color-Splash?node-id=0%3A1)
 
@@ -260,8 +260,9 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 
 ### **Features to Implement in the Future**
 
-- Users able to input their own custom text, to test their colour selections with, or manipulate the sizes of the blocks. This would allow the user to mimic more closely their own project or website for a more accurate colour testing experience - a matter of time restraint in implementing this feature at this stage.
+- Users might benefit from being able to input their own custom text, to test their colour selections with, or manipulate the sizes of the blocks. This would allow the user to mimic more closely their own project or website for a more accurate colour testing experience - a matter of time restraint in implementing this feature at this stage.
 
+- The option to sign up for a Colour Splash account could prove of benfit for the user where they would be able to save colour combinations to their account. In my opinion. this first version of the site is too basic to warrant a user creating an account to use the tool. However, should features such as saving colour selections to an account be constructed, it would be worthwhile.
 
 ## Technologies Used
 ---
