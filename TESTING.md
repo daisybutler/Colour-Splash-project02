@@ -3,7 +3,6 @@
 [Back to README.md file](README.md)
 
 ## Table of Contents
----
 
 1. [DevTools](#dev-tools)
     * [Responsiveness](#responsiveness)
@@ -20,7 +19,6 @@
     * [User Review](#user-review)
 
 ## DevTools
----
 
 By editing the HTML or CSS code displayed in DevTools, it could be established what changes were necessary to fix spacing/layout problems, without changing the actual files. Reloading DevTools and the original code in the browser is far easier then having to restore a file. 
 
@@ -37,10 +35,10 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 - By logging to console a message each time a Javascript function was or was not called, it could be identified whether a function was successfully working or whether it had an unidentified bug.
 
 ## Manual Testing
----
+
 
 ## Automated Testing
----
+
 
 ### Code Validation
 
@@ -74,6 +72,24 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 
 - [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add the necessary prefixers to CSS so that the live website renders across all other browsers.
 
+### Device Validation
+
+The website displays correctly on all of the following device types (tested via DevTools):
+
+- iPhone 5C
+- iPhone 6/7/8
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone X
+- iPhone 6/7/8 Plus
+- iPad
+- iPad Pro
+- Laptop with touch
+- Laptop with MDPI screen
+- Laptop with HiDPI screen
+
+## User Testing
 
 ### Mentor Review
 

@@ -7,7 +7,6 @@ Colour Splash is an easy-to-use website for trying out combinations of colours. 
 I wanted to create a simple, yet useful, interactive tool with a design purpose. After functionality, the aesthetic and 'clean' look to a website is a feature that really excited me. Similarly, from a user/consumer perspective, this is also a major contribution to a user's decision to visit, use, engage with and (if applicable) pay for/purchase from a website.
 
 ## Table of Contents
----
 
 1. [UX](#ux)
     * [Primary Goal](#primary-goal)
@@ -44,7 +43,7 @@ I wanted to create a simple, yet useful, interactive tool with a design purpose.
 
 
 ## UX
----
+
 ### **Primary Goal**
 
 The primary goal of the website is to offer a simple tool which users, from designers to amateurs, will return to every time they need to experiment with colours. They might even recommend the site to their friends or colleagues. For a profit point of view, a later version of the website could require a user to sign up and pay a small subscription fee to use the tool. Alternatively, a website with heavy traffic offers an optimal space for paid advertisements while keeping the tool free to access for the user.
@@ -151,7 +150,6 @@ The "Heebo" font was choosen for its legability and 'soft' look. Text needs to b
 The entire Figma workspace can be viewed [here.](https://www.figma.com/file/nElFkz4EXEIG4BUX7zjIgB/Milestone-2-Color-Splash?node-id=0%3A1)
 
 ## Features
----
 
 Each page features a navigation bar where all the website's pages can be accessed and the conventional positioning of the website logo to the left-hand side.
 
@@ -265,7 +263,7 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - The option to sign up for a Colour Splash account could prove of benfit for the user where they would be able to save colour combinations to their account. In my opinion. this first version of the site is too basic to warrant a user creating an account to use the tool. However, should features such as saving colour selections to an account be constructed, it would be worthwhile.
 
 ## Technologies Used
----
+
 
 ### **Languages**
 
@@ -303,15 +301,14 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - [**Unsplash**](https://unsplash.com/) - any photos used in this project were obtained from Unsplash.
 
 ## Testing
----
+
 Testing information can be found in this [TESTING.md file](TESTING.md).
 
 ## Deployment
----
+
 STILL TO COMPLETE.
 
 ## Credits
----
 
 ### **Inspiration**
 

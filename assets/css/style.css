@@ -17,6 +17,9 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     margin-top: 30px; /* Add a top margin to avoid content overlay due to fixed navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
