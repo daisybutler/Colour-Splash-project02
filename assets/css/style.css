@@ -313,9 +313,9 @@ footer {
 #smaller-screen-steps .step {
     width: 100%;
     /* Height: auto allows each box to only take up as much vertical space as is necessary to display their content */
-    height: auto;
+    min-height: 350px;
     text-align: center;
-    padding: 40px 60px 40px 20px;
+    padding: 50px 60px 40px 20px;
 }
 
 #smaller-screen-steps .step h4 {

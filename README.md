@@ -1,6 +1,6 @@
 # Colour Splash - A Colour Combination Tester
 
-![Demo](assets/images/readme-images/demo.png)
+![Demo](assets/images/readme-images/live-demo.png)
 
 Colour Splash is an easy-to-use website for trying out combinations of colours. A user can experiment by placing different colours together, whether that be background colours or text colours. They can also view suggested colour combinations. Selected colour combinations can be exported in text format for the user to replicate later in their own website or project. 
 
@@ -166,9 +166,9 @@ The homepage features a **jumbotron** with a box-shadow effect, which makes it a
 
 ![Top of Homepage](/assets/images/readme-images/opening-html.png)
 
-On extra-small screens the three steps image disappears from the jumbotron and instead appears in three blocks, one for each step, below it. This is because at smaller screen sizes, the text was too small to read in the image. The blocks' background colours on extra-small screens are the same as those on larger screens to maintain visual consistency. 
+On extra-small screens the three steps image disappears from the jumbotron and instead appears in three blocks, one for each step, below it. This is because at smaller screen sizes, the text was too small to read in the image. The blocks' background colours on extra-small screens are the same as those on larger screens to maintain visual consistency. The back to top button also no longer displays because it is a feature only really useful on larger screens.
 
-![Three steps full width display on mobile](/assets/images/readme-images/steps-on-mobile.png)
+![Three steps full width display on mobile](/assets/images/readme-images/steps-mobile.png)
 
 The **review boxes** which appear below the jumbotron and homepage background image serve as a further prompt to the user to go and try out the tester tool if they have not yet clicked the call to action button. Each review box has a background colour which blends with the colour scheme of the homepage background image above, which is both visually-appealing and signifies the website is passionate about beautiful colour combinations; it can help the user find beautiful colours for their website too. 
 
