@@ -246,7 +246,7 @@ footer {
 /* --------------------------------- HOMEPAGE INTRODUCTION */
 
 #colour-splash-intro {
-    background: url("../images/colour-splash-background.jpg");
+    background: url("../images/project-images/colour-splash-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,7 +466,7 @@ footer {
 /* --------------------------------- CONTACT */
 
 #contact-section {
-    background: url("../images/contact-background.png");
+    background: url("../images/project-images/contact-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

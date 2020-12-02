@@ -285,7 +285,7 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 ### **Libraries**
 
 - [**BootstrapCDN**](https://www.bootstrapcdn.com/) - this project uses Bootstrap4 to make a fully responsive website and optimise its layout and structure.
-- [**FontAwesome**](https://fontawesome.com/) - this project uses FontAwesome 5 to provide an the basic version of the icon for the favicon, but was edited in Photoshop.
+- [**FontAwesome**](https://fontawesome.com/) - this project uses FontAwesome 5 to provide the icon used as the website logo.
 - [**Google Fonts**](https://fonts.google.com/) - this project uses Google Fonts to style the website's fonts.
 - [**Color-Picker Library**](https://github.com/Simonwep/pickr) - this project uses the Color-Picker public library by Simonwep on Github.
 - [**FileSaver Library**](https://github.com/eligrey/FileSaver.js) - this project uses the public library FileSaver.js by Eli Grey on Github.
