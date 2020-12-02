@@ -2,17 +2,20 @@
 
 ![Demo](assets/images/readme-images/demo.png)
 
-An easy-to-use website for trying out combinations of colours. The user can then replicate their colour selection in their own website or project. The website is made up of two pages: a homepage with site introduction, call to action, user reviews and contact form; a tester page with interactive color picker buttons and help, share and refresh control options. 
+Colour Splash is an easy-to-use website for trying out combinations of colours. A user can experiment by placing different colours together, whether that be background colours or text colours. They can also view suggested colour combinations. Selected colour combinations can be exported in text format for the user to replicate later in their own website or project. 
 
-The primary goal of the website is to offer a simple tool which users, from designers to amateurs, will return to every time they need to experiment with colours. They might even recommend the site to their friends or colleagues. A website with heavy traffic offers an optimal space for paid advertisements, should the owner wish to monetize it.
+I wanted to create a simple, yet useful, interactive tool with a design purpose. After functionality, the aesthetic and 'clean' look to a website is a feature that really excited me. Similarly, from a user/consumer perspective, this is also a major contribution to a user's decision to visit, use, engage with and (if applicable) pay for/purchase from a website.
 
 ## Table of Contents
 ---
 
 1. [UX](#ux)
+    * [Primary Goal](#primary-goal)
     * [User profile](#user-profile)
     * [User Stories](#user-stories)
-    * [Design](#design)
+    * [Design Process](#design-process)
+        * [UX Research](#ux-research)
+        * [UX Design](#ux-design)
         * [Colours](#colours)
         * [Fonts](#fonts)
     * [Wireframe Mockups](#wireframe-mockups)
@@ -42,6 +45,9 @@ The primary goal of the website is to offer a simple tool which users, from desi
 
 ## UX
 ---
+### **Primary Goal**
+
+The primary goal of the website is to offer a simple tool which users, from designers to amateurs, will return to every time they need to experiment with colours. They might even recommend the site to their friends or colleagues. For a profit point of view, a later version of the website could require a user to sign up and pay a small subscription fee to use the tool. Alternatively, a website with heavy traffic offers an optimal space for paid advertisements while keeping the tool free to access for the user.
 ### **User Profile**
 **The ideal user for this website is:**
 
@@ -73,7 +79,40 @@ The ideal user for this site is a designer (websites, graphics) who will find th
 8. As an existing user, I want to experiment with shades of colours, which update and display instantaneously for me to see.
 9. As an existing user with a colour selection already in mind, I want to input a HEX or RGBA number directly into the colour picker.
 
-### **Design**
+### **Design Process**
+
+#### UX Research
+
+#### UX Design
+
+1. Strategy Plane
+
+In my research, I looked into other colour testing tools which were available online. I found that, which you could test three or four colours alongside each other, there was never really any option to change the entire background colour. I would argue this is a necessary feature to more accurately test the display of colours to be implemented on a website. Similarly, very few sites gave the user the option to test diferent text colours on top of their samples. Again, for someone constructing a website which will undoubtedly contain text, this is a necessary feature to be able to test. Therefore, I identified that a colour testing tool which gives the user both the option to change the entire background colour and the colour of text on top of samples.
+
+2. Scope Plane
+
+Having decided what sort of colour testing tool there was a need for, I investigated the scope of such a project. The primary interactive feature necessary was clearly a colour picker tool. The Color Picker Library [(see Technologies Used)](#libraries) was the simplest free way to implement this. These colour picker tools would have to have some visual output for the user and I decided on simple blocks, with text contained within them, which would change colour immediately with the input in the colour pickers. It was also clear that some controls would be necessary for such a tool. I listed these controls as the basic functions 'Refresh' and 'Help', with the 'Share' and 'Ideas' options developing shortly after.
+
+The suggestion of a Homepage came after the Tester page, since the website needed some sort of inticing and explanatory landing page. Therefore, the features decided on for the Homepage were a call to action, review display of the tool by previous users and a contact option for questions or general enquiries.
+
+3. Structure Plane
+
+Once I had decided on the features I wanted to include, I moved on to the structure. The website would be two seperate pages rather than one continuous page for the sake of user clarity on their location in the site. A fixed nabar would ensure they always have access to navagation controls. The primary purpose of the Homepage would be to faciliate the entry of the user to the Tester page via the call to action button. The Tester page is the main reason for the user's visit, therefore its obvious location is paramount. 
+
+4. Skeleton Plane
+
+With the basic structure of the website in mind, I moved on the the skeleton of the website. In conjunction with developing a wireframe draft in Figma as a visual aid [(see wireframes)](#wireframes), I composed a skeleton for both pages. The Homepage's primary purpose, as aforementioned, is to present an aesthetic landing page to the site visitor and present a direct path to the Tester page. Thus, the page would have a colourful title, and background image in the section immediately below, followed by a jumbotron containing simple instructions and a large call to action button labeled 'Get Started'. Should the user wish to find out a bit more before committing to checking out and using the colour tester tool, there would be reviews from current users of the tool below. At the bottom of the page is a contact section, with a collapsed contact form to reduce clutter on the page. The user can easily return back to the top of the page by clicking the button in the bottom right hand corner.
+
+The Tester page would consist of one section. Three blocks containing three different sizes of text (main heading, sub-heading and paragraph) would be in the center. To the right of this would be seven swatches, stacked vertically and seven corresponding hex numbers stacked vertically. Each swatch and hex pair would correspond to one block, text or background colour. Clicking on each swatch would open up an interactive colour picker. The controls for the tool would be positioned in the top right hand corner, similar to the intuitive positioning of game controls. The refresh control would have a popup asking the user to confirm they wish to refresh, in case they inadvertently click it.
+
+5. Surface Plane
+
+The focus of the visual design of the Colour Splash website was a sleek, simple and modern feel. All of the consistent site features such as the navbar and footer would be light grey with a taupe type colour (for contrast) on any text positioned over it. This simplistic design would ensure the aesthetic compatibility of the website with any input of colours the user might wish to combine; there would be no colour clashes or distracting visuals.
+
+The Homepage would have five bright colours featured for the purpose of presenting to the user the beauty and vibrance of colour. An uninspiring and boring landing page would not encourage the user to check out the website's tool. The colours, while bright, would not be too intense, and have a pastel vibe for a softer feel. 
+
+I'm an advocated for rounded edged to all shapes on websites because I think it effortlessly gives a modern and sleek feel. Thus, all buttons and boxes would have a suitable border radius set, with the exception of the testing blocks in the tool because, for display purposes, crisp edges proves a better fit.
+
 
 #### Colours
 The Homepage is has the base colours as follows:
@@ -105,9 +144,11 @@ The "Heebo" font was choosen for its legability and 'soft' look. Text needs to b
 
 ### **Wireframe Mockups**
 
-[**Home**](assets/images/readme-images/homewireframe-coloursplash.pdf)
+[**Home** - page 1](assets/images/readme-images/homewireframe-coloursplash.pdf)
 
-[**Tester**](/assets/images/readme-images/testerwireframe-coloursplash.pdf)
+[**Tester** - page 2](/assets/images/readme-images/testerwireframe-coloursplash.pdf)
+
+The entire Figma workspace can be viewed [here.](https://www.figma.com/file/nElFkz4EXEIG4BUX7zjIgB/Milestone-2-Color-Splash?node-id=0%3A1)
 
 ## Features
 ---
@@ -118,7 +159,7 @@ Both pages' main titles have the CSS text gradient effect applied, which changes
 
 Both pages have a footer containing the website's logo in the center.
 
-A favicon matching the website's logo is installed in the head of each page.
+A favicon matching the website's logo is installed in the header of each page.
 
 
 ### **Home**
