@@ -3,6 +3,7 @@
 ![Demo](assets/images/readme-images/live-demo.png)
 
 The live website can be viewed on Github pages using this link: (https://daisybutler.github.io/colour-splash/)
+
 Colour Splash is an easy-to-use website for trying out combinations of colours. A user can experiment by placing different colours together, including both background and text colours. They can also browse through suggested colour combinations. Selected colour combinations can be exported in text format for the user to replicate later in their own website or project. 
 
 I wanted to create a simple, yet useful, interactive tool which is orientated around design. After functionality, a mordern and clean look to a website is a feature which really excites me. Similarly, from a user/consumer perspective, this is also a major contribution to a user's decision to visit, use, engage with and (if applicable) pay for/purchase from a website. Therefore, in the planning stages of this project, the aesthetic rendering of different features was paid close attention to.
