@@ -6,7 +6,7 @@ The live website can be viewed on Github pages using this link: (https://daisybu
 
 Colour Splash is an easy-to-use website for trying out combinations of colours. A user can experiment by placing different colours together, including both background and text colours. They can also browse through suggested colour combinations. Selected colour combinations can be exported in text format for the user to replicate later in their own website or project. 
 
-I wanted to create a simple, yet useful, interactive tool which is orientated around design. After functionality, a mordern and clean look to a website is a feature which really excites me. Similarly, from a user/consumer perspective, this is also a major contribution to a user's decision to visit, use, engage with and (if applicable) pay for/purchase from a website. Therefore, in the planning stages of this project, the aesthetic rendering of different features was paid close attention to.
+I wanted to create a simple, yet useful, interactive tool which is orientated around design. After functionality, a modern and clean look to a website is a feature which really excites me. Similarly, from a user/consumer perspective, this is also a major contribution to a user's decision to visit, use, engage with and (if applicable) pay for/purchase from a website. Therefore, in the planning stages of this project, the aesthetic rendering of different features was paid close attention to.
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ The primary goal of the website is to offer a simple tool which users, from desi
 ### **User Profile**
 **The ideal user for this website is:**
 
-The ideal user for this site is a designer (websites, graphics) who will find this tool useful on a regular basis. However, its use can be extended to any project creater who needs a colour scheme.
+The ideal user for this site is a designer (websites, graphics) who will find this tool useful on a regular basis. However, its use can be extended to any project creator who needs a colour scheme.
 
 **Users of this website are looking for:**
 
@@ -63,7 +63,7 @@ The ideal user for this site is a designer (websites, graphics) who will find th
 
 **This website facilitates this for the user by providing:**
 
-- Simple-to-use color picker buttons;
+- Simple-to-use colour picker buttons;
 - Both background and text samples which can have their colour changed;
 - Straightforward steps for use, including visual prompts, under the 'Help' control;
 - A 'Share' option so users can save a text copy of their colour selection locally;
@@ -95,15 +95,15 @@ In my research, I looked into other colour testing tools which were available on
 
 Having decided what sort of colour testing tool there was a need for, I investigated the scope of such a project. The primary interactive feature necessary was clearly a colour picker tool. The Color Picker Library [(see Technologies Used)](#libraries) was the simplest, free way to implement this. The colour picker tools would have to have some visual demonstration for the user and I decided on simple blocks, with text contained within them, which would change colour immediately with the input in the colour pickers. It was also clear that some controls would be necessary for such a tool. I listed these controls as the basic functions 'Refresh' and 'Help', with the 'Share' and 'Ideas' options developing shortly after.
 
-The suggestion of a Homepage came after the Tester page, since the website needed some sort of inticing and explanatory landing page. Therefore, the features decided on for the Homepage were a call to action, reviews of the tool displayed from previous users and a contact option for questions or general enquiries.
+The suggestion of a Homepage came after the Tester page, since the website needed some sort of enticing and explanatory landing page. Therefore, the features decided on for the Homepage were a call to action, reviews of the tool displayed from previous users and a contact option for questions or general enquiries.
 
 3. Structure Plane
 
-Once I had decided on the features I wanted to include, I moved on to the structure. The website would be two seperate pages rather than one continuous page for the sake of user clarity on their location in the site. A fixed nabar would ensure that they always had access to navagation controls. The primary purpose of the Homepage would be to faciliate the entry of the user to the Tester page via the call to action button. The Tester page is the main reason for the user's visit, therefore its obvious location is paramount. 
+Once I had decided on the features I wanted to include, I moved on to the structure. The website would be two seperate pages rather than one continuous page for the sake of user clarity on their location in the site. A fixed nabar would ensure that they always had access to navagation controls. The primary purpose of the homepage would be to faciliate the entry of the user to the Tester page via the call to action button. The Tester page is the main reason for the user's visit, therefore its obvious location is paramount. 
 
 4. Skeleton Plane
 
-With the basic structure of the website in mind, I moved on to the skeleton of the website. My wireframes were built in Figma [(see wireframes)](#wireframe-mockups). The Homepage's primary purpose, as aforementioned, is to present an aesthetic landing page to the site visitor and present a direct path to the Tester page. Thus, the page would have a colourful title, and background image in the section immediately below, followed by a jumbotron containing simple instructions and a large call to action button labeled 'Get Started'. Should the user wish to find out a bit more before committing to checking out and using the colour tester tool, there would be reviews from previous users of the tool below. At the bottom of the page would be a contact section, with a collapsed contact form to reduce clutter on the page. The user can easily return back to the top of the page by clicking a 'back to top button' in the bottom right hand corner.
+With the basic structure of the website in mind, I moved on to the skeleton of the website. My wireframes were built in Figma [(see wireframes)](#wireframe-mockups). The homepage's primary purpose, as aforementioned, is to present an aesthetic landing page to the site visitor and present a direct path to the Tester page. Thus, the page would have a colourful title, and background image in the section immediately below, followed by a jumbotron containing simple instructions and a large call to action button labeled 'Get Started'. Should the user wish to find out a bit more before committing to checking out and using the colour tester tool, there would be reviews from previous users of the tool below. At the bottom of the page would be a contact section, with a collapsed contact form to reduce clutter on the page. The user can easily return back to the top of the page by clicking a 'back to top button' in the bottom right hand corner.
 
 The Tester page would consist of one section. Three blocks containing three different sizes of text (main heading, sub-heading and paragraph) would be in the center. To the right of this would be seven swatches, stacked vertically and seven corresponding hex numbers stacked vertically. Each swatch and hex pair would correspond to one block, text or background colour. Clicking on each swatch would open up an interactive colour picker. The controls for the tool would be positioned in the top right hand corner, similar to the intuitive positioning of game controls. The 'Refresh' control would have a popup asking the user to confirm they wish to refresh, in case they inadvertently click it.
 
@@ -113,11 +113,11 @@ The focus of the visual design of the Colour Splash website would be a sleek, si
 
 The Homepage would have five bright colours featured for the purpose of presenting to the user the beauty and vibrance of colour. An uninspiring and boring landing page would not encourage the user to check out the website's tool. The colours, while bright, would not be too intense, and have a pastel vibe for a softer feel. 
 
-I'm an advocated for rounded edged to all shapes on websites because I think it effortlessly gives a modern and sleek feel. Thus, all buttons and boxes would have a suitable border radius set, with the exception of the testing blocks in the tool because, for display purposes, crisp edges prove a better fit.
+I'm an advocated for rounded edged to all shapes on websites because I think it effortlessly gives a modern and sleek feel. Thus, all buttons and boxes would have a suitable border radius set, with the exception of the testing blocks in the tool because, for display purposes, crisp edges would prove a better fit.
 
 
 #### Colours
-The Homepage is has the base colours as follows:
+The homepage is has the base colours as follows:
 * ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) #FFFFFF (White) 
 * ![#BAB0A4](https://placehold.it/15/bab0a4/000000?text=+) #BAB0A4 (Taupe) 
 * ![#DDDDDD](https://placehold.it/15/DDDDDD/000000?text=+) #DDDDDD (Grey) 
@@ -346,7 +346,7 @@ To clone this project into a locl IDE, follow these steps:
 
 7. After pressing enter, you will have a clone of the project in your local IDE.
 
-For more on cloning a repository from GitHub, visit this link: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+For more on cloning a repository from GitHub, visit [this link.](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
