@@ -142,6 +142,9 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 
 - This project used the [JSHint website]([https://jshint.com/](https://jshint.com/)) to validate Javascript code.
 
+
+![backToTopButton.js validation](assets/images/readme-images/validated-back-to-top-button.png)
+
 ![colorPicker.js validation](assets/images/readme-images/validated-color-picker-library.png)
 
 ![combinationGenerator.js validation](assets/images/readme-images/validated-combination-generator.png)
