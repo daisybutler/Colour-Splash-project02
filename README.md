@@ -309,7 +309,43 @@ Testing information can be found in this [TESTING.md file](TESTING.md).
 
 ## Deployment
 
-STILL TO COMPLETE.
+This project was created in the IDE Gitpod. It was regularly committed to git and pushed to GitHub using the in-built functions ```git commit -m FILE NAME``` and ```git push```.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+2. Navigate to this repository, **daisybutler/colour-splash.**
+3. In the top right-hand corner of the page select the user icon. Then from the dropdown, select **Settings**.
+4. Move down the page to the section titled **Github Pages**.
+5. Under **Source**, select **Master Branch** and click save.
+6. On page refresh, the project is now published to GitHub Pages and the live link appears at the top of this GitHub Pages section.
+
+### How to Run Locally
+
+To clone this project into Gitpod in Chrome, follow these steps:
+
+1. Install the Gitpod Chrome extension. After installation, the extension will appear in the top right-hand corner of the browser.
+2. Login into Gitpod with your GitHub username and password.
+3. In GitHub, with this project's repository (daisybutler/colour-splash) selected, click the green "Gitpod" button at the top right-hand corner of the repository.
+4. This will create a new Gitpod workspace from the code in the GitHub repository. You can now work on the project locally.
+
+To clone this project into a locl IDE, follow these steps:
+
+1. Navigate to the GitHub repository for this project (daisybutler/colour-splash).
+
+2. Click **Code** in the top right-hand corner of the repository, next to the green Gitpod button.
+
+3. With HTTPS selected, click the clipboard icon to the right of the HTTPS link to copy the clone URL to your clipboard.
+
+4. In your local IDE, open the terminal.
+
+5. Ensure the current working directory is the one which you want the cloned directory to be made in.
+
+6. Type ```git clone``` into the terminal, and then paste the URL you copied in Step 3: e.g. ```git clone https://github.com/USERNAME/REPOSITORY```.
+
+7. After pressing enter, you will have a clone of the project in your local IDE.
+
+For more on cloning a repository from GitHub, visit this link: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ## Credits
 
