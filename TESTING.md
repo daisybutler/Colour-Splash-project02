@@ -140,8 +140,7 @@ Viewing the console in DevTools was a useful way to debug this project's Javascr
 
     ![style.css validation](assets/images/readme-images/validated-css.png)
 
-- This project used the [JSHint website]([https://jshint.com/](https://jshint.com/)) to validate Javascript code.
-
+- This project used the [JSHint website]([https://jshint.com/](https://jshint.com/)) to validate Javascript code. The only issue which were raised related to 'undeclared variables'. However, these warnings were ignored since their use was either specified in library examples (e.g. Pickr in Color-Picker Library) or necessary (e.g. $ for JQuery). 
 
 ![backToTopButton.js validation](assets/images/readme-images/validated-back-to-top-button.png)
 
