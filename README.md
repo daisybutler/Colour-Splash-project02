@@ -290,6 +290,7 @@ The tool is **fully responsive** on all screen sizes, with all text sizes and bl
 - [**Google Fonts**](https://fonts.google.com/) - this project uses Google Fonts to style the website's fonts.
 - [**Color-Picker Library**](https://github.com/Simonwep/pickr) - this project uses the Color-Picker public library by Simonwep on Github.
 - [**FileSaver Library**](https://github.com/eligrey/FileSaver.js) - this project uses the public library FileSaver.js by Eli Grey on Github.
+- [**JQuery**](https://jquery.com/) - this project uses JQuery to reference the Javascript needed for the 'back to top' button in the backToTopButton.js file.
 
 ### **APIs**
 
