@@ -27,7 +27,7 @@ I wanted to create a simple, yet useful, interactive tool which is orientated ar
     * [Interactive Features](#interactive-features)
     * [Features to Implement in the Future](#features-to-implement-in-the-future)
 
-3. [Technologies Used](technologies-used)
+3. [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Tools](#tools)
     * [Libraries](#libraries)
