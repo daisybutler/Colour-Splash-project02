@@ -2,7 +2,7 @@
 
 ![Demo](assets/images/readme-images/live-demo.png)
 
-The live website can be viewed on Github pages using this link: (https://daisybutler.github.io/colour-splash/)
+The live website can be viewed on Github pages using this link: (https://daisybutler.github.io/Colour-Splash-project02/)
 
 Colour Splash is an easy-to-use website for trying out combinations of colours. A user can experiment by placing different colours together, including both background and text colours. They can also browse through suggested colour combinations. Selected colour combinations can be exported in text format for the user to replicate later in their own website or project. 
 
